@@ -1,0 +1,1379 @@
+# SIMPLE  =                    T / conforms to FITS standard                      
+# BITPIX  =                  -32 / array data type                                
+# NAXIS   =                    3 / number of array dimensions                     
+# NAXIS1  =                 1024                                                  
+# NAXIS2  =                    1                                                  
+# NAXIS3  =                    4                                                  
+# ORIGIN  = 'ESO     '           / European Southern Observatory                  
+# IRAF-TLM= '2022-12-21T18:03:04' / Time of last modification                     
+# DATE    = '2022-12-21T18:02:20' / Date this file was written (dd/mm/yyyy        
+# EXPTIME =               2970.0 / Total integration time per pixel (s)           
+# MJD-OBS =        59934.2514889 / MJD start                                      
+# DATE-OBS= '2022-12-21T06:02:08.6409' / Date of observation                      
+# ORIGFILE= 'OBJ_NAME_0003.fits'          / Original File Name                    
+# TELESCOP= 'ESO-NTT '                    / ESO <TEL>                             
+# INSTRUME= 'SOFI    '                    / Instrument used                       
+# OBSERVER= '        '                    / Name of observer                      
+# PI-COI  = 'Smartt  '           / PI-COI name                                    
+# UTC     =            21728.000          / 06:02:08.000 UT at start              
+# LST     =            26302.299          / 07:18:22.299 LST at start             
+# OBJECT  = 'SN2022xkq'          / Original target                                
+# RA      =             76.34860          / 05:05:23.6 RA (J2000) pointing        
+# DEC     =            -11.88593          / -11:53:09.3  DEC (J2000) pointing     
+# EQUINOX =                2000.          / Standard FK5 (years)                  
+# RADECSYS= 'FK5     '                    / Coordinate reference frame            
+# CRVAL1  =     9378.65722656251 / 05:05:23.6, RA at ref pixel                    
+# CRPIX1  =                   1. / Ref pixel in X                                 
+# CTYPE1  = 'LINEAR  '           / pixel coordinate system                        
+# CTYPE2  = 'LINEAR  '           / pixel coordinate system                        
+# HIERARCH ESO OBS AIRM        =          5.0 / Req. max. airmass                 
+# HIERARCH ESO OBS AMBI FWHM   =          1.5 / Req. max. seeing                  
+# HIERARCH ESO OBS AMBI TRANS  = '4THK    '   / Req. sky transparency             
+# HIERARCH ESO OBS AOMODE      = 'NO_AO   '   / Req. AO mode                      
+# HIERARCH ESO OBS CONTAINER ID=   1000264814 / Scheduling container ID           
+# HIERARCH ESO OBS CONTAINER TYPE= 'U       ' / Scheduling container type         
+# HIERARCH ESO OBS DID         = 'ESO-VLT-DIC.OBS-2.2' / OBS Dictionary           
+# HIERARCH ESO OBS EXECTIME    =         3730 / Expected execution time           
+# HIERARCH ESO OBS GRP         = '0       '   / linked blocks                     
+# HIERARCH ESO OBS ID          =   1000264896 / Observation block ID              
+# HIERARCH ESO OBS MOON DIST   =           30 / Req. min. angular dist. from moon 
+# HIERARCH ESO OBS MOON FLI    =          1.0 / Req. max. fractional lunar illum. 
+# HIERARCH ESO OBS NAME        = 'SN2022xkq'  / OB name                           
+# HIERARCH ESO OBS OBSERVER    = 'UNKNOWN '   / Observer Name                     
+# HIERARCH ESO OBS PI-COI ID   =        73256 / ESO internal PI-COI ID            
+# HIERARCH ESO OBS PI-COI NAME = 'UNKNOWN '   / PI-COI name                       
+# HIERARCH ESO OBS PROG ID     = '108.220C.006' / ESO program identification      
+# HIERARCH ESO OBS TARG NAME   = 'SN2022xkq'  / OB target name                    
+# HIERARCH ESO OBS TWILIGHT    =            0 / Req. twilight                     
+# HIERARCH ESO OBS START       = '2022-12-21T05:52:03' / OB start time            
+# HIERARCH ESO OBS TPLNO       =            2 / Template number within OB         
+# HIERARCH ESO TPL DID         = 'ESO-VLT-DIC.TPL-1.9' / Data dictionary for TPL  
+# HIERARCH ESO TPL ID          = 'SOFI_spec_obs_AutoNodNonDestr' / Template signat
+# HIERARCH ESO TPL NAME        = '        '   / Template name                     
+# HIERARCH ESO TPL PRESEQ      = 'SOFI_spec_obs_AutoNodNonDestr.seq' / Sequencer s
+# HIERARCH ESO TPL START       = '2022-12-21T05:59:52' / TPL start time           
+# HIERARCH ESO TPL VERSION     = '@(#) $Revision: 325179 $' / Version of the templ
+# HIERARCH ESO TPL NEXP        =           12 / Number of exposures within templat
+# HIERARCH ESO TPL EXPNO       =            1 / Exposure number within template   
+# HIERARCH ESO SEQ RELOFFSETX  =  -104.166667 / relative X offset                 
+# HIERARCH ESO SEQ CUMOFFSETX  =  -104.166667 / cummulative X offset              
+# HIERARCH ESO SEQ NODTHROW    =    60.000000 / Nod throw along the slit (arsec)  
+# HIERARCH ESO SEQ JITTER WIDTH=    20.000000 / Box Size for random offsets in aut
+# HIERARCH ESO DPR CATG        = 'SCIENCE '   / Observation category              
+# HIERARCH ESO DPR TYPE        = 'OBJECT  '   / Observation type                  
+# HIERARCH ESO DPR TECH        = 'SPECTRUM'   / Observation technique             
+# HIERARCH ESO TEL DID         = 'ESO-VLT-DIC.TCS' / Data dictionary for TEL      
+# HIERARCH ESO TEL ID          = 'v 356441'   / TCS version number                
+# HIERARCH ESO TEL DATE        = '2009-06-05T01:00:00' / TCS installation date    
+# HIERARCH ESO TEL ALT         =       54.764 / Alt angle at start (deg)          
+# HIERARCH ESO TEL AZ          =      112.631 / Az angle at start (deg) S=0,W=90  
+# HIERARCH ESO TEL GEOELEV     =         2377. / Elevation above sea level (m)    
+# HIERARCH ESO TEL GEOLAT      =     -29.2584 / Tel geo latitute (+=North) (deg)  
+# HIERARCH ESO TEL GEOLON      =     -70.7345 / Tel geo longitude (+=East) (deg)  
+# HIERARCH ESO TEL OPER        = 'I. CONDOR'  / Telescope Operator                
+# HIERARCH ESO TEL FOCU ID     = 'NA      '   / Telescope focus station ID        
+# HIERARCH ESO TEL FOCU LEN    =       38.501 / Focal length (m)                  
+# HIERARCH ESO TEL FOCU SCALE  =        5.360 / Focal scale (arcsec/mm)           
+# HIERARCH ESO TEL FOCU VALUE  =       -3.620 / M2 setting (mm)                   
+# HIERARCH ESO TEL PARANG START=      124.635 / Parallactic angle at start (deg)  
+# HIERARCH ESO TEL AIRM START  =        1.224 / Airmass at start                  
+# HIERARCH ESO TEL AMBI FWHM START=      0.82 / Observatory Seeing queried from AS
+# HIERARCH ESO TEL AMBI PRES START=    770.10 / Observatory ambient air pressure q
+# HIERARCH ESO TEL AMBI WINDSP =         3.80 / Observatory ambient wind speed que
+# HIERARCH ESO TEL AMBI WINDDIR=           51. / Observatory ambient wind directio
+# HIERARCH ESO TEL AMBI RHUM   =           38. / Observatory ambient relative humi
+# HIERARCH ESO TEL AMBI TEMP   =        15.00 / Observatory ambient temperature qu
+# HIERARCH ESO TEL MOON RA     =   237.451964 / 15:49:48.4 RA (J2000) (deg)       
+# HIERARCH ESO TEL MOON DEC    =    -20.80398 / -20:48:14.3 DEC (J2000) (deg)     
+# HIERARCH ESO TEL TH M1 TEMP  =        -1.00 / M1 superficial temperature        
+# HIERARCH ESO TEL TRAK STATUS = 'NORMAL  '   / Tracking status                   
+# HIERARCH ESO TEL DOME STATUS = 'FULLY-OPEN' / Dome status                       
+# HIERARCH ESO TEL CHOP ST     =            F / True when chopping is active      
+# HIERARCH ESO TEL TARG ALPHA  =    50523.720 / Alpha coordinate for the target   
+# HIERARCH ESO TEL TARG DELTA  =  -115256.180 / Delta coordinate for the target   
+# HIERARCH ESO TEL TARG EPOCH  =     2000.000 / Epoch                             
+# HIERARCH ESO TEL TARG EPOCHSYSTEM= 'J       ' / Epoch system (default J=Julian) 
+# HIERARCH ESO TEL TARG EQUINOX=     2000.000 / Equinox                           
+# HIERARCH ESO TEL TARG PMA    =     0.000000 / Proper Motion Alpha               
+# HIERARCH ESO TEL TARG PMD    =     0.000000 / Proper motion Delta               
+# HIERARCH ESO TEL TARG RADVEL =        0.000 / Radial velocity                   
+# HIERARCH ESO TEL TARG PARALLAX=       0.000 / Parallax                          
+# HIERARCH ESO TEL TARG COORDTYPE= 'M       ' / Coordinate type (M=mean A=apparent
+# HIERARCH ESO TEL TSS TEMP8   =       13.220 / Temperature Sensing System        
+# HIERARCH ESO TEL PARANG END  =      123.666 / Parallactic angle at end (deg)    
+# HIERARCH ESO TEL AIRM END    =        1.246 / Airmass at end                    
+# HIERARCH ESO TEL AMBI FWHM END=        0.82 / Observatory Seeing queried from AS
+# HIERARCH ESO TEL AMBI PRES END=      770.10 / Observatory ambient air pressure q
+# HIERARCH ESO ADA ABSROT START=    109.98343 / Abs rot angle at exp start (deg)  
+# HIERARCH ESO ADA POSANG      =      0.00000 / Position angle at start           
+# HIERARCH ESO ADA GUID STATUS = 'ON      '   / Status of autoguider              
+# HIERARCH ESO ADA ABSROT END  =    109.53607 / Abs rot angle at exp end (deg)    
+# HIERARCH ESO ADA GUID RA     =    76.168710 / 05:04:40.4 Guide star RA J2000    
+# HIERARCH ESO ADA GUID DEC    =    -11.91144 / -11:54:41.1 Guide star DEC J2000  
+# HIERARCH ESO INS SWSIM       = 'NORMAL  '   / Software simulated functions      
+# HIERARCH ESO INS ID          = 'SOFI/HW 1.0/SW 38575/' / Instrument identificati
+# HIERARCH ESO INS TIME        = '2022-12-21T06:09:08.259' / Aquired status time  
+# HIERARCH ESO INS DID         = 'ESO-VLT-DIC.ISAAC_ICS-0.1' / Data dictionary for
+# HIERARCH ESO INS MODE        = 'LONG_SLIT_BLUE' / Instrument mode used          
+# HIERARCH ESO INS PIXSCALE    =        0.288 / Pixel scale                       
+# HIERARCH ESO INS TEMP-MON TEMP1=     77.110 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME1= 'Cool Down' / Sensor placement                 
+# HIERARCH ESO INS TEMP-MON TEMP2=     70.800 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME2= 'Camera Unit' / Sensor placement               
+# HIERARCH ESO INS TEMP-MON TEMP3=    103.750 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME3= 'Radiation Shield' / Sensor placement          
+# HIERARCH ESO INS TEMP-MON TEMP4=     70.120 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME4= 'Mirror  ' / Sensor placement                  
+# HIERARCH ESO INS TEMP-MON TEMP5=     72.030 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME5= 'Collimator' / Sensor placement                
+# HIERARCH ESO INS TEMP-MON TEMP6=     69.010 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME6= 'Warm-Up ' / Sensor placement                  
+# HIERARCH ESO INS TEMP-MON TEMP7=    147.110 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME7= 'Sorption' / Sensor placement                  
+# HIERARCH ESO INS TEMP-MON TEMP8=     74.420 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME8= 'Aperture Wheel' / Sensor placement            
+# HIERARCH ESO INS TEMP-MON TEMP9=     15.180 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME9= 'Ambient ' / Sensor placement                  
+# HIERARCH ESO INS TEMP-MON TEMP10=     1.750 / Status temp. scanner              
+# HIERARCH ESO INS TEMP-MON NAME10= 'Delta T ' / Sensor placement                 
+# HIERARCH ESO INS TEMP-DETSW  =       66.101 / Temp. of detector SW              
+# HIERARCH ESO INS TEMP-DETSW SET=     65.000 / Set temp. of detector SW          
+# HIERARCH ESO INS TEMP-VACP   =    7.566E-07 / Vessel pressure                   
+# HIERARCH ESO INS OPTI1 ID    = 'long_slit_1' / OPTIi unique ID                  
+# HIERARCH ESO INS OPTI1 NAME  = 'long_slit_1' / OPTIi name                       
+# HIERARCH ESO INS OPTI1 NO    =            9 / OPTIi slot number                 
+# HIERARCH ESO INS OPTI1 TYPE  = 'SLIT    '   / OPTIi element                     
+# HIERARCH ESO INS COLLIM ENC  =       -19000 / Collimator encoder position       
+# HIERARCH ESO INS FILT1 ID    = 'GBF     '   / FILTi unique ID                   
+# HIERARCH ESO INS FILT1 NAME  = 'GBF     '   / FILTi name                        
+# HIERARCH ESO INS FILT1 NO    =            8 / FILTi slot number                 
+# HIERARCH ESO INS FILT1 TYPE  = 'FILTER  '   / FILTi element                     
+# HIERARCH ESO INS FILT2 ID    = 'open    '   / FILTi unique ID                   
+# HIERARCH ESO INS FILT2 NAME  = 'open    '   / FILTi name                        
+# HIERARCH ESO INS FILT2 NO    =            4 / FILTi slot number                 
+# HIERARCH ESO INS FILT2 TYPE  = 'FREE    '   / FILTi element                     
+# HIERARCH ESO INS OPTI2 ID    = 'GB      '   / OPTIi unique ID                   
+# HIERARCH ESO INS OPTI2 NAME  = 'GB      '   / OPTIi name                        
+# HIERARCH ESO INS OPTI2 NO    =            2 / OPTIi slot number                 
+# HIERARCH ESO INS OPTI2 TYPE  = 'GRISM   '   / OPTIi element                     
+# HIERARCH ESO INS OPTI3 ID    = 'LF      '   / OPTIi unique ID                   
+# HIERARCH ESO INS OPTI3 NAME  = 'LF      '   / OPTIi name                        
+# HIERARCH ESO INS OPTI3 NO    =            4 / OPTIi slot number                 
+# HIERARCH ESO INS OPTI3 TYPE  = 'OBJECTIVE'  / OPTIi element                     
+# HIERARCH ESO DET FRAM TYPE   = 'INT     '   / Frame type                        
+# HIERARCH ESO DET FRAM NO     =            1 / Frame number                      
+# HIERARCH ESO DET FRAM UTC    = '2022-12-21T06:09:07.2508' / Time Recv Frame     
+# HIERARCH ESO DET EXP NO      =        80275 / Exposure Number                   
+# HIERARCH ESO DET EXP UTC     = '2022-12-21T06:09:07.7466' / File Creation Time  
+# HIERARCH ESO DET EXP NAME    = 'OBJ_NAME_0003' / Exposure Name                  
+# HIERARCH ESO DET CHIP ID     = 'ESO-Hawaii' / Detector ID                       
+# HIERARCH ESO DET FILE CUBE ST=            F / Data Cube On/Off                  
+# HIERARCH ESO DET DID         = 'ESO-VLT-DIC.IRACE-1.44' / Dictionary Name and Re
+# HIERARCH ESO DET CON OPMODE  = 'NORMAL  '   / Operational Mode                  
+# HIERARCH ESO DET IRACE SEQCONT=           F / Sequencer Cont. Mode              
+# HIERARCH ESO DET CHIP NAME   = 'Hawaii  '   / Detector name                     
+# HIERARCH ESO DET CHIP TYPE   = 'IR      '   / The Type of Det Chip              
+# HIERARCH ESO DET CHIP NX     =         1024 / Pixels in X                       
+# HIERARCH ESO DET CHIP NY     =         1024 / Pixels in Y                       
+# HIERARCH ESO DET DIT         =   90.0000000 / Integration Time                  
+# HIERARCH ESO DET NCORRS      =           51 / Read-Out Mode                     
+# HIERARCH ESO DET NCORRS NAME = 'FowlerNsamp' / Read-Out Mode Name               
+# HIERARCH ESO DET MODE NAME   = '        '   / DCS Detector Mode                 
+# HIERARCH ESO DET DITDELAY    =        0.000 / Pause Between DITs                
+# HIERARCH ESO DET NDIT        =            3 / # of Sub-Integrations             
+# HIERARCH ESO DET NDITSKIP    =            0 / DITs skipped at 1st.INT           
+# HIERARCH ESO DET NDSAMPLES   =           30 / # of Non-Dest. Samples            
+# HIERARCH ESO DET NDSKIP      =            0 / Samples skipped per DIT           
+# HIERARCH ESO DET NC NSAMPPIX =            4 / # of Samples/Pixel                
+# HIERARCH ESO DET CHOP NCYCLES=            4 / # of Chop Cycles                  
+# HIERARCH ESO DET CHOP CYCSKIP=            0 / # of Chop Cycles to Skip          
+# HIERARCH ESO DET CHOP ST     =            F / Chopping On/Off                   
+# HIERARCH ESO DET RSPEED      =            4 / Read-Speed Factor                 
+# HIERARCH ESO DET RSPEEDADD   =            0 / Read-Speed Add                    
+# HIERARCH ESO DET WIN TYPE    =            0 / Win-Type: 0=SW/1=HW               
+# HIERARCH ESO DET WIN STARTX  =     1.000000 / Lower Left X Ref                  
+# HIERARCH ESO DET WIN STARTY  =     1.000000 / Lower left Y Ref                  
+# HIERARCH ESO DET WIN NX      =         1024 / # of Pixels in X                  
+# HIERARCH ESO DET WIN NY      =         1024 / # of Pixels in Y                  
+# HIERARCH ESO DET IRACE ADC1 NAME= 'ADC-G1  ' / Name for ADC Board               
+# HIERARCH ESO DET IRACE ADC1 HEADER=       0 / Header of ADC Board               
+# HIERARCH ESO DET IRACE ADC1 ENABLE=       1 / Enable ADC Board (0/1)            
+# HIERARCH ESO DET IRACE ADC1 FILTER1=      1 / ADC Filter Adjustment             
+# HIERARCH ESO DET IRACE ADC1 FILTER2=      0 / ADC Filter Adjustment             
+# HIERARCH ESO DET IRACE ADC1 DELAY=        7 / ADC Delay Adjustment              
+# HIERARCH ESO DET CHOP FREQ   =     0.000000 / Chopping Frequency                
+# HIERARCH ESO OCS WCS-RTD ST  =            T / Update RTD with WCS info.         
+# HIERARCH ESO OCS COMP ID     = 'SW Version 33645 2000-03-04 01:28:56Z' / OS Soft
+# HIERARCH ESO OCS DID         = 'ESO-VLT-DIC.SOFI_OS-0.1' / Data dictionary for O
+# HIERARCH ESO OCS SELECT-ARM  = 'SW      '   / Detector arm                      
+# ARCFILE = 'SOFI.2022-12-21T06:02:08.641.fits' / Archive File Name               
+# CHECKSUM= 'RXM7RWM6RWM6RWM6'   / HDU checksum updated 2022-12-21T20:02:55       
+# DATASUM = '3617311839'         / data unit checksum updated 2022-12-21T20:02:55 
+# HIERARCH ESO DET CHIP PXSPACE = 1.8E-05 / Pixel-Pixel Spacing                   
+# CROSSTAL= 'True    '                                                            
+# WCSDIM  =                    3                                                  
+# CD1_1   =     6.93832969665528                                                  
+# CD2_2   =                   1.                                                  
+# LTM1_1  =                   1.                                                  
+# LTM2_2  =                   1.                                                  
+# WAT0_001= 'system=equispec'                                                     
+# WAT1_001= 'wtype=linear label=Wavelength units=angstroms'                       
+# WAT2_001= 'wtype=linear'                                                        
+# TRIM    = 'Dec 21 19:28 Trim data section is [30:1000,1:1024]'                  
+# CCDSEC  = '[30:1000,1:1024]'                                                    
+# BIASSEC = '[1:971,1:1024]'                                                      
+# CCDMEANT=           1356118091                                                  
+# CCDPROC = 'Dec 21 19:28 CCD processing done'                                    
+# FLATCOR = '' / flat correction                                                  
+# M_EPOCH =                    F / TRUE if resulting from multiple epochs         
+# FILETYPE=                42208 / 1D wave calib, tell cor.                       
+# PROV1   = 'SOFI.2022-12-21T06:02:08.641.fits' / Originating file                
+# SINGLEXP=                    F / TRUE if resulting from single exposure         
+# PROV2   = 'SOFI.2022-12-21T06:09:19.970.fits' / Originating file                
+# DCLOG1  = 'Transform'                                                           
+# DC-FLAG =                    0                                                  
+# ARC     = 'arc_20110624_GB_59934.fits'                                          
+# SPEC_ERR= 0.007126289357021648 / statistical uncertainty                        
+# LAMNLIN =                 15.0 / number of arc lines                            
+# LAMRMS  =               0.0276 / residual RMS [nm]                              
+# SPEC_SYE=                  0.1 / systematic error                               
+# SPEC_RES=    555.1748411539838 / Spectral resolving power                       
+# SHIFT   =                 -5.7                                                  
+# WAVELMIN=    937.5188061714173 / [nm] minimum wavelength                        
+# VOCLASS = 'SPECTRUM V1.0'      / VO Data Model                                  
+# SPEC_BW =    710.4849609374996 / [nm] Bandpass Width Wmax - Wmin                
+# WAVELMAX=    1648.003767108917 /  [nm] maximum wavelength                       
+# XMAX    =    16480.03767108917 / [A]  maximum wavelength                        
+# VOPUB   = 'ESO/SAF '           / VO Publishing Authority                        
+# XMIN    =    9375.188061714172 / [A] minimum wavelength                         
+# SPEC_VAL=    1292.761286640167 / [nm] Mean Wavelength                           
+# SPEC_BIN=    0.694511203262463 / Wavelength bin size [nm/pix]                   
+# DETRON  =                   12 / Readout noise per output (e-)                  
+# EFFRON  =    2.618087846400239 / Effective readout noise per output (e-)        
+# OBSTECH = 'SPECTRUM'           / Observation technique                          
+# REFERENC= 'Smartt et al 2014'  / Bibliographic reference                        
+# PROCSOFT= 'ntt_2.4.0'          / pipeline version                               
+# OBID1   =           1000264896 / Observation block ID                           
+# FILTER  = 'GBF     '           / Filter name                                    
+# PROG_ID = '108.220C.006'       / ESO program identification                     
+# GAIN    =                  5.4 / Conversion from electrons to ADU               
+# SPECSYS = 'TOPOCENT'           / Reference frame for spectral coordinate        
+# FLUXERR =                 34.7 / Fractional uncertainty of the flux [%]         
+# EXT_OBJ =                    F / TRUE if extended                               
+# TOT_FLUX=                    F / TRUE if phot cond and all src flux is captured 
+# TELAPSE =    4539.601152087562 / Total elapsed time [days]                      
+# MJD-END =       59934.30403058 / MJD end                                        
+# TITLE   = '59934.277 SN2022xkq GB GBF long_slit_1' / Dataset title              
+# TEXPTIME=               2970.0 / Total integration time of all exposures (s)    
+# CONTNORM=                    F / spectrum normalized to the continuum           
+# FLUXCAL = 'ABSOLUTE'           / type of flux calibration                       
+# BUNIT   = 'erg/cm2/s/Angstrom' / Physical unit of array values                  
+# TMID    =       59934.27775974 / [d] MJD mid exposure                           
+# DIT     =                 90.0 / Detector Integration Time                      
+# NDIT    =                    3 / Number of sub-integrations                     
+# QUALITY = 'Final   '           / fast or rapid reduction                        
+# DISPELEM= 'Gr#GB   '           / Dispersive element name                        
+# PRODCATG= 'SCIENCE.SPECTRUM'   / Data product category                          
+# AIRMASS =    1.234187232344984 / mean airmass computed with astcalc             
+# NCOMBINE=                   11                                                  
+# APERTURE=            0.0002778 / [deg] Aperture diameter                        
+# NOFFSETS=                    2 / Number of offset positions                     
+# NUSTEP  =                    0 / Number of microstep positions                  
+# NJITTER =                    5 / Number of jitter positions                     
+# PROV3   = 'SOFI.2022-12-21T06:16:21.464.fits' / Originating file                
+# PROV4   = 'SOFI.2022-12-21T06:23:32.834.fits' / Originating file                
+# PROV5   = 'SOFI.2022-12-21T06:30:34.326.fits' / Originating file                
+# PROV6   = 'SOFI.2022-12-21T06:37:45.656.fits' / Originating file                
+# PROV7   = 'SOFI.2022-12-21T06:44:47.152.fits' / Originating file                
+# PROV8   = 'SOFI.2022-12-21T06:51:58.522.fits' / Originating file                
+# PROV9   = 'SOFI.2022-12-21T06:59:00.016.fits' / Originating file                
+# PROV10  = 'SOFI.2022-12-21T07:06:11.347.fits' / Originating file                
+# PROV11  = 'SOFI.2022-12-21T07:13:12.842.fits' / Originating file                
+# BANDID1 = 'spectrum - background fit, weights variance, clean yes'              
+# BANDID2 = 'raw - background fit, weights none, clean no'                        
+# BANDID3 = 'background - background fit'                                         
+# BANDID4 = 'sigma - background fit, weights variance, clean yes'                 
+# APNUM1  = '1 1 342.10 352.10'                                                   
+# CTYPE3  = 'LINEAR  '                                                            
+# CD3_3   =                   1.                                                  
+# LTM3_3  =                   1.                                                  
+# WAT3_001= 'wtype=linear'                                                        
+# TRACE1  = 'SN2022xkq_20221220_GB_merge_59934_1_ex.fits' / Originating file      
+# SENSFUN = 'Hip027185_20221220_GB_merge_59934_1_ex.fits' / tell stand frame      
+# ASSOC1  = 'ANCILLARY.2DSPECTRUM' / Category of associated file                  
+# ASSON1  = 'SN2022xkq_20221220_GB_merge_59934_1_2df.fits' / Name of associated fi
+# SNR     =    17.21592330932617 / Average signal to noise ratio per pixel        
+# DATAMAX = 7.07468546145071E-16 / Maximum pixel value                            
+# DATAMIN = -1.8658695872001E-15 / Minimal pixel value                            
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+#                                                                                 
+9378.657227 1.459807e-16
+9385.595556 1.692453e-16
+9392.533886 1.801025e-16
+9399.472216 1.655225e-16
+9406.410545 2.399676e-16
+9413.348875 2.013384e-16
+9420.287205 2.082256e-16
+9427.225534 1.951364e-16
+9434.163864 2.060543e-16
+9441.102194 1.672335e-16
+9448.040524 1.889350e-16
+9454.978853 2.169851e-16
+9461.917183 2.177829e-16
+9468.855513 1.661409e-16
+9475.793842 1.815202e-16
+9482.732172 1.896764e-16
+9489.670502 2.006271e-16
+9496.608831 1.602325e-16
+9503.547161 1.624443e-16
+9510.485491 1.918551e-16
+9517.423820 1.851978e-16
+9524.362150 1.747175e-16
+9531.300480 1.360745e-16
+9538.238810 2.111231e-16
+9545.177139 2.020731e-16
+9552.115469 2.063969e-16
+9559.053799 1.481705e-16
+9565.992128 1.676827e-16
+9572.930458 1.884671e-16
+9579.868788 1.687738e-16
+9586.807117 1.536163e-16
+9593.745447 1.682277e-16
+9600.683777 1.629500e-16
+9607.622107 1.521825e-16
+9614.560436 1.368440e-16
+9621.498766 1.810697e-16
+9628.437096 1.575604e-16
+9635.375425 1.339662e-16
+9642.313755 1.503793e-16
+9649.252085 1.537210e-16
+9656.190414 1.493194e-16
+9663.128744 1.559109e-16
+9670.067074 1.663280e-16
+9677.005404 1.364149e-16
+9683.943733 1.249517e-16
+9690.882063 1.075244e-16
+9697.820393 1.224206e-16
+9704.758722 1.375814e-16
+9711.697052 1.008852e-16
+9718.635382 1.284740e-16
+9725.573711 1.571463e-16
+9732.512041 1.502411e-16
+9739.450371 1.528451e-16
+9746.388700 1.250782e-16
+9753.327030 1.252125e-16
+9760.265360 1.276574e-16
+9767.203690 8.941578e-17
+9774.142019 1.077467e-16
+9781.080349 9.524925e-17
+9788.018679 1.076211e-16
+9794.957008 1.017473e-16
+9801.895338 9.139818e-17
+9808.833668 1.315578e-16
+9815.771997 9.509354e-17
+9822.710327 1.133775e-16
+9829.648657 9.989686e-17
+9836.586987 9.347709e-17
+9843.525316 1.227359e-16
+9850.463646 9.373355e-17
+9857.401976 1.128633e-16
+9864.340305 8.633565e-17
+9871.278635 1.071018e-16
+9878.216965 7.499053e-17
+9885.155294 8.206072e-17
+9892.093624 1.005301e-16
+9899.031954 1.054573e-16
+9905.970284 1.083874e-16
+9912.908613 1.128890e-16
+9919.846943 1.101408e-16
+9926.785273 1.353495e-16
+9933.723602 1.024968e-16
+9940.661932 1.239010e-16
+9947.600262 1.088176e-16
+9954.538591 1.404176e-16
+9961.476921 1.210963e-16
+9968.415251 1.200108e-16
+9975.353580 1.158270e-16
+9982.291910 1.269944e-16
+9989.230240 1.321334e-16
+9996.168570 1.256174e-16
+10003.106899 1.235493e-16
+10010.045229 1.027875e-16
+10016.983559 1.474768e-16
+10023.921888 1.237210e-16
+10030.860218 1.226396e-16
+10037.798548 1.443228e-16
+10044.736877 1.301563e-16
+10051.675207 1.619407e-16
+10058.613537 1.521554e-16
+10065.551867 1.110341e-16
+10072.490196 1.450111e-16
+10079.428526 1.709949e-16
+10086.366856 1.416862e-16
+10093.305185 1.549282e-16
+10100.243515 1.711502e-16
+10107.181845 1.614208e-16
+10114.120174 1.537082e-16
+10121.058504 1.771640e-16
+10127.996834 1.787769e-16
+10134.935163 1.703053e-16
+10141.873493 1.655633e-16
+10148.811823 1.777125e-16
+10155.750153 1.884117e-16
+10162.688482 1.965507e-16
+10169.626812 1.856280e-16
+10176.565142 1.809835e-16
+10183.503471 1.873857e-16
+10190.441801 1.891040e-16
+10197.380131 1.973644e-16
+10204.318460 1.878098e-16
+10211.256790 1.977119e-16
+10218.195120 1.946661e-16
+10225.133450 2.056451e-16
+10232.071779 2.122185e-16
+10239.010109 1.952764e-16
+10245.948439 1.822099e-16
+10252.886768 1.958590e-16
+10259.825098 2.001625e-16
+10266.763428 2.063162e-16
+10273.701757 2.061582e-16
+10280.640087 2.067763e-16
+10287.578417 2.234548e-16
+10294.516747 2.067110e-16
+10301.455076 1.984667e-16
+10308.393406 1.867299e-16
+10315.331736 1.964752e-16
+10322.270065 1.977791e-16
+10329.208395 2.080976e-16
+10336.146725 2.080946e-16
+10343.085054 1.951361e-16
+10350.023384 1.830523e-16
+10356.961714 2.103988e-16
+10363.900043 1.955474e-16
+10370.838373 1.878730e-16
+10377.776703 2.065266e-16
+10384.715033 1.994512e-16
+10391.653362 1.742569e-16
+10398.591692 1.821760e-16
+10405.530022 1.722143e-16
+10412.468351 1.758680e-16
+10419.406681 1.885022e-16
+10426.345011 1.720953e-16
+10433.283340 1.748459e-16
+10440.221670 1.799713e-16
+10447.160000 1.801708e-16
+10454.098330 1.692355e-16
+10461.036659 1.769877e-16
+10467.974989 1.701120e-16
+10474.913319 1.729125e-16
+10481.851648 1.833771e-16
+10488.789978 1.620639e-16
+10495.728308 1.737511e-16
+10502.666637 1.636047e-16
+10509.604967 1.633606e-16
+10516.543297 1.579301e-16
+10523.481627 1.845802e-16
+10530.419956 1.776890e-16
+10537.358286 1.614379e-16
+10544.296616 1.558648e-16
+10551.234945 1.359164e-16
+10558.173275 1.650024e-16
+10565.111605 1.431338e-16
+10572.049934 1.529839e-16
+10578.988264 1.503358e-16
+10585.926594 1.503002e-16
+10592.864923 1.560153e-16
+10599.803253 1.517773e-16
+10606.741583 1.381869e-16
+10613.679913 1.209465e-16
+10620.618242 1.303018e-16
+10627.556572 1.093101e-16
+10634.494902 1.131422e-16
+10641.433231 1.002445e-16
+10648.371561 1.171589e-16
+10655.309891 1.219120e-16
+10662.248220 1.025351e-16
+10669.186550 1.097101e-16
+10676.124880 8.215449e-17
+10683.063210 9.095656e-17
+10690.001539 7.751224e-17
+10696.939869 8.651282e-17
+10703.878199 7.251082e-17
+10710.816528 8.398956e-17
+10717.754858 5.226162e-17
+10724.693188 6.752521e-17
+10731.631517 6.589067e-17
+10738.569847 6.889581e-17
+10745.508177 5.950608e-17
+10752.446507 6.003858e-17
+10759.384836 5.413921e-17
+10766.323166 4.662194e-17
+10773.261496 3.301588e-17
+10780.199825 6.191508e-17
+10787.138155 3.894206e-17
+10794.076485 3.063878e-17
+10801.014814 5.168961e-17
+10807.953144 5.530945e-17
+10814.891474 4.458572e-17
+10821.829803 5.017814e-17
+10828.768133 4.082355e-17
+10835.706463 3.531719e-17
+10842.644793 4.889305e-17
+10849.583122 4.956164e-17
+10856.521452 5.796398e-17
+10863.459782 7.482595e-17
+10870.398111 5.735629e-17
+10877.336441 5.213776e-17
+10884.274771 5.029719e-17
+10891.213100 6.147854e-17
+10898.151430 3.814278e-17
+10905.089760 6.282420e-17
+10912.028090 5.841858e-17
+10918.966419 5.467584e-17
+10925.904749 4.716031e-17
+10932.843079 7.001753e-17
+10939.781408 4.489344e-17
+10946.719738 5.438125e-17
+10953.658068 5.453710e-17
+10960.596397 4.972352e-17
+10967.534727 3.877225e-17
+10974.473057 4.955514e-17
+10981.411386 4.880021e-17
+10988.349716 4.614807e-17
+10995.288046 3.966346e-17
+11002.226376 4.616883e-17
+11009.164705 4.977106e-17
+11016.103035 5.215934e-17
+11023.041365 4.268010e-17
+11029.979694 5.152361e-17
+11036.918024 5.280518e-17
+11043.856354 3.449433e-17
+11050.794683 3.613714e-17
+11057.733013 4.009077e-17
+11064.671343 3.250988e-17
+11071.609673 3.255043e-17
+11078.548002 5.416556e-17
+11085.486332 3.336372e-17
+11092.424662 4.841168e-17
+11099.362991 3.390298e-17
+11106.301321 3.200557e-17
+11113.239651 4.327726e-17
+11120.177980 4.330883e-17
+11127.116310 3.821084e-17
+11134.054640 3.485101e-17
+11140.992970 2.541389e-17
+11147.931299 2.167568e-17
+11154.869629 4.603181e-17
+11161.807959 4.423917e-17
+11168.746288 2.551693e-17
+11175.684618 5.116760e-17
+11182.622948 4.280078e-17
+11189.561277 2.437315e-17
+11196.499607 2.556063e-17
+11203.437937 3.056788e-17
+11210.376266 2.919915e-17
+11217.314596 3.766546e-17
+11224.252926 3.290084e-17
+11231.191256 2.291207e-17
+11238.129585 3.000314e-17
+11245.067915 4.226863e-17
+11252.006245 3.985510e-17
+11258.944574 1.999894e-17
+11265.882904 4.629687e-17
+11272.821234 3.626193e-17
+11279.759563 2.873710e-17
+11286.697893 1.411962e-17
+11293.636223 3.736900e-17
+11300.574553 6.520099e-17
+11307.512882 1.593792e-17
+11314.451212 4.523481e-17
+11321.389542 9.251241e-17
+11328.327871 6.001835e-17
+11335.266201 8.034295e-17
+11342.204531 4.130221e-17
+11349.142860 8.269587e-17
+11356.081190 4.500961e-17
+11363.019520 4.077116e-17
+11369.957850 5.135517e-17
+11376.896179 1.112186e-16
+11383.834509 3.993476e-17
+11390.772839 4.390156e-17
+11397.711168 2.020184e-17
+11404.649498 3.121366e-17
+11411.587828 1.074550e-16
+11418.526157 1.472032e-17
+11425.464487 1.577289e-16
+11432.402817 1.227650e-16
+11439.341146 1.733763e-17
+11446.279476 4.636776e-17
+11453.217806 8.067138e-18
+11460.156136 4.526039e-18
+11467.094465 2.353698e-17
+11474.032795 2.616509e-17
+11480.971125 1.464124e-17
+11487.909454 2.714352e-17
+11494.847784 4.461938e-17
+11501.786114 3.888355e-17
+11508.724443 3.195773e-17
+11515.662773 3.791068e-17
+11522.601103 -2.048428e-18
+11529.539433 4.787940e-17
+11536.477762 1.808033e-17
+11543.416092 2.602091e-17
+11550.354422 3.305952e-17
+11557.292751 1.766908e-17
+11564.231081 2.217146e-17
+11571.169411 2.530168e-17
+11578.107740 1.174975e-17
+11585.046070 4.132425e-17
+11591.984400 2.869715e-17
+11598.922729 2.187019e-17
+11605.861059 2.332141e-17
+11612.799389 2.240327e-17
+11619.737719 1.765885e-17
+11626.676048 2.108136e-17
+11633.614378 1.232688e-17
+11640.552708 1.068016e-17
+11647.491037 1.047521e-17
+11654.429367 2.081392e-17
+11661.367697 8.262771e-18
+11668.306026 3.019865e-17
+11675.244356 7.266564e-18
+11682.182686 2.643361e-17
+11689.121016 1.204136e-17
+11696.059345 1.210670e-17
+11702.997675 1.556185e-17
+11709.936005 1.461565e-17
+11716.874334 2.509992e-17
+11723.812664 1.693496e-17
+11730.750994 1.189941e-17
+11737.689323 1.526406e-17
+11744.627653 2.079101e-17
+11751.565983 1.580704e-17
+11758.504313 1.246021e-17
+11765.442642 5.531704e-18
+11772.380972 7.516686e-18
+11779.319302 7.820261e-18
+11786.257631 1.348671e-17
+11793.195961 1.059428e-17
+11800.134291 9.021433e-18
+11807.072620 1.135251e-17
+11814.010950 1.321242e-18
+11820.949280 8.100644e-18
+11827.887609 1.122115e-17
+11834.825939 4.307588e-18
+11841.764269 9.112782e-18
+11848.702599 1.154568e-17
+11855.640928 1.439075e-17
+11862.579258 1.602819e-17
+11869.517588 1.949256e-18
+11876.455917 1.292784e-17
+11883.394247 1.083636e-17
+11890.332577 3.874012e-18
+11897.270906 2.050405e-17
+11904.209236 -2.601542e-18
+11911.147566 1.209067e-17
+11918.085896 4.072154e-18
+11925.024225 -9.787759e-19
+11931.962555 1.270597e-17
+11938.900885 3.132571e-18
+11945.839214 1.919631e-17
+11952.777544 2.026340e-17
+11959.715874 2.285213e-18
+11966.654203 1.791330e-17
+11973.592533 3.395937e-18
+11980.530863 1.671756e-17
+11987.469193 1.566449e-17
+11994.407522 4.671302e-18
+12001.345852 1.428045e-17
+12008.284182 1.880600e-18
+12015.222511 1.062737e-17
+12022.160841 1.372000e-18
+12029.099171 1.327438e-17
+12036.037500 3.298029e-18
+12042.975830 2.201479e-17
+12049.914160 7.421613e-18
+12056.852489 1.719923e-17
+12063.790819 1.850126e-17
+12070.729149 3.138834e-17
+12077.667479 7.278711e-18
+12084.605808 8.240194e-18
+12091.544138 1.640442e-17
+12098.482468 1.769342e-17
+12105.420797 2.215962e-18
+12112.359127 1.016585e-17
+12119.297457 1.081521e-17
+12126.235786 2.112876e-17
+12133.174116 -2.393452e-18
+12140.112446 1.267629e-17
+12147.050776 2.768958e-18
+12153.989105 7.225786e-18
+12160.927435 7.154449e-18
+12167.865765 1.160018e-17
+12174.804094 9.747773e-18
+12181.742424 9.803884e-18
+12188.680754 1.461167e-17
+12195.619083 7.044289e-18
+12202.557413 5.749363e-18
+12209.495743 2.529944e-18
+12216.434072 2.189874e-17
+12223.372402 4.908505e-18
+12230.310732 1.825299e-17
+12237.249062 2.772992e-21
+12244.187391 9.018197e-18
+12251.125721 6.854055e-18
+12258.064051 3.130994e-18
+12265.002380 1.617584e-17
+12271.940710 8.475827e-19
+12278.879040 2.607057e-18
+12285.817369 1.081649e-17
+12292.755699 1.436631e-17
+12299.694029 -3.188295e-18
+12306.632359 8.048735e-18
+12313.570688 3.565232e-18
+12320.509018 -1.754183e-19
+12327.447348 5.181173e-18
+12334.385677 5.400337e-18
+12341.324007 1.067891e-17
+12348.262337 9.712602e-18
+12355.200666 5.421261e-18
+12362.138996 6.675503e-18
+12369.077326 1.416488e-17
+12376.015656 9.551786e-18
+12382.953985 2.722012e-18
+12389.892315 2.583760e-18
+12396.830645 9.970514e-18
+12403.768974 4.771287e-18
+12410.707304 3.957113e-17
+12417.645634 1.736114e-17
+12424.583963 -2.050725e-18
+12431.522293 5.183545e-18
+12438.460623 2.396920e-18
+12445.398952 -2.392909e-18
+12452.337282 5.156874e-18
+12459.275612 1.276691e-17
+12466.213942 6.403763e-18
+12473.152271 1.596716e-17
+12480.090601 6.403495e-18
+12487.028931 -4.081758e-19
+12493.967260 -2.312279e-19
+12500.905590 6.018104e-18
+12507.843920 1.990228e-17
+12514.782249 1.819654e-18
+12521.720579 6.477483e-18
+12528.658909 1.174377e-17
+12535.597239 3.189682e-18
+12542.535568 1.661983e-17
+12549.473898 7.340991e-18
+12556.412228 1.511489e-17
+12563.350557 1.125508e-17
+12570.288887 5.568607e-18
+12577.227217 1.300734e-18
+12584.165546 9.865102e-18
+12591.103876 1.280254e-17
+12598.042206 5.524877e-18
+12604.980536 1.261853e-17
+12611.918865 1.780737e-17
+12618.857195 1.333083e-17
+12625.795525 1.989029e-17
+12632.733854 1.560840e-17
+12639.672184 1.613938e-17
+12646.610514 1.348840e-17
+12653.548843 1.207484e-17
+12660.487173 1.166544e-18
+12667.425503 -8.651630e-19
+12674.363832 1.855254e-17
+12681.302162 2.843829e-17
+12688.240492 1.712517e-17
+12695.178822 1.094754e-17
+12702.117151 -5.371854e-19
+12709.055481 1.888219e-17
+12715.993811 1.678058e-17
+12722.932140 2.355193e-17
+12729.870470 2.863085e-17
+12736.808800 1.559756e-17
+12743.747129 1.964662e-17
+12750.685459 2.409537e-17
+12757.623789 7.039562e-18
+12764.562119 1.684026e-17
+12771.500448 -1.114942e-19
+12778.438778 2.511250e-17
+12785.377108 1.103422e-17
+12792.315437 1.106210e-17
+12799.253767 2.246206e-17
+12806.192097 9.990513e-18
+12813.130426 2.855581e-17
+12820.068756 2.182907e-17
+12827.007086 1.591977e-17
+12833.945415 1.057953e-17
+12840.883745 5.089125e-18
+12847.822075 2.208887e-17
+12854.760405 6.927728e-18
+12861.698734 4.552872e-18
+12868.637064 1.278445e-17
+12875.575394 2.097299e-17
+12882.513723 1.246239e-17
+12889.452053 5.825401e-19
+12896.390383 1.353999e-17
+12903.328712 1.649181e-17
+12910.267042 2.484786e-17
+12917.205372 1.595990e-17
+12924.143702 1.521671e-17
+12931.082031 1.667334e-17
+12938.020361 1.612680e-17
+12944.958691 1.422097e-17
+12951.897020 1.846350e-17
+12958.835350 1.133840e-17
+12965.773680 2.326493e-18
+12972.712009 1.058124e-17
+12979.650339 -3.482787e-19
+12986.588669 -2.982167e-18
+12993.526999 4.158083e-19
+13000.465328 4.278096e-18
+13007.403658 -1.247014e-18
+13014.341988 2.378341e-17
+13021.280317 3.734528e-17
+13028.218647 1.150066e-17
+13035.156977 9.920168e-18
+13042.095306 7.669870e-18
+13049.033636 1.687122e-18
+13055.971966 7.418263e-18
+13062.910295 1.229143e-17
+13069.848625 1.102112e-18
+13076.786955 6.669189e-18
+13083.725285 -2.059025e-18
+13090.663614 1.421886e-17
+13097.601944 1.059414e-17
+13104.540274 1.467000e-17
+13111.478603 4.234010e-18
+13118.416933 2.395430e-17
+13125.355263 2.026372e-17
+13132.293592 -5.504593e-19
+13139.231922 7.653640e-18
+13146.170252 1.500965e-17
+13153.108582 1.012643e-17
+13160.046911 1.163117e-17
+13166.985241 1.753239e-18
+13173.923571 4.792515e-18
+13180.861900 1.171439e-18
+13187.800230 9.558470e-18
+13194.738560 -5.138157e-18
+13201.676889 2.996931e-18
+13208.615219 7.903815e-18
+13215.553549 1.412704e-17
+13222.491879 2.120047e-19
+13229.430208 4.082234e-18
+13236.368538 -7.758845e-19
+13243.306868 -4.733228e-19
+13250.245197 -1.850922e-18
+13257.183527 1.155394e-18
+13264.121857 1.275568e-17
+13271.060186 1.535361e-17
+13277.998516 4.777530e-18
+13284.936846 7.587349e-18
+13291.875175 2.025113e-18
+13298.813505 4.997697e-18
+13305.751835 3.347341e-17
+13312.690165 2.016197e-18
+13319.628494 -2.249334e-18
+13326.566824 -1.217437e-18
+13333.505154 1.364644e-17
+13340.443483 7.331459e-19
+13347.381813 4.101546e-18
+13354.320143 1.185225e-17
+13361.258472 5.492749e-18
+13368.196802 -4.993117e-18
+13375.135132 8.425016e-18
+13382.073462 1.065129e-17
+13389.011791 1.285314e-17
+13395.950121 7.069932e-18
+13402.888451 6.174224e-18
+13409.826780 3.895689e-18
+13416.765110 3.483879e-18
+13423.703440 1.222606e-17
+13430.641769 3.855565e-18
+13437.580099 -1.711694e-20
+13444.518429 1.601334e-17
+13451.456758 2.337560e-18
+13458.395088 9.410618e-18
+13465.333418 1.719705e-17
+13472.271748 1.514167e-18
+13479.210077 1.572288e-17
+13486.148407 1.852575e-18
+13493.086737 6.621413e-19
+13500.025066 1.009625e-17
+13506.963396 -1.272765e-17
+13513.901726 2.827563e-17
+13520.840055 4.702206e-19
+13527.778385 8.579131e-18
+13534.716715 1.216668e-16
+13541.655045 -4.284512e-17
+13548.593374 -2.777664e-17
+13555.531704 -2.770758e-17
+13562.470034 -1.191033e-17
+13569.408363 -2.270809e-17
+13576.346693 3.769961e-16
+13583.285023 -2.279198e-17
+13590.223352 -5.134133e-18
+13597.161682 -5.313211e-17
+13604.100012 -3.814886e-17
+13611.038342 2.658968e-16
+13617.976671 -1.177493e-16
+13624.915001 1.099614e-16
+13631.853331 6.501631e-17
+13638.791660 8.755339e-17
+13645.729990 1.022289e-17
+13652.668320 -1.883959e-16
+13659.606649 -2.819709e-16
+13666.544979 4.706237e-17
+13673.483309 1.921517e-16
+13680.421638 -4.697661e-17
+13687.359968 -2.004041e-16
+13694.298298 -6.367377e-17
+13701.236628 -9.633546e-17
+13708.174957 1.319419e-17
+13715.113287 5.491505e-17
+13722.051617 2.327876e-17
+13728.989946 -1.712670e-17
+13735.928276 -2.734983e-17
+13742.866606 2.271842e-17
+13749.804935 6.168991e-17
+13756.743265 -1.593930e-17
+13763.681595 2.302971e-17
+13770.619925 1.765814e-17
+13777.558254 -2.832762e-17
+13784.496584 -2.375905e-18
+13791.434914 4.309830e-17
+13798.373243 3.873351e-17
+13805.311573 3.749150e-16
+13812.249903 5.970295e-17
+13819.188232 9.580628e-18
+13826.126562 1.563910e-16
+13833.064892 -1.132787e-17
+13840.003222 8.238238e-18
+13846.941551 -8.289632e-17
+13853.879881 8.814731e-17
+13860.818211 7.023064e-17
+13867.756540 4.141227e-17
+13874.694870 -2.434557e-17
+13881.633200 -7.760467e-18
+13888.571529 2.920713e-17
+13895.509859 2.211656e-17
+13902.448189 3.975417e-17
+13909.386518 9.995234e-18
+13916.324848 8.798344e-17
+13923.263178 1.223677e-16
+13930.201508 2.961729e-17
+13937.139837 5.564496e-18
+13944.078167 9.708486e-17
+13951.016497 1.396778e-16
+13957.954826 3.687173e-17
+13964.893156 3.476490e-17
+13971.831486 1.327716e-17
+13978.769815 1.647860e-17
+13985.708145 1.612081e-17
+13992.646475 1.130466e-16
+13999.584805 1.414113e-16
+14006.523134 8.249915e-17
+14013.461464 3.010614e-17
+14020.399794 5.323581e-17
+14027.338123 -4.700759e-18
+14034.276453 4.995233e-17
+14041.214783 7.075920e-17
+14048.153112 2.162538e-18
+14055.091442 -3.078775e-18
+14062.029772 -2.142181e-17
+14068.968102 -2.040824e-17
+14075.906431 -8.945489e-19
+14082.844761 1.790701e-17
+14089.783091 6.559833e-18
+14096.721420 -3.360843e-19
+14103.659750 -6.370929e-17
+14110.598080 7.707045e-18
+14117.536409 1.992351e-17
+14124.474739 1.153230e-17
+14131.413069 2.832501e-17
+14138.351398 -1.659553e-17
+14145.289728 3.913502e-17
+14152.228058 8.895757e-18
+14159.166388 -6.150309e-18
+14166.104717 6.347548e-18
+14173.043047 2.485310e-17
+14179.981377 1.973001e-17
+14186.919706 2.286800e-17
+14193.858036 2.598811e-17
+14200.796366 1.816879e-18
+14207.734695 -5.766421e-18
+14214.673025 3.271563e-17
+14221.611355 -3.637019e-18
+14228.549685 1.646456e-17
+14235.488014 2.881024e-17
+14242.426344 3.223776e-18
+14249.364674 6.741452e-18
+14256.303003 -5.686467e-18
+14263.241333 -6.050048e-18
+14270.179663 4.456558e-18
+14277.117992 2.206590e-18
+14284.056322 8.288703e-18
+14290.994652 7.616888e-18
+14297.932981 1.171714e-17
+14304.871311 1.224917e-18
+14311.809641 1.357959e-17
+14318.747971 3.311915e-18
+14325.686300 -2.469798e-18
+14332.624630 -1.012164e-17
+14339.562960 -1.592781e-17
+14346.501289 -1.043457e-18
+14353.439619 7.880899e-18
+14360.377949 2.876848e-17
+14367.316278 1.896813e-17
+14374.254608 -2.497200e-17
+14381.192938 -4.950323e-18
+14388.131268 1.685022e-17
+14395.069597 1.166740e-17
+14402.007927 1.222381e-17
+14408.946257 2.647121e-18
+14415.884586 -1.446921e-18
+14422.822916 1.365462e-17
+14429.761246 3.361711e-18
+14436.699575 1.219800e-17
+14443.637905 1.863058e-17
+14450.576235 4.359723e-18
+14457.514565 -3.103099e-18
+14464.452894 5.759712e-18
+14471.391224 9.451135e-18
+14478.329554 1.532163e-17
+14485.267883 6.896281e-18
+14492.206213 9.913082e-18
+14499.144543 2.738858e-18
+14506.082872 2.474569e-17
+14513.021202 6.753918e-18
+14519.959532 -1.076600e-19
+14526.897861 5.852634e-18
+14533.836191 1.169264e-17
+14540.774521 9.915733e-18
+14547.712851 1.602173e-17
+14554.651180 1.929655e-17
+14561.589510 1.348723e-17
+14568.527840 -1.413412e-18
+14575.466169 5.898698e-18
+14582.404499 1.059567e-17
+14589.342829 6.513295e-18
+14596.281158 6.559582e-18
+14603.219488 8.762553e-18
+14610.157818 1.541536e-17
+14617.096148 -1.047380e-18
+14624.034477 2.140750e-18
+14630.972807 1.325480e-17
+14637.911137 4.692357e-18
+14644.849466 1.046226e-17
+14651.787796 7.580193e-18
+14658.726126 9.026026e-18
+14665.664455 4.779402e-18
+14672.602785 -1.026484e-18
+14679.541115 9.828232e-18
+14686.479445 -1.039650e-18
+14693.417774 1.724360e-17
+14700.356104 1.172253e-17
+14707.294434 6.686552e-18
+14714.232763 2.103947e-17
+14721.171093 2.306783e-17
+14728.109423 1.161341e-17
+14735.047752 1.458504e-17
+14741.986082 1.196910e-17
+14748.924412 4.308821e-18
+14755.862741 1.891473e-18
+14762.801071 3.272873e-18
+14769.739401 -4.253395e-20
+14776.677731 1.485057e-17
+14783.616060 1.178623e-17
+14790.554390 2.125788e-18
+14797.492720 -3.778031e-18
+14804.431049 1.229880e-18
+14811.369379 5.778128e-18
+14818.307709 1.265141e-17
+14825.246038 1.440889e-17
+14832.184368 3.917217e-18
+14839.122698 -8.938566e-19
+14846.061028 1.160799e-17
+14852.999357 1.865613e-17
+14859.937687 1.633176e-17
+14866.876017 1.355147e-17
+14873.814346 1.412170e-17
+14880.752676 1.578726e-17
+14887.691006 5.457090e-18
+14894.629335 4.007924e-18
+14901.567665 1.344651e-17
+14908.505995 2.204382e-17
+14915.444324 2.868595e-18
+14922.382654 1.435939e-17
+14929.320984 3.282695e-18
+14936.259314 1.264522e-17
+14943.197643 7.014716e-18
+14950.135973 3.769003e-18
+14957.074303 5.233980e-18
+14964.012632 6.009071e-18
+14970.950962 3.579621e-18
+14977.889292 8.750750e-18
+14984.827621 6.218913e-18
+14991.765951 1.044014e-17
+14998.704281 1.147397e-17
+15005.642611 1.852125e-17
+15012.580940 1.067640e-17
+15019.519270 6.697853e-18
+15026.457600 7.847566e-18
+15033.395929 1.334611e-17
+15040.334259 5.800090e-18
+15047.272589 7.197294e-18
+15054.210918 -1.094937e-19
+15061.149248 -1.422891e-18
+15068.087578 2.298430e-17
+15075.025908 -3.893930e-17
+15081.964237 -4.700558e-17
+15088.902567 1.164870e-17
+15095.840897 1.003727e-17
+15102.779226 7.075341e-18
+15109.717556 1.705765e-17
+15116.655886 9.357327e-18
+15123.594215 1.569449e-17
+15130.532545 7.346261e-18
+15137.470875 9.860785e-18
+15144.409204 1.099418e-17
+15151.347534 9.730021e-18
+15158.285864 1.636905e-17
+15165.224194 1.190438e-17
+15172.162523 1.274238e-17
+15179.100853 1.089283e-17
+15186.039183 8.023728e-18
+15192.977512 1.088440e-17
+15199.915842 1.747834e-17
+15206.854172 1.391393e-17
+15213.792501 1.847998e-17
+15220.730831 2.702458e-17
+15227.669161 2.248035e-17
+15234.607491 1.860314e-17
+15241.545820 2.144938e-17
+15248.484150 1.264603e-17
+15255.422480 2.247904e-17
+15262.360809 1.060736e-17
+15269.299139 1.209715e-17
+15276.237469 2.835590e-17
+15283.175798 2.701553e-17
+15290.114128 2.342699e-17
+15297.052458 1.987193e-17
+15303.990788 7.147035e-18
+15310.929117 1.042833e-17
+15317.867447 1.549608e-17
+15324.805777 2.489858e-17
+15331.744106 1.715698e-17
+15338.682436 1.188946e-17
+15345.620766 1.603073e-17
+15352.559095 2.468647e-17
+15359.497425 1.776673e-17
+15366.435755 1.201965e-17
+15373.374084 1.909040e-17
+15380.312414 2.374712e-17
+15387.250744 1.582729e-17
+15394.189074 1.934596e-17
+15401.127403 2.128437e-17
+15408.065733 1.488717e-17
+15415.004063 1.233092e-17
+15421.942392 2.292732e-17
+15428.880722 1.787629e-17
+15435.819052 2.272858e-17
+15442.757381 1.955764e-17
+15449.695711 1.894885e-17
+15456.634041 2.020874e-17
+15463.572371 1.479821e-17
+15470.510700 1.745815e-17
+15477.449030 2.599485e-17
+15484.387360 1.643832e-17
+15491.325689 2.676351e-17
+15498.264019 1.770495e-17
+15505.202349 1.968883e-17
+15512.140678 2.358359e-17
+15519.079008 1.776842e-17
+15526.017338 1.521891e-17
+15532.955667 1.760773e-17
+15539.893997 2.559569e-17
+15546.832327 2.655414e-17
+15553.770657 1.374954e-17
+15560.708986 2.665050e-17
+15567.647316 2.406793e-17
+15574.585646 2.151549e-17
+15581.523975 2.953587e-17
+15588.462305 1.771786e-17
+15595.400635 1.997008e-17
+15602.338964 2.350861e-17
+15609.277294 2.107672e-17
+15616.215624 1.930725e-17
+15623.153954 2.012758e-17
+15630.092283 2.105014e-17
+15637.030613 1.894739e-17
+15643.968943 2.041036e-17
+15650.907272 2.961585e-17
+15657.845602 3.045050e-17
+15664.783932 1.948828e-17
+15671.722261 2.542822e-17
+15678.660591 1.696678e-17
+15685.598921 2.277135e-17
+15692.537251 2.391520e-17
+15699.475580 1.597865e-17
+15706.413910 1.522207e-17
+15713.352240 1.268024e-17
+15720.290569 1.722204e-17
+15727.228899 2.337908e-17
+15734.167229 3.111417e-17
+15741.105558 1.636536e-17
+15748.043888 2.871684e-17
+15754.982218 1.633625e-17
+15761.920547 1.227305e-17
+15768.858877 1.808000e-17
+15775.797207 2.584972e-17
+15782.735537 2.504740e-17
+15789.673866 2.546280e-17
+15796.612196 1.540676e-17
+15803.550526 2.328468e-17
+15810.488855 1.760070e-17
+15817.427185 8.776376e-18
+15824.365515 2.176360e-17
+15831.303844 2.017044e-17
+15838.242174 2.769604e-17
+15845.180504 1.529072e-17
+15852.118834 1.300414e-17
+15859.057163 1.979555e-17
+15865.995493 2.668718e-17
+15872.933823 1.377505e-17
+15879.872152 1.048130e-17
+15886.810482 2.172075e-17
+15893.748812 1.903144e-17
+15900.687141 2.377046e-17
+15907.625471 1.954222e-17
+15914.563801 1.818417e-17
+15921.502131 1.788153e-17
+15928.440460 1.852334e-17
+15935.378790 1.703507e-17
+15942.317120 1.621970e-17
+15949.255449 2.042326e-17
+15956.193779 2.382754e-17
+15963.132109 2.525841e-17
+15970.070438 2.021697e-17
+15977.008768 2.226417e-17
+15983.947098 2.374369e-17
+15990.885427 1.589527e-17
+15997.823757 2.145178e-17
+16004.762087 1.365075e-17
+16011.700417 2.730613e-17
+16018.638746 3.327702e-17
+16025.577076 1.370965e-17
+16032.515406 2.065355e-17
+16039.453735 7.969613e-18
+16046.392065 2.086809e-17
+16053.330395 2.686368e-17
+16060.268724 2.865829e-17
+16067.207054 3.162272e-17
+16074.145384 2.335315e-17
+16081.083714 2.571596e-17
+16088.022043 1.927026e-17
+16094.960373 2.492087e-17
+16101.898703 2.556069e-17
+16108.837032 1.162926e-17
+16115.775362 1.206693e-17
+16122.713692 6.017377e-18
+16129.652021 1.018495e-17
+16136.590351 2.127874e-17
+16143.528681 1.300812e-17
+16150.467010 1.244965e-17
+16157.405340 1.933448e-17
+16164.343670 1.859839e-17
+16171.282000 1.666858e-17
+16178.220329 2.227292e-17
+16185.158659 1.003406e-17
+16192.096989 2.786241e-17
+16199.035318 2.610042e-17
+16205.973648 2.361821e-17
+16212.911978 1.421526e-17
+16219.850307 1.799140e-17
+16226.788637 2.834760e-17
+16233.726967 3.380652e-17
+16240.665297 3.017119e-17
+16247.603626 2.312174e-17
+16254.541956 2.145914e-17
+16261.480286 1.924115e-17
+16268.418615 1.908116e-17
+16275.356945 2.793311e-17
+16282.295275 1.435515e-17
+16289.233604 2.040680e-17
+16296.171934 1.970684e-17
+16303.110264 2.513661e-17
+16310.048594 2.000101e-17
+16316.986923 1.630666e-17
+16323.925253 1.635685e-17
+16330.863583 3.430810e-17
+16337.801912 2.338668e-17
+16344.740242 2.069083e-17
+16351.678572 2.333056e-17
+16358.616901 2.355718e-17
+16365.555231 8.542822e-18
+16372.493561 1.678472e-17
+16379.431890 2.637059e-17
+16386.370220 1.661195e-17
+16393.308550 1.125682e-17
+16400.246880 2.242613e-17
+16407.185209 1.781778e-17
+16414.123539 1.260282e-17
+16421.061869 2.557390e-17
+16428.000198 2.170089e-17
+16434.938528 2.020765e-17
+16441.876858 2.566096e-17
+16448.815187 2.297946e-17
+16455.753517 2.159933e-17
+16462.691847 2.232595e-17
+16469.630177 2.242332e-17
+16476.568506 2.243296e-17

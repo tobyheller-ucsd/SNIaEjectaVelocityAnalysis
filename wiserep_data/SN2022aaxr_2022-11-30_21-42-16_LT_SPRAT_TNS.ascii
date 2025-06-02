@@ -1,0 +1,697 @@
+# XTENSION= 'IMAGE   '           / IMAGE extension                                
+# BITPIX  =                  -32 / number of bits per data pixel                  
+# NAXIS   =                    2 / number of data axes                            
+# NAXIS1  =                  433 / length of data axis 1                          
+# NAXIS2  =                    1 / length of data axis 2                          
+# PCOUNT  =                    0 / required keyword; must = 0                     
+# GCOUNT  =                    1 / required keyword; must = 1                     
+# EXTNAME = 'SPEC_NONSS'                                                          
+# ORIGIN  = 'Liverpool JMU'                                                       
+# INSTRUME= 'SPRAT   '           / Instrument used.                               
+# CONFIGID=                45584 / Unique configuration ID.                       
+# CONFNAME= 'SPRAT-blue'         / The instrument configuration used.             
+# DETECTOR= 'E2V CCD30-11 10333-02-26' / Andor iDus DU420A-BV                     
+# FILTER1 = '4020longpass'       / Edmund Optics 400nm longpass filter #84754     
+# FILTERI1= 'Edmund Optics 400nm longpass filter #84754' / Edmund Optics 400nm lon
+# FILTER2 = 'clear   '           / The filter.                                    
+# FILTERI2= 'Clear-01'           / The filter.                                    
+# SLITPOS = 'IN      '           / Whether the slit is in or out of the beam      
+# GRATPOS = 'IN      '           / Whether the grism is in or out of the beam     
+# GRATROT = '1       '           / The grating rotation position ['0'|'1']        
+# GRATSET = 'blue    '           / The grating rotation position                  
+# GRATANG =             0.950000 / [mm] Grism rear stop lateral displacement      
+# WAVSET  =          5555.000000 / [Angstrom] Wavelength Setting.                 
+# WAVCENT =          5555.000000 / [Angstrom] Central Wavelength                  
+# WAVDISP =             4.710000 / [Angstrom/pixel] Dispersion (per binned pixel).
+# WAVRESOL=            18.000000 / [Angstrom] Resolution at central wavelength.   
+# WAVSHORT=                 4020 / [Angstrom] Shortest wavelength on CCD.         
+# WAVLONG =                 7960 / [Angstrom] Longest wavelength on CCD.          
+# WAVERR  =            99.900000 / Error                                          
+# WAVCAL  = 'None    '                                                            
+# COLID   = '150mm_f3.0'         / Edmund Optics achromatic doublet #49391        
+# CAMID   = '85mm_f1.8'          / Nikon AF Nikkor 85mm f/1.8D                    
+# COLFOC  =             6.250000 / [mm] Collimator focus. Scale reading.          
+# CAMFOC  =             0.000000 / [mm] Camera focus (infinity)                   
+# GRATID  = 'Wasatch600'         / Wasatch VPH transmission grating               
+# LAMP1TYP= 'Xe      '           / LOT Oriel xenon penlight type 6033             
+# LAMP1SET=                    F / Is the Xenon lamp on?                          
+# LAMP2TYP= 'W       '           / Bosch 434 12v tungsten halide                  
+# LAMP2SET=                    F / Is the Tungsten lamp on?                       
+# ENVTEMP0=           282.550000 / [Kelvin] Air temperature outside instrument    
+# ENVTEMP1=            -1.000000 / [Kelvin] Air temperature inside instrument     
+# ENVHUM0 =             9.800000 / [percent] Relative humidity outside instrument 
+# ENVHUM1 =             0.000000 / [percent] Relative humidity inside instrument  
+# ORIENT1 =          -239.000000 / [adu] Gyro position (X)                        
+# ORIENT2 =            38.000000 / [adu] Gyro position (Y)                        
+# ORIENT3 =          -154.000000 / [adu] Gyro position (Z)                        
+# FOVTYPE = 'slit    '           / Type of field of view                          
+# FOVDIM1 =                    0 / [arcsec] Size of field of view (dimension 1)   
+# FOVDIM2 =                    0 / [arcsec] Size of field of view (dimension 2)   
+# TELESCOP= 'Liverpool Telescope' / The Name of the Telescope                     
+# TELMODE = 'ROBOTIC '           / Telescope mode                                 
+# TAGID   = 'JMU     '           / Telescope Allocation Committee ID              
+# USERID  = 'Perley.Dan'         / User login ID                                  
+# PROGID  = 'XJZ20B01'           / Program ID                                     
+# PROPID  = 'JZ21B01 '           / Proposal ID                                    
+# GROUPID = 'ZTF22abtusmd-sp'    / Group Id                                       
+# OBSID   = 'EXPOSURE'           / Observation Id                                 
+# GRPTIMNG= 'REPEATABLE'         / Group timing constraint class                  
+# GRPUID  =               286951 / Group unique ID                                
+# GRPMONP =         43200.000000 / [secs] Group monitor period                    
+# GRPNUMOB=                    2 / Number of observations in group                
+# GRPSEECO= 'NONE    '           / [arcsec] Maximum seeing                        
+# GRPSKYCO= '4.0 MAG '           / Sky brightness category                        
+# GRPEXTCO= 'NONE    '           / Extinction category                            
+# GRPAIRCO=             2.000000 / Maximum airmass                                
+# GRPMINHA= 'NONE    '           / [degs] Minimum hour angle                      
+# GRPMAXHA= 'UNKNOWN '           / [degs] Maximum hour angle                      
+# GRPEDATE= '2022-12-04 T 19:28:23 UTC' / [date] Group expiry date                
+# GRPNOMEX=          1740.000000 / [secs] Group nominal exec time                 
+# USRDEFOC=             0.000000 / [mm] Requested defocus                         
+# LATITUDE=            28.762400 / [degrees] Observatory Latitude                 
+# LONGITUD=           -17.879200 / [degrees West] Observatory Longitude           
+# RA      = '22:38:55.95'        / [HH:MM:SS.ss] Apparent RA where telescope is po
+# DEC     = '11:38:38.74'        / [DD:MM:SS.ss] Apparent Dec where telescope is p
+# RADECSYS= 'FK5     '           / [{FK4, FK5}] Fundamental coordinate system of c
+# EQUINOX =          2000.000000 / [Years] Date of the coordinate system for curre
+# LST     = '1:9:35.00'          / [HH:MM:SS] Local sidereal time at start of curr
+# CAT-RA  = '22:38:55.95'        / [HH:MM:SS.sss] RA of the current observation so
+# CAT-DEC = '11:38:38.74'        / [DD:MM:SS.sss] Declination of the current obser
+# CAT-EQUI=          2000.000000 / [Year] Catalog date of the coordinate system fo
+# CAT-EPOC=          2000.000000 / [Year] Catalog date of the epoch               
+# CAT-NAME= 'ZTF22abtusmd'       / Catalog name of the current observation source 
+# OBJECT  = 'ZTF22abtusmd'       / Actual name of the current observation source  
+# SRCTYPE = 'EXTRASOLAR'         / Type of source                                 
+# PM-RA   =             0.000000 / [sec/year] Proper motion in RA of the current o
+# PM-DEC  =             0.000000 / [arcsec/year] Proper motion in declination  of 
+# PARALLAX=             0.000000 / [arcsec] Parallax of the current observation so
+# RADVEL  =             0.000000 / [km/s] Radial velocity of the current observati
+# RATRACK =             0.000000 / [sec/sec] Non-sidereal tracking in RA of the cu
+# DECTRACK=             0.000000 / [arcsec/sec] Non-sidereal tracking in declinati
+# NETSTATE= 'ENABLED '           / Network control state                          
+# ENGSTATE= 'DISABLED'           / Engineering override state                     
+# TELSTAT = 'WARN    '           / Current telescope status                       
+# TCSSTATE= 'OKAY    '           / TCS state                                      
+# PWRESTRT=                    F / Power will be cycled imminently                
+# PWSHUTDN=                    F / Power will be shutdown imminently              
+# AZDMD   =           255.260500 / [degrees] Azimuth demand                       
+# AZIMUTH =           255.260500 / [degrees] Azimuth axis position                
+# AZSTAT  = 'TRACKING'           / Azimuth axis state                             
+# ALTDMD  =            51.508800 / [degrees] Altitude axis demand                 
+# ALTITUDE=            51.508800 / [degrees] Altitude axis position               
+# ALTSTAT = 'WARNING '           / Altitude axis state                            
+# AIRMASS =             1.281102 / [n/a] Airmass                                  
+# ROTDMD  =            10.436900 / Rotator axis demand                            
+# ROTANGLE=            10.436900 / [degrees] Rotator mount angle                  
+# ROTMODE = 'FLOAT   '           / [{SKY, MOUNT, VFLOAT, VERTICAL, FLOAT}] Cassegr
+# ROTSKYPA=            56.417300 / [degrees] Rotator position angle               
+# ROTSTATE= 'TRACKING'           / Rotator axis state                             
+# ENC1DMD = 'OPEN    '           / Enc 1 demand                                   
+# ENC1POS = 'OPEN    '           / Enc 1 position                                 
+# ENC1STAT= 'IN POSN '           / Enc 1 state                                    
+# ENC2DMD = 'OPEN    '           / Enc 2 demand                                   
+# ENC2POS = 'OPEN    '           / Enc 2 position                                 
+# ENC2STAT= 'IN POSN '           / Enc 2 state                                    
+# FOLDDMD = 'UNKNOWN '           / Fold mirror demand                             
+# FOLDPOS = 'UNKNOWN '           / Fold mirror position                           
+# FOLDSTAT= 'UNKNOWN '           / Fold mirror state                              
+# PMCDMD  = 'OPEN    '           / Primary mirror cover demand                    
+# PMCPOS  = 'OPEN    '           / Primary mirror cover position                  
+# PMCSTAT = 'IN POSN '           / Primary mirror cover state                     
+# FOCDMD  =            20.979000 / [mm] Focus demand                              
+# TELFOCUS=            20.979000 / [mm] Focus position                            
+# DFOCUS  =             0.000000 / [mm] Focus offset                              
+# FOCSTAT = 'TRACKING'           / Focus state                                    
+# MIRSYSST= 'UNKNOWN '           / Primary mirror support state                   
+# WMSSTATE= 'WARN    '           / WMS system state                               
+# WMSRAIN = 'CLEAR   '           / Rain alert                                     
+# WMSMOIST=             0.000000 / Moisture level                                 
+# TEMPTUBE=             7.130000 / [degrees C] Temperature of the telescope tube  
+# WMOILTMP=             4.000000 / Oil temperature                                
+# WMSPMT  =             0.000000 / Primary mirror temperature                     
+# WMFOCTMP=             0.000000 / Focus temperature                              
+# WMAGBTMP=            11.880000 / AG Box temperature                             
+# WMSTEMP =           281.250000 / [Kelvin] Current (external) temperature        
+# WMSDEWPT=           -26.900000 / Dewpoint                                       
+# WINDSPEE=             3.100000 / [m/s] Windspeed                                
+# WMSPRES =           772.000000 / [mbar] Current pressure                        
+# WMSHUMID=             6.000000 / [0.00% - 100.00%] Current percentage humidity  
+# WINDDIR =           104.000000 / [degrees E of N] Wind direction                
+# CLOUD   =            89.800000 / [degrees C] Cloud tdiff measure                
+# REFPRES =           770.000000 / [mbar] Pressure used in refraction calculation 
+# REFTEMP =           283.150000 / [Kelvin] Temperature used in refraction calcula
+# REFHUMID=            30.000000 / Percentage humidity used in refraction calculat
+# AUTOGUID= 'LOCKED  '           / [{LOCKED, UNLOCKED SUSPENDED}] Autoguider lock 
+# AGSTATE = 'OKAY    '           / Autoguider sw state                            
+# AGMODE  = 'UNKNOWN '           / Autoguider mode                                
+# AGGMAG  =            15.234000 / [mag] Autoguider guide star mag                
+# AGFWHM  =             1.721000 / [arcsec] Autoguider FWHM                       
+# AGMIRDMD=             0.000000 / [mm] Autoguider mirror demand                  
+# AGMIRPOS=             0.000000 / [mm] Autoguider mirror position                
+# AGMIRST = 'IN POSN '           / Autoguider mirror state                        
+# AGFOCDMD=            14.626000 / [mm] Autoguider focus demand                   
+# AGFOCUS =            14.625000 / [mm] Autoguider focus position                 
+# AGFOCST = 'TRACKING'           / Autoguider focus state                         
+# AGFILDMD= 'RETRACT '           / Autoguider filter demand                       
+# AGFILPOS= 'RETRACT '           / Autoguider filter position                     
+# AGFILST = 'IN POSN '           / Autoguider filter state                        
+# SCHEDSEE=             0.786177 / [(arcsec)] Predicted seeing when group schedule
+# SCHEDPHT= 'SPECTROSCOPIC'      / Predicted photom when group scheduled          
+# SCHEDSKY=             1.500000 / Predicted sky when group scheduled             
+# ESTSEE  =             1.033656 / [(arcsec)] Estimated seeing at start of observa
+# MOONFRAC=             0.529937 / [(0 - 1)] Lunar illuminated fraction           
+# MOONDIST=            23.965037 / [(degs)] Lunar Distance from Target            
+# MOONALT =            38.904142 / [(degs)] Lunar altitude                        
+# SUNALT  =           -45.250096 / [(degs)] Solar altitude                        
+# ACQIMG  = '/icc/sprat-data/v_q_20221130_24_1_0_2.fits' / Acquisitioni image file
+# ACQMODE = 'WCS_FIT '           / Acquisition mode                               
+# ACQXPIX =           494.000000 / [pixels] Acquisition X pixel                   
+# ACQYPIX =           179.000000 / [pixels] Acquisition Y pixel                   
+# ACQINST = 'SPRAT   '           / Acquisition instrument                         
+# BFOCCTRL= 'UNKNOWN '           / Beam control instrument                        
+# OBSTYPE = 'EXPOSE  '                                                            
+# EXPTOTAL=        1500.00000000 /Total exposure time                             
+# DATE    = '2022-11-30'                                                          
+# DATE-OBS= '2022-11-30T21:42:16.180'                                             
+# UTSTART = '21:42:16.180'                                                        
+# MJD     =         59913.904354                                                  
+# EXPTIME =           750.000000                                                  
+# ACCUM   =                    0                                                  
+# SERIES  =                    0                                                  
+# RUNNUM  =                   26                                                  
+# EXPNUM  =                    1                                                  
+# CCDATEMP=           213.671000 / Cached temperature of CCD                      
+# TEMPSTAT= 'OK      '           / CCD Temperature status at cache point.         
+# TEMPDATE= '2022-11-30T21:42:16.176'                                             
+# CCDSTEMP=           213.150000 / Target temperature setpoint of CCD             
+# EXPID   = 'v_e_20221130_26_1_0_0' / Original raw LT FITS filename               
+# SATURATN=                63045 / [ADU] Approx saturation level                  
+# PIXSCALE=                0.442                                                  
+# L1MEDIAN=             56.58981 / [counts] median of frame background in counts  
+# L1MEAN  =             64.98452 / [counts] mean of frame background in counts    
+# L1STATOV=                    1 / Status flag for DP(RT) overscan correction     
+# L1STATZE=                   -1 / Status flag for DP(RT) bias frame (zero) correc
+# L1STATZM=                    0 / Mode flag for DP(RT) bias frame subtraction    
+# L1ZEROSC=                   1. / Scaling factor applied to zero frame           
+# L1STATDA=                    1 / Status flag for DP(RT) dark frame correction   
+# L1STATDM=                    5 / Mode for DP(RT) dark frame subtraction         
+# L1DARKSC=                 1.25 / Scaling factor applied to dark frame           
+# L1STATTR=                    1 / Status flag for DP(RT) overscan trimming       
+# L1STATFL=                    1 / Status flag for DP(RT) flatfield correction    
+# L1STATFR=                   -1 / Status flag for DP(RT) defringing correction   
+# L1STATFM=                    3 / Mode flag for DP(RT) fringe frame subtraction  
+# L1FRINSC=                   0. / Scaling factor applied to fringe frame         
+# L1XPIX  =                   0. / Coordinate of brightest object in frame after t
+# L1YPIX  =                   0. / Coordinate of brightest object in frame after t
+# L1STATXZ=                   -1 / Status flag for DP(RT) xzap CR correction      
+# L1STATTH=                   -1 / Status flag for DP(RT) threshold correction    
+# L1ELPMEA=                   0. / mean of ellipticities                          
+# L1ELPVAR=                   0. / RMS of ellipticities                           
+# L1ORIMEA=                   0. / mean of orientations                           
+# L1ORIVAR=                   0. / RMS of orientations                            
+# L1ORISER=                   0. / Standard error of orientations                 
+# L1DARK  = 'v_dark_1.fits.20210429' / Dark used                                  
+# L1FLAT  = 'v_slit_both_1.fits.20221026' / Flat used                             
+# L1COUNTS=                   0. / [counts] Counts in brightest object (sky subtra
+# L1SKYBRT=                 99.9 / [mag/arcsec^2] Estimated sky brightness        
+# L1PHOTOM=                -999. / [mag] Estimated extinction for standards images
+# L1EXTRMS=                 999. / RMS on multiple extinction estimates in image  
+# L1SAT   =                    F / [logical] TRUE if brightest object is saturated
+# BACKGRD =             56.58981 / [counts] frame background level in counts      
+# STDDEV  =             57.85291 / [counts] Standard deviation of Backgrd in count
+# L1SEEING=                 999. / [Dummy] Unable to calculate                    
+# L1SEESEC=                 999. / [Dummy] Unable to calculate                    
+# SEEING  =                 999. / [Dummy] Unable to calculate                    
+# CTYPE1  = 'Wavelength'         / Type of co-ordinate on axis 1                  
+# CUNIT1  = 'Angstroms'          / Units for axis 1                               
+# CRVAL1  =             4.02E+03 / [pixel] Value at ref. pixel on axis 1          
+# CDELT1  =             9.20E+00 / [pixel] Pixel scale on axis 1                  
+# CRPIX1  =             1.00E+00 / [pixel] Reference pixel on axis 1              
+# CTYPE2  = 'a2      '           / Type of co-ordinate on axis 2                  
+# CUNIT2  = 'Pixels  '           / Units for axis 2                               
+# CRVAL2  =             1.00E+00 / [pixel] Value at ref. pixel on axis 2          
+# CDELT2  =             1.00E+00 / [pixel] Pixel scale on axis 2                  
+# CRPIX2  =             1.00E+00 / [pixel] Reference pixel on axis 2              
+# L2DATE  = '30-11-22 22:00:20'  / when this reduction was performed              
+# L2STATCT=                    0 / Status flag for L2 spclip routine (target)     
+# L2STATCR=                    0 / Status flag for L2 spclip routine (ref)        
+# L2STATCC=                    0 / Status flag for L2 spclip routine (continuum)  
+# L2STATCA=                    0 / Status flag for L2 spclip routine (arc)        
+# L2STATF1=                    0 / Status flag for L2 spfind routine (ref uncorrec
+# L2STATT1=                    2 / Status flag for L2 sptrace routine (ref uncorre
+# L2STATOT=                    0 / Status flag for L2 spcorrect routine (target)  
+# L2STATOR=                    0 / Status flag for L2 spcorrect routine (ref)     
+# L2STATOC=                    0 / Status flag for L2 spcorrect routine (continuum
+# L2STATOA=                    0 / Status flag for L2 spcorrect routine (arc)     
+# L2STATAR=                    3 / Status flag for L2 sparcfit routine            
+# L2STATRE=                    0 / Status flag for L2 sprebin routine             
+# L2STATF2=                    0 / Status flag for L2 spfind routine (target corre
+# L2STATX1=                    0 / Status flag for L2 spextract routine (target NO
+# L2STATX2=                    0 / Status flag for L2 spextract routine (target SS
+# L2STATFL=                    0 / Status flag for L2 spflcor routine             
+# L2ARCMAT=           1.6000E+01 / Number of arc lines matched in fit             
+# L2ARC   = 'v_xearc_blue_1_arc_tr_cor.fits' / Filename of arc                    
+# L2ARCOFF=           1.7514E-01 / [] Mean offset of arc from expected            
+# L2ARCALF=           2.1175E-01 / [] Debug diagnostic on arc matching, alpha     
+# L2ARCBET=          -7.1000E-05 / [] Debug diagnostic on arc matching, beta      
+# L2MINLAM=           3.4272E+03 / [A] Min wavelength in primary image            
+# L2MAXLAM=           8.0999E+03 / [A] Min wavelength in primary image            
+# CHECKSUM= '9alEGSkC9YkCEYkC'   / HDU checksum updated 2022-11-30T22:00:21       
+# DATASUM = '1448482636'         / data unit checksum updated 2022-11-30T22:00:21 
+# MJD_MEAN=        59913.9087475 /                                                
+# OBSDATE = '2022-11-30T21:42:16.180' /                                           
+# END                                                                             
+##   wavelen         flux     sky_flux 
+     4020.00    -0.537904      396.545 
+     4029.20     0.284822      365.239 
+     4038.40    -0.607176      380.569 
+     4047.60     0.481135      374.104 
+     4056.80     0.917232      383.606 
+     4066.00     0.887234      396.582 
+     4075.20      1.05167      445.942 
+     4084.40      1.21359      477.154 
+     4093.60    0.0244891      500.062 
+     4102.80     0.771049      527.968 
+     4112.00    -0.342075      616.187 
+     4121.20     0.704767      631.329 
+     4130.40   -0.0274110      667.253 
+     4139.60      1.38933      688.190 
+     4148.80      1.05778      739.453 
+     4158.00     0.439731      776.585 
+     4167.20      1.83253      799.008 
+     4176.40      1.48205      779.747 
+     4185.60      1.06900      807.981 
+     4194.80      1.21334      820.256 
+     4204.00      1.26770      868.204 
+     4213.20      1.51616      911.418 
+     4222.40      1.13185      873.505 
+     4231.60      1.63548      899.432 
+     4240.80     0.588896      940.531 
+     4250.00      1.10459      943.641 
+     4259.20      1.45616      956.047 
+     4268.40      2.01007      965.973 
+     4277.60      1.38979      964.797 
+     4286.80      1.25924      955.797 
+     4296.00      1.47948      849.059 
+     4305.20      1.07463      842.674 
+     4314.40     0.791103      990.616 
+     4323.60      1.39414      1116.93 
+     4332.80      1.67029      1075.40 
+     4342.00      1.45590      1103.83 
+     4351.20      1.32899      1157.23 
+     4360.40      1.92126      1235.46 
+     4369.60      1.68080      1222.85 
+     4378.80      1.97012      1165.65 
+     4388.00      2.05458      1166.67 
+     4397.20      2.29502      1224.27 
+     4406.40     0.845782      1289.69 
+     4415.60      1.34311      1376.87 
+     4424.80      1.53956      1414.70 
+     4434.00      2.11853      1411.28 
+     4443.20      1.13147      1452.49 
+     4452.40      1.21542      1421.76 
+     4461.60      1.62349      1418.77 
+     4470.80      1.14799      1535.86 
+     4480.00      1.00817      1621.45 
+     4489.20      1.28010      1587.56 
+     4498.40      1.57179      1641.14 
+     4507.60      4.79513      1750.42 
+     4516.80      1.27481      1760.14 
+     4526.00     0.763657      1717.11 
+     4535.20      1.18535      1706.45 
+     4544.40      1.03349      1760.19 
+     4553.60      1.36124      1814.32 
+     4562.80      1.20692      1869.84 
+     4572.00     0.746269      1923.74 
+     4581.20      1.05762      1939.24 
+     4590.40      1.05978      1924.02 
+     4599.60      1.58082      1967.39 
+     4608.80     0.673855      2055.86 
+     4618.00     0.921205      2094.96 
+     4627.20     0.714136      2122.82 
+     4636.40     0.737587      2129.32 
+     4645.60      1.04171      2071.33 
+     4654.80     0.592397      2173.25 
+     4664.00     0.949121      2168.75 
+     4673.20     0.840166      2157.99 
+     4682.40      1.20110      2219.36 
+     4691.60     0.994049      2247.28 
+     4700.80      1.16300      2216.15 
+     4710.00      1.06140      2253.74 
+     4719.20     0.850704      2361.66 
+     4728.40     0.894345      2380.46 
+     4737.60      1.24896      2334.96 
+     4746.80      1.13199      2373.59 
+     4756.00      1.33949      2361.14 
+     4765.20      1.25955      2350.19 
+     4774.40      1.27497      2421.58 
+     4783.60      1.07266      2473.80 
+     4792.80      1.36523      2443.36 
+     4802.00      1.09224      2516.78 
+     4811.20      1.41176      2525.29 
+     4820.40      1.75594      2577.06 
+     4829.60      1.54555      2530.22 
+     4838.80      1.27951      2521.25 
+     4848.00      1.40997      2442.55 
+     4857.20      1.38017      2246.13 
+     4866.40      1.43169      2172.92 
+     4875.60      1.49710      2369.68 
+     4884.80      1.58805      2403.30 
+     4894.00      1.44456      2478.99 
+     4903.20      1.45285      2540.08 
+     4912.40      1.55280      2483.02 
+     4921.60      1.62405      2449.27 
+     4930.80      1.63383      2505.17 
+     4940.00      1.21312      2568.02 
+     4949.20      1.25088      2581.15 
+     4958.40      1.37258      2608.70 
+     4967.60      1.00223      2632.78 
+     4976.80      1.44439      2561.03 
+     4986.00      1.47283      2547.21 
+     4995.20      1.32891      2593.79 
+     5004.40      1.23948      2527.33 
+     5013.60      1.12155      2493.31 
+     5022.80      1.12682      2541.25 
+     5032.00      1.16904      2536.74 
+     5041.20      1.33223      2551.58 
+     5050.40      1.12526      2606.42 
+     5059.60      1.25175      2673.34 
+     5068.80     0.898097      2656.63 
+     5078.00      1.02278      2604.33 
+     5087.20      1.13956      2649.87 
+     5096.40      1.40344      2698.24 
+     5105.60     0.953404      2678.47 
+     5114.80      1.05125      2704.38 
+     5124.00     0.725262      2688.70 
+     5133.20     0.997914      2655.48 
+     5142.40     0.905101      2643.87 
+     5151.60     0.945368      2671.78 
+     5160.80      1.03933      2551.17 
+     5170.00     0.529340      2428.82 
+     5179.20      1.19043      2407.52 
+     5188.40     0.855327      2610.01 
+     5197.60     0.945551      2686.86 
+     5206.80     0.891184      2743.24 
+     5216.00      1.16088      2754.68 
+     5225.20     0.964412      2743.18 
+     5234.40     0.862133      2794.14 
+     5243.60     0.881763      2851.33 
+     5252.80      1.31460      2835.50 
+     5262.00     0.990610      2678.98 
+     5271.20     0.793658      2646.29 
+     5280.40     0.813905      2761.60 
+     5289.60      1.04932      2871.63 
+     5298.80     0.854962      2909.54 
+     5308.00     0.900199      2909.08 
+     5317.20     0.779205      2918.44 
+     5326.40     0.991803      2835.77 
+     5335.60     0.791510      2826.27 
+     5344.80     0.973262      2878.97 
+     5354.00     0.885861      2980.93 
+     5363.20     0.950234      2904.62 
+     5372.40      1.02144      2861.93 
+     5381.60     0.775617      2902.82 
+     5390.80     0.820205      2873.56 
+     5400.00     0.993253      2760.34 
+     5409.20     0.579786      2782.63 
+     5418.40     0.846318      2846.28 
+     5427.60     0.745106      2837.38 
+     5436.80     0.894456      2842.42 
+     5446.00     0.806140      2912.43 
+     5455.20      1.22516      2866.58 
+     5464.40     0.957026      2874.03 
+     5473.60      1.04969      2846.07 
+     5482.80     0.928014      2866.60 
+     5492.00      1.00402      2893.36 
+     5501.20     0.807085      2923.25 
+     5510.40      1.37961      2881.89 
+     5519.60      1.24646      2873.61 
+     5528.80      1.18343      2850.26 
+     5538.00      1.16187      2871.15 
+     5547.20      1.13926      2907.09 
+     5556.40      1.05981      2888.48 
+     5565.60      1.10300      3258.94 
+     5574.80      1.38831      4565.38 
+     5584.00     0.917029      4367.19 
+     5593.20      1.20472      2763.83 
+     5602.40      1.09598      2732.01 
+     5611.60      1.18540      2752.76 
+     5620.80      1.23008      2767.07 
+     5630.00      1.18902      2741.44 
+     5639.20      1.04318      2761.44 
+     5648.40     0.957744      2720.56 
+     5657.60     0.738376      2710.54 
+     5666.80     0.954713      2690.04 
+     5676.00     0.974828      2718.51 
+     5685.20      1.00195      2675.11 
+     5694.40     0.541228      2704.11 
+     5703.60     0.967157      2627.73 
+     5712.80      1.09470      2596.60 
+     5722.00     0.974019      2671.58 
+     5731.20     0.877848      2676.17 
+     5740.40     0.751873      2694.43 
+     5749.60     0.994093      2597.17 
+     5758.80      1.00764      2589.28 
+     5768.00     0.940085      2611.57 
+     5777.20     0.984100      2577.24 
+     5786.40     0.929429      2566.83 
+     5795.60     0.905928      2576.56 
+     5804.80      1.09057      2590.52 
+     5814.00     0.629205      2659.12 
+     5823.20      1.10719      2619.87 
+     5832.40     0.881823      2660.97 
+     5841.60     0.958644      2614.46 
+     5850.80     0.946948      2608.05 
+     5860.00     0.940769      2600.52 
+     5869.20     0.794856      2686.61 
+     5878.40     0.772651      2793.96 
+     5887.60     0.874655      3150.88 
+     5896.80     0.898290      3158.40 
+     5906.00      1.00341      2766.46 
+     5915.20      1.07003      2636.99 
+     5924.40     0.840526      2682.03 
+     5933.60      1.21240      2617.14 
+     5942.80      1.30746      2637.80 
+     5952.00      1.22340      2616.20 
+     5961.20     0.872687      2654.30 
+     5970.40      1.24022      2599.71 
+     5979.60      1.03487      2541.46 
+     5988.80      1.20195      2555.31 
+     5998.00      1.37456      2531.79 
+     6007.20      1.04086      2522.53 
+     6016.40      1.25600      2461.00 
+     6025.60     0.954335      2495.06 
+     6034.80      1.35339      2483.73 
+     6044.00      1.18409      2482.02 
+     6053.20     0.943067      2464.76 
+     6062.40     0.982662      2470.30 
+     6071.60     0.995565      2481.42 
+     6080.80     0.712531      2458.56 
+     6090.00      1.05136      2426.84 
+     6099.20      1.00947      2428.56 
+     6108.40      1.17622      2412.14 
+     6117.60      1.05813      2385.26 
+     6126.80      1.08855      2358.44 
+     6136.00      1.02788      2396.40 
+     6145.20      1.22482      2348.73 
+     6154.40     0.913347      2341.67 
+     6163.60     0.888893      2291.87 
+     6172.80      1.19366      2330.95 
+     6182.00      1.11242      2331.97 
+     6191.20      1.13927      2353.52 
+     6200.40      1.01068      2365.55 
+     6209.60     0.864466      2378.64 
+     6218.80      1.07067      2330.66 
+     6228.00     0.865271      2364.93 
+     6237.20      1.13691      2362.83 
+     6246.40     0.916707      2344.12 
+     6255.60      1.33492      2323.69 
+     6264.80      1.07355      2360.44 
+     6274.00      1.03666      2245.66 
+     6283.20      1.08210      2231.93 
+     6292.40      1.04990      2712.63 
+     6301.60     0.980669      2886.57 
+     6310.80      1.23982      2538.23 
+     6320.00      1.08009      2204.86 
+     6329.20     0.998486      2220.83 
+     6338.40      1.03121      2190.18 
+     6347.60      1.04319      2150.82 
+     6356.80      1.12287      2298.25 
+     6366.00     0.818199      2334.83 
+     6375.20     0.926544      2209.95 
+     6384.40     0.799229      2125.68 
+     6393.60      1.03381      2053.28 
+     6402.80      1.24974      2008.41 
+     6412.00     0.887741      2014.19 
+     6421.20      1.00869      2016.48 
+     6430.40     0.987870      2013.64 
+     6439.60      1.03909      1965.24 
+     6448.80      1.00044      1957.24 
+     6458.00      1.16833      1973.37 
+     6467.20     0.855484      1976.44 
+     6476.40      1.09530      1964.00 
+     6485.60     0.960961      1868.08 
+     6494.80     0.878982      1941.42 
+     6504.00      1.01894      1915.08 
+     6513.20     0.752123      1909.99 
+     6522.40      1.04642      1851.03 
+     6531.60     0.636018      1890.50 
+     6540.80      1.08280      1866.49 
+     6550.00     0.827988      1835.39 
+     6559.20     0.528639      1728.23 
+     6568.40     0.782851      1653.34 
+     6577.60     0.822545      1724.78 
+     6586.80     0.570891      1717.33 
+     6596.00     0.471164      1700.79 
+     6605.20     0.435071      1702.25 
+     6614.40     0.367903      1713.44 
+     6623.60     0.178945      1709.58 
+     6632.80     0.590287      1642.70 
+     6642.00      1.43115      1615.06 
+     6651.20     0.575491      1631.22 
+     6660.40     0.575998      1622.84 
+     6669.60     0.663469      1592.03 
+     6678.80     0.778659      1557.69 
+     6688.00     0.812646      1578.86 
+     6697.20     0.744548      1551.44 
+     6706.40     0.609375      1532.03 
+     6715.60      1.01532      1505.74 
+     6724.80     0.766746      1500.07 
+     6734.00     0.702488      1499.84 
+     6743.20     0.776057      1489.84 
+     6752.40     0.449081      1496.21 
+     6761.60     0.971448      1461.29 
+     6770.80     0.964687      1432.06 
+     6780.00      1.08793      1404.21 
+     6789.20     0.903911      1426.34 
+     6798.40      1.01588      1379.79 
+     6807.60      1.09633      1400.28 
+     6816.80     0.870271      1417.27 
+     6826.00     0.767751      1523.97 
+     6835.20      1.05174      1539.39 
+     6844.40     0.840897      1422.20 
+     6853.60     0.649907      1420.94 
+     6862.80     0.801758      1363.01 
+     6872.00     0.981184      1237.09 
+     6881.20     0.633195      1170.15 
+     6890.40     0.879064      1190.23 
+     6899.60     0.612925      1216.04 
+     6908.80     0.650758      1253.33 
+     6918.00     0.750638      1300.34 
+     6927.20     0.788225      1296.27 
+     6936.40     0.674819      1286.14 
+     6945.60     0.654209      1319.44 
+     6954.80     0.825062      1296.18 
+     6964.00     0.773742      1217.56 
+     6973.20      1.07982      1267.79 
+     6982.40      1.08662      1230.54 
+     6991.60     0.788634      1183.81 
+     7000.80     0.633626      1189.50 
+     7010.00     0.648171      1180.06 
+     7019.20     0.682337      1159.83 
+     7028.40     0.597818      1130.40 
+     7037.60     0.623810      1146.60 
+     7046.80     0.969378      1131.71 
+     7056.00     0.692552      1149.26 
+     7065.20     0.626358      1138.23 
+     7074.40     0.887869      1122.51 
+     7083.60     0.823922      1097.93 
+     7092.80      1.00320      1096.87 
+     7102.00     0.935092      1095.18 
+     7111.20     0.462549      1113.60 
+     7120.40     0.675664      1089.15 
+     7129.60     0.574583      1081.93 
+     7138.80     0.689082      1054.66 
+     7148.00     0.576939      1058.63 
+     7157.20      2.00322      1021.54 
+     7166.40     0.511663      1032.07 
+     7175.60     0.705353      966.127 
+     7184.80     0.527793      928.290 
+     7194.00     0.523166      918.545 
+     7203.20     0.731388      897.772 
+     7212.40     0.874405      921.832 
+     7221.60    0.0810030      963.265 
+     7230.80     0.677314      1067.51 
+     7240.00      1.43522      1224.41 
+     7249.20     0.447372      1218.15 
+     7258.40      1.06385      922.516 
+     7267.60     0.580687      1104.32 
+     7276.80     0.704092      1190.23 
+     7286.00     0.772186      1086.52 
+     7295.20     0.521953      970.169 
+     7304.40     0.572373      1027.94 
+     7313.60     0.726775      1096.03 
+     7322.80     0.346138      1095.32 
+     7332.00     0.753803      1083.79 
+     7341.20     0.468424      1110.19 
+     7350.40     0.458598      1028.59 
+     7359.60     0.675964      1020.76 
+     7368.80     0.662964      1048.20 
+     7378.00     0.879114      939.319 
+     7387.20     0.707750      855.710 
+     7396.40     0.823706      916.385 
+     7405.60     0.603904      906.830 
+     7414.80     0.701047      784.599 
+     7424.00     0.854539      782.810 
+     7433.20     0.424387      840.197 
+     7442.40     0.622411      809.433 
+     7451.60     0.940205      751.036 
+     7460.80     0.550208      785.645 
+     7470.00     0.536368      836.889 
+     7479.20     0.538922      852.537 
+     7488.40     0.606200      778.364 
+     7497.60     0.521818      706.808 
+     7506.80     0.743380      690.005 
+     7516.00     0.856446      789.743 
+     7525.20     0.553559      817.626 
+     7534.40     0.440253      725.135 
+     7543.60      1.04254      646.966 
+     7552.80     0.308804      674.663 
+     7562.00   -0.0295247      731.228 
+     7571.20   -0.0954608      686.665 
+     7580.40     0.527562      665.223 
+     7589.60     0.580593      516.138 
+     7598.80     0.231595      309.641 
+     7608.00     -1.37875      245.915 
+     7617.20    0.0710789      299.467 
+     7626.40     0.165064      345.021 
+     7635.60     0.543251      299.688 
+     7644.80     0.601326      335.754 
+     7654.00     0.705096      388.227 
+     7663.20     0.835137      433.399 
+     7672.40   -0.0890576      460.526 
+     7681.60     0.442847      472.835 
+     7690.80   -0.0120251      455.828 
+     7700.00     0.674083      481.983 
+     7709.20     0.319630      620.231 
+     7718.40     0.511599      617.599 
+     7727.60     0.486810      492.105 
+     7736.80     0.302452      454.100 
+     7746.00   -0.0137107      532.480 
+     7755.20     0.672312      541.701 
+     7764.40      1.09017      432.395 
+     7773.60      1.72151      397.992 
+     7782.80     0.893160      415.611 
+     7792.00     0.669631      432.285 
+     7801.20    0.0803424      421.901 
+     7810.40     0.375537      391.249 
+     7819.60      1.29833      390.801 
+     7828.80     0.692690      354.814 
+     7838.00     0.441645      326.389 
+     7847.20     0.311316      391.769 
+     7856.40     0.504359      378.223 
+     7865.60    0.0520620      342.849 
+     7874.80      1.21481      322.886 
+     7884.00     0.559277      304.125 
+     7893.20     0.896342      266.990 
+     7902.40     0.783038      276.383 
+     7911.60     0.451453      334.032 
+     7920.80    -0.268379      299.807 
+     7930.00    0.0250759      222.227 
+     7939.20    -0.365454      212.493 
+     7948.40     0.146175      220.997 
+     7957.60      3.17724      215.404 
+     7966.80    0.0788984      235.415 
+     7976.00    -0.650066      199.969 
+     7985.20      1.67008      200.623 
+     7994.40      1.46354      184.823 

@@ -1,0 +1,1290 @@
+BITPIX  =                    8  /  8-bit ASCII characters                       
+NAXIS   =                    1  /  Number of Image Dimensions                   
+NAXIS1  =                 1004  /  Length of axis                               
+ORIGIN  = 'NOAO-IRAF: WTEXTIMAGE'  /
+IRAF-MAX=                   0.  /  Max image pixel (out of date)                
+IRAF-MIN=                   0.  /  Min image pixel (out of date)                
+IRAF-B/P=                   32  /  Image bits per pixel                         
+IRAFTYPE= 'REAL FLOATING     '  /  Image datatype                              
+OBJECT  = 'SN-2009I          '  /                                              
+FILENAME= 'SN09I_B01_NTT_EF_09FEB09'  /
+FORMAT  = '5G14.7            '  /  Text line format                            
+EXTEND  =                    T / File may contain extensions                    
+ORIGIN  = 'NOAO-IRAF FITS Image Kernel July 2003' / FITS file originator        
+IRAF-TLM= '2024-04-22T19:21:26' / Time of last modification                     
+DATE    = '2024-04-22T19:21:26' / UT date when this file was written            
+TELESCOP= 'ESO-NTT '           / ESO Telescope Name                             
+INSTRUME= 'EFOSC   '                    / Instrument used.                      
+OBJECT  = 'SN-2009I'           / Original target.                               
+RA      =            41.306540 / 02:45:13.5 RA (J2000) pointing (deg)           
+DEC     =             -4.70784 / -04:42:28.2 DEC (J2000) pointing (deg)         
+EQUINOX =                2000. / Standard FK5 (years)                           
+RADECSYS= 'FK5     '                    / Coordinate reference frame            
+EXPTIME =             600.0006 / Total integration time                         
+MJD-OBS =       54871.04552436          / MJD start (2009-02-09T01:05:33.305)   
+DATE-OBS= '2009-02-09T01:05:33.304' / Date of observation                       
+UTC     =             3926.000 / 01:05:26.000 UTC at start (sec)                
+LST     =            20373.736 / 05:39:33.736 LST at start (sec)                
+PI-COI  = 'UNKNOWN '           / PI-COI name.                                   
+OBSERVER= 'UNKNOWN '           / Name of observer.                              
+CTYPE1  = 'LINEAR  '           / Pixel coordinate system                        
+CRVAL1  =                3300. / value of ref pixel.                            
+CRPIX1  =                   1. / Ref. pixel of center of rotation.              
+CD1_1   =     2.69573855400085 / Translation matrix element.                    
+HIERARCH ESO ADA ABSROT END  =   -130.90843 / Abs rot angle at exp end (deg)    
+HIERARCH ESO ADA ABSROT START=   -134.18211 / Abs rot angle at exp start (deg)  
+HIERARCH ESO ADA GUID DEC    =     -4.56639 / -04:33:59.0 Guide star DEC J2000  
+HIERARCH ESO ADA GUID RA     =    41.153620 / 02:44:36.8 Guide star RA J2000    
+HIERARCH ESO ADA GUID STATUS = 'ON      '   / Status of autoguider              
+HIERARCH ESO ADA POSANG      =   -143.39000 / Position angle at start           
+HIERARCH ESO DET BITS        =           16 / Bits per pixel readout            
+HIERARCH ESO DET CHIP1 DATE  = '2000-08-30' / Date of installation [YYYY-MM-DD] 
+HIERARCH ESO DET CHIP1 ID    = 'ccd40   '   / Detector chip identification      
+HIERARCH ESO DET CHIP1 INDEX =            1 / Chip index                        
+HIERARCH ESO DET CHIP1 NAME  = 'LORAL   '   / Detector chip name                
+HIERARCH ESO DET CHIP1 NX    =         2048 / # of pixels along X               
+HIERARCH ESO DET CHIP1 NY    =         2048 / # of pixels along Y               
+HIERARCH ESO DET CHIP1 PSZX  =         15.0 / Size of pixel in X                
+HIERARCH ESO DET CHIP1 PSZY  =         15.0 / Size of pixel in Y                
+HIERARCH ESO DET CHIP1 X     =            1 / X location in array               
+HIERARCH ESO DET CHIP1 XGAP  =     0.000000 / Gap between chips along x         
+HIERARCH ESO DET CHIP1 Y     =            1 / Y location in array               
+HIERARCH ESO DET CHIP1 YGAP  =     0.000000 / Gap between chips along y         
+HIERARCH ESO DET CHIPS       =            1 / # of chips in detector array      
+HIERARCH ESO DET DATE        = '2000-08-30' / Installation date                 
+HIERARCH ESO DET DEC         =   0.00000000 / Apparent 00:00:00.0 DEC at start  
+HIERARCH ESO DET DID         = 'ESO-VLT-DIC.CCDDCS,ESO-VLT-DIC.FCDDCS' / Diction
+HIERARCH ESO DET EXP NO      =           31 / Unique exposure ID number         
+HIERARCH ESO DET EXP RDTTIME =        9.756 / image readout time                
+HIERARCH ESO DET EXP TYPE    = 'Normal  '   / Exposure type                     
+HIERARCH ESO DET EXP XFERTIM =       22.332 / image transfer time               
+HIERARCH ESO DET FRAM ID     =            1 / Image sequencial number           
+HIERARCH ESO DET FRAM TYPE   = 'Normal  '   / Type of frame                     
+HIERARCH ESO DET ID          = 'CCD FIERA - Rev: 3.96 ' / Detector system Id    
+HIERARCH ESO DET NAME        = 'efosc - ccdefosc' / Name of detector system     
+HIERARCH ESO DET OUT1 CHIP   =            1 / Chip to which the output belongs  
+HIERARCH ESO DET OUT1 CONAD  =         1.10 / Conversion from ADUs to electrons 
+HIERARCH ESO DET OUT1 GAIN   =         0.91 / Conversion from electrons to ADU  
+HIERARCH ESO DET OUT1 ID     = 'L       '   / Output ID as from manufacturer    
+HIERARCH ESO DET OUT1 INDEX  =            1 / Output index                      
+HIERARCH ESO DET OUT1 NAME   = 'L       '   / Description of output             
+HIERARCH ESO DET OUT1 NX     =         1024 / valid pixels along X              
+HIERARCH ESO DET OUT1 NY     =         1024 / valid pixels along Y              
+HIERARCH ESO DET OUT1 OVSCX  =            0 / Overscan region in X              
+HIERARCH ESO DET OUT1 OVSCY  =            6 / Overscan region in Y              
+HIERARCH ESO DET OUT1 PRSCX  =            6 / Prescan region in X               
+HIERARCH ESO DET OUT1 PRSCY  =            0 / Prescan region in Y               
+HIERARCH ESO DET OUT1 RON    =         7.80 / Readout noise per output (e-)     
+HIERARCH ESO DET OUT1 X      =         2048 / X location of output              
+HIERARCH ESO DET OUT1 Y      =            1 / Y location of output              
+HIERARCH ESO DET OUTPUTS     =            1 / # of outputs                      
+HIERARCH ESO DET OUTREF      =            0 / reference output                  
+HIERARCH ESO DET RA          =   0.00000000 / Apparent 00:00:00.0 RA at start   
+HIERARCH ESO DET READ CLOCK  = 'read L port Fast' / Readout clock pattern used  
+HIERARCH ESO DET READ MODE   = 'normal  '   / Readout method                    
+HIERARCH ESO DET READ NFRAM  =            1 / Number of readouts buffered in sin
+HIERARCH ESO DET READ SPEED  = 'fastL   '   / Readout speed                     
+HIERARCH ESO DET SHUT ID     = 'ccd shutter' / Shutter unique identifier        
+HIERARCH ESO DET SHUT TMCLOS =        0.065 / Time taken to close shutter       
+HIERARCH ESO DET SHUT TMOPEN =        0.064 / Time taken to open shutter        
+HIERARCH ESO DET SHUT TYPE   = 'Slit    '   / type of shutter                   
+HIERARCH ESO DET SOFW MODE   = 'Normal  '   / CCD sw operational mode           
+HIERARCH ESO DET TELE INT    =        600.0 / Interval between two successive te
+HIERARCH ESO DET TELE NO     =            6 / # of sources active               
+HIERARCH ESO DET TLM1 END    =       160.00 / Telemetry value at read completion
+HIERARCH ESO DET TLM1 ID     = 'CCD T1  '   / ID of telemetry sensor            
+HIERARCH ESO DET TLM1 NAME   = 'CCD Sensor1' / Description of telemetry param.  
+HIERARCH ESO DET TLM1 START  =       160.00 / Telemetry value at read start     
+HIERARCH ESO DET TLM2 END    =       154.70 / Telemetry value at read completion
+HIERARCH ESO DET TLM2 ID     = 'CCD T2  '   / ID of telemetry sensor            
+HIERARCH ESO DET TLM2 NAME   = 'CCD Sensor2' / Description of telemetry param.  
+HIERARCH ESO DET TLM2 START  =       154.80 / Telemetry value at read start     
+HIERARCH ESO DET TLM3 END    =         0.00 / Telemetry value at read completion
+HIERARCH ESO DET TLM3 ID     = 'Vacuum  '   / ID of telemetry sensor            
+HIERARCH ESO DET TLM3 NAME   = 'Vacuum  '   / Description of telemetry param.   
+HIERARCH ESO DET TLM3 START  =         0.00 / Telemetry value at read start     
+HIERARCH ESO DET TLM4 END    =       286.60 / Telemetry value at read completion
+HIERARCH ESO DET TLM4 ID     = 'EFOSC temperaturEFOSC T1' / ID of telemetry sens
+HIERARCH ESO DET TLM4 NAME   = 'EFOSC T1'   / Description of telemetry param.   
+HIERARCH ESO DET TLM4 START  =       286.60 / Telemetry value at read start     
+HIERARCH ESO DET TLM5 END    =       285.90 / Telemetry value at read completion
+HIERARCH ESO DET TLM5 ID     = 'EFOSC temperaturEFOSC T2' / ID of telemetry sens
+HIERARCH ESO DET TLM5 NAME   = 'EFOSC T2'   / Description of telemetry param.   
+HIERARCH ESO DET TLM5 START  =       285.90 / Telemetry value at read start     
+HIERARCH ESO DET TLM6 END    =       287.90 / Telemetry value at read completion
+HIERARCH ESO DET TLM6 ID     = 'FIERA temperaturFIERA T' / ID of telemetry senso
+HIERARCH ESO DET TLM6 NAME   = 'FIERA T '   / Description of telemetry param.   
+HIERARCH ESO DET TLM6 START  =       288.00 / Telemetry value at read start     
+HIERARCH ESO DET WIN1 BINX   =            2 / Binning factor along X            
+HIERARCH ESO DET WIN1 BINY   =            2 / Binning factor along Y            
+HIERARCH ESO DET WIN1 DIT1   =   600.000555 / actual subintegration time        
+HIERARCH ESO DET WIN1 DKTM   =     600.0976 / Dark current time                 
+HIERARCH ESO DET WIN1 NDIT   =            1 / # of subintegrations              
+HIERARCH ESO DET WIN1 NX     =         1030 / # of pixels along X               
+HIERARCH ESO DET WIN1 NY     =         1030 / # of pixels along Y               
+HIERARCH ESO DET WIN1 ST     =            T / If T, window enabled              
+HIERARCH ESO DET WIN1 STRX   =            1 / Lower left pixel in X             
+HIERARCH ESO DET WIN1 STRY   =            1 / Lower left pixel in Y             
+HIERARCH ESO DET WIN1 UIT1   =   600.000000 / user defined subintegration time  
+HIERARCH ESO DET WINDOWS     =            1 / # of windows readout              
+HIERARCH ESO DPR CATG        = 'SCIENCE '   / Observation category              
+HIERARCH ESO DPR TECH        = 'SPECTRUM'   / Observation technique             
+HIERARCH ESO DPR TYPE        = 'OBJECT  '   / Observation type                  
+HIERARCH ESO INS DATE        = '2000-06-16' / Instrument release date (yyyy-mm-d
+HIERARCH ESO INS DID         = 'ESO-VLT-DIC.EFOSC_ICS-1.20' / Data dictionary fo
+HIERARCH ESO INS DPOR POS    =         0.00 / Position move                     
+HIERARCH ESO INS DPOR ST     =            F / Instrument depolarizer rotating.  
+HIERARCH ESO INS FILT1 ID    = 'F1      '   / Filter unique id.                 
+HIERARCH ESO INS FILT1 NAME  = 'Free    '   / Filter name.                      
+HIERARCH ESO INS FILT1 NO    =            1 / Filter wheel position index.      
+HIERARCH ESO INS GRIS1 ID    = 'F6      '   / OPTIi unique ID.                  
+HIERARCH ESO INS GRIS1 NAME  = 'Gr#3    '   / OPTIi name.                       
+HIERARCH ESO INS GRIS1 NO    =            6 / OPTIi slot number.                
+HIERARCH ESO INS GRIS1 TYPE  = 'FILTER  '   / OPTIi element.                    
+HIERARCH ESO INS ID          = 'EFOSC/1.57' / Instrument ID.                    
+HIERARCH ESO INS MODE        = 'DEFAULT '   / Instrument mode used.             
+HIERARCH ESO INS SLIT1 ENC   =       257857 / Slit absolute position [Enc].     
+HIERARCH ESO INS SLIT1 LEN   =         0.00 / SLIT length [arcsec].             
+HIERARCH ESO INS SLIT1 NAME  = 'slit#1.5'   / Slit common name.                 
+HIERARCH ESO INS SLIT1 NO    =            5 / Slide position.                   
+HIERARCH ESO INS SLIT1 WID   =         0.00 / SLIT width [arcsec].              
+HIERARCH ESO INS SWSIM       = 'NORMAL  '   / Software simulation.              
+HIERARCH ESO INS WP NAME     = 'HALF    '   / WP name, valid values are HALF/QUA
+HIERARCH ESO INS WP ST       = 'OUT     '   / WP position.                      
+HIERARCH ESO OBS DID         = 'ESO-VLT-DIC.OBS-1.11' / OBS Dictionary          
+HIERARCH ESO OBS EXECTIME    =            0 / Expected execution time           
+HIERARCH ESO OBS GRP         = '0       '   / linked blocks                     
+HIERARCH ESO OBS ID          =    100247390 / Observation block ID              
+HIERARCH ESO OBS NAME        = 'SN-2009I-blue-0' / OB name                      
+HIERARCH ESO OBS OBSERVER    = 'UNKNOWN '   / Observer Name                     
+HIERARCH ESO OBS PI-COI ID   =          847 / ESO internal PI-COI ID            
+HIERARCH ESO OBS PI-COI NAME = 'UNKNOWN '   / PI-COI name                       
+HIERARCH ESO OBS PROG ID     = '082.A-0526(A)' / ESO program identification     
+HIERARCH ESO OBS START       = '2009-02-09T00:58:51' / OB start time            
+HIERARCH ESO OBS TARG NAME   = 'SN-2009I'   / OB target name                    
+HIERARCH ESO OBS TPLNO       =            2 / Template number within OB         
+HIERARCH ESO OCS CON WCSFITS =            T / Setup OS to add WCS in fits  .    
+HIERARCH ESO OCS DET1 IMGNAME= 'EFOSC_Spectrum' / Data File Name.               
+HIERARCH ESO TEL AIRM END    =        1.554 / Airmass at end                    
+HIERARCH ESO TEL AIRM START  =        1.488 / Airmass at start                  
+HIERARCH ESO TEL ALT         =       42.148 / Alt angle at start (deg)          
+HIERARCH ESO TEL AMBI FWHM END=       -1.00 / Observatory Seeing queried from AS
+HIERARCH ESO TEL AMBI FWHM START=     -1.00 / Observatory Seeing queried from AS
+HIERARCH ESO TEL AMBI PRES END=      750.00 / Observatory ambient air pressure q
+HIERARCH ESO TEL AMBI PRES START=    750.00 / Observatory ambient air pressure q
+HIERARCH ESO TEL AMBI RHUM   =           12. / Observatory ambient relative humi
+HIERARCH ESO TEL AMBI TEMP   =        10.00 / Observatory ambient temperature qu
+HIERARCH ESO TEL AMBI WINDDIR=            0. / Observatory ambient wind directio
+HIERARCH ESO TEL AMBI WINDSP =        10.00 / Observatory ambient wind speed que
+HIERARCH ESO TEL AZ          =      112.394 / Az angle at start (deg) S=0,W=90  
+HIERARCH ESO TEL CHOP ST     =            F / True when chopping is active      
+HIERARCH ESO TEL DATE        = '2008-01-21T24:00:00' / TCS installation date    
+HIERARCH ESO TEL DID         = 'ESO-VLT-DIC.TCS' / Data dictionary for TEL      
+HIERARCH ESO TEL DOME STATUS = 'FULLY-OPEN' / Dome status                       
+HIERARCH ESO TEL FOCU ID     = 'NB      '   / Telescope focus station ID        
+HIERARCH ESO TEL FOCU LEN    =       38.501 / Focal length (m)                  
+HIERARCH ESO TEL FOCU SCALE  =        5.360 / Focal scale (arcsec/mm)           
+HIERARCH ESO TEL FOCU VALUE  =       -3.188 / M2 setting (mm)                   
+HIERARCH ESO TEL GEOELEV     =         2377. / Elevation above sea level (m)    
+HIERARCH ESO TEL GEOLAT      =     -29.2584 / Tel geo latitute (+=North) (deg)  
+HIERARCH ESO TEL GEOLON      =     -70.7345 / Tel geo longitude (+=East) (deg)  
+HIERARCH ESO TEL ID          = 'v 8.10  '   / TCS version number                
+HIERARCH ESO TEL MOON DEC    =     17.38158 / 17:22:53.6 DEC (J2000) (deg)      
+HIERARCH ESO TEL MOON RA     =   135.644956 / 09:02:34.7 RA (J2000) (deg)       
+HIERARCH ESO TEL OPER        = 'I. CONDOR'  / Telescope Operator                
+HIERARCH ESO TEL PARANG END  =      124.850 / Parallactic angle at end (deg)    
+HIERARCH ESO TEL PARANG START=      125.971 / Parallactic angle at start (deg)  
+HIERARCH ESO TEL TARG ALPHA  =    24510.400 / Alpha coordinate for the target   
+HIERARCH ESO TEL TARG COORDTYPE= 'M       ' / Coordinate type (M=mean A=apparent
+HIERARCH ESO TEL TARG DELTA  =   -44249.400 / Delta coordinate for the target   
+HIERARCH ESO TEL TARG EPOCH  =     2000.000 / Epoch                             
+HIERARCH ESO TEL TARG EPOCHSYSTEM= 'J       ' / Epoch system (default J=Julian) 
+HIERARCH ESO TEL TARG EQUINOX=     2000.000 / Equinox                           
+HIERARCH ESO TEL TARG PARALLAX=       0.000 / Parallax                          
+HIERARCH ESO TEL TARG PMA    =     0.000000 / Proper Motion Alpha               
+HIERARCH ESO TEL TARG PMD    =     0.000000 / Proper motion Delta               
+HIERARCH ESO TEL TARG RADVEL =        0.000 / Radial velocity                   
+HIERARCH ESO TEL TH M1 TEMP  =        -1.00 / M1 superficial temperature        
+HIERARCH ESO TEL TRAK STATUS = 'NORMAL  '   / Tracking status                   
+HIERARCH ESO TPL DID         = 'ESO-VLT-DIC.TPL-1.9' / Data dictionary for TPL  
+HIERARCH ESO TPL EXPNO       =            1 / Exposure number within template   
+HIERARCH ESO TPL ID          = 'EFOSC_spec_obs_Spectrum' / Template signature ID
+HIERARCH ESO TPL NAME        = 'Spectroscopy' / Template name                   
+HIERARCH ESO TPL NEXP        =            3 / Number of exposures within templat
+HIERARCH ESO TPL PRESEQ      = 'EFOSC_spec_obs_Spectrum.seq' / Sequencer script 
+HIERARCH ESO TPL START       = '2009-02-09T01:05:08' / TPL start time           
+HIERARCH ESO TPL VERSION     = '1.0     '   / Version of the template           
+ORIGFILE= 'EFOSC_Spectrum040_0001.fits' / Original File Name                    
+ARCFILE = 'EFOSC.2009-02-09T01:05:33.305.fits' / Archive File Name              
+CHECKSUM= 'gMiihMZigMfigMZi'   / HDU checksum updated 2009-02-09T01:16:03       
+DATASUM = '3375945337'         / data unit checksum updated 2009-02-09T01:16:03 
+SLIT    = 'slit#1.5'                                                            
+GRATING = 'Gr#3    '                                                            
+FILTER  = 'Free    '                                                            
+AIRMASS =                1.488                                                  
+IMAGETYP= 'OBJECT  '                                                            
+NEWEXPT =                 600.                                                  
+NEWST   = '5:39:33.7'                                                           
+WAIRMASS=              1.51966                                                  
+UTMID   = '1:10:26.0'                                                           
+JD      =     2454871.54891204                                                  
+WCSDIM  =                    1                                                  
+LTM1_1  =                   1.                                                  
+WAT0_001= 'system=equispec'                                                     
+WAT1_001= 'wtype=linear label=Wavelength units=angstroms'                       
+TRIM    = 'Jul  6 17:33 Trim data section is [32:910,1:1010]'                   
+FIXPIX  = 'Jul  6 17:33 Bad pixel file is badpix_NTT_EF_2x2_normal.pl'          
+OVERCOR = 'Jul  6 17:33 Overscan section is [1026:1029,1:1030] with mean=220.58'
+ZEROCOR = 'Jul  6 17:33 Zero level correction image is Zero.b.spec.fits'        
+FLATCOR = 'Jul  6 17:33 Flat field image is Dflat.b.nar.norm with scale=1.'     
+CCDSEC  = '[32:910,1:1010]'                                                     
+CCDPROC = 'Jul  6 17:33 CCD processing done'                                    
+APNUM1  = '1 1 511.11 520.80'                                                   
+CDELT1  =     2.69573855400085                                                  
+DC-FLAG =                    0                                                  
+DCLOG1  = 'REFSPEC1 = ccd084.0001'                                              
+EX-FLAG =                    0                                                  
+CA-FLAG =                    0                                                  
+BUNIT   = 'erg/cm2/s/A'                                                         
+IMCMB001= 'fc081.0001.fits'                                                     
+IMCMB002= 'fc082.0001.fits'                                                     
+IMCMB003= 'fc083.0001.fits'                                                     
+NCOMBINE=                    3                                                  
+BANDID1 = 'spectrum: background fit, weights none, clean no'                    
+END                                                                             
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+3300.  -1.492720E-16
+3302.695738554  -2.948672E-17
+3305.391477108  -1.793212E-17
+3308.087215662  1.609708E-17
+3310.782954216  -4.862051E-17
+3313.47869277  -1.240130E-16
+3316.17443132401  -2.784187E-16
+3318.87016987801  -2.278389E-16
+3321.56590843201  -4.957080E-17
+3324.26164698601  -1.561914E-16
+3326.95738554001  7.091951E-17
+3329.65312409401  -1.899937E-16
+3332.34886264801  -1.253831E-16
+3335.04460120201  4.935268E-17
+3337.74033975601  8.435620E-18
+3340.43607831001  -1.129424E-17
+3343.13181686401  -1.288918E-16
+3345.82755541801  -1.869946E-16
+3348.52329397202  -6.893219E-17
+3351.21903252602  -8.248724E-17
+3353.91477108002  -6.053744E-17
+3356.61050963402  -6.235071E-17
+3359.30624818802  -5.285298E-17
+3362.00198674202  -1.748003E-16
+3364.69772529602  -7.964259E-17
+3367.39346385002  2.138160E-17
+3370.08920240402  7.820466E-17
+3372.78494095802  -4.767433E-17
+3375.48067951202  -4.365592E-17
+3378.17641806602  -1.486963E-16
+3380.87215662003  -1.969818E-17
+3383.56789517403  9.024901E-17
+3386.26363372803  5.504593E-17
+3388.95937228203  1.134244E-16
+3391.65511083603  4.227836E-17
+3394.35084939003  1.768775E-16
+3397.04658794403  -5.757751E-17
+3399.74232649803  1.378254E-17
+3402.43806505203  -7.338474E-17
+3405.13380360603  4.079209E-17
+3407.82954216003  1.780307E-17
+3410.52528071404  3.426708E-17
+3413.22101926804  2.294342E-17
+3415.91675782204  1.051324E-16
+3418.61249637604  1.882810E-17
+3421.30823493004  8.382057E-17
+3424.00397348404  5.176863E-17
+3426.69971203804  -3.079329E-17
+3429.39545059204  -4.082474E-17
+3432.09118914604  2.447656E-17
+3434.78692770004  2.899649E-17
+3437.48266625404  5.676549E-18
+3440.17840480804  -2.421283E-19
+3442.87414336204  -3.975482E-17
+3445.56988191605  -2.619947E-17
+3448.26562047005  1.622238E-18
+3450.96135902405  5.134371E-17
+3453.65709757805  7.001410E-17
+3456.35283613205  -1.242183E-17
+3459.04857468605  2.008536E-18
+3461.74431324005  -2.045376E-17
+3464.44005179405  -2.455339E-17
+3467.13579034805  -1.420902E-17
+3469.83152890205  3.146412E-17
+3472.52726745605  4.195423E-17
+3475.22300601006  5.495467E-17
+3477.91874456406  2.462949E-18
+3480.61448311806  -3.489533E-17
+3483.31022167206  3.654765E-18
+3486.00596022606  -5.984945E-18
+3488.70169878006  -5.150215E-17
+3491.39743733406  -3.716550E-17
+3494.09317588806  3.800148E-17
+3496.78891444206  6.726692E-17
+3499.48465299606  3.015618E-17
+3502.18039155006  -2.630484E-17
+3504.87613010407  -1.288907E-18
+3507.57186865807  5.529427E-17
+3510.26760721207  5.391398E-17
+3512.96334576607  5.033176E-17
+3515.65908432007  2.147252E-17
+3518.35482287407  -3.417225E-17
+3521.05056142807  -1.543727E-17
+3523.74629998207  -6.073409E-17
+3526.44203853607  5.652461E-18
+3529.13777709007  -6.451793E-17
+3531.83351564407  3.807809E-17
+3534.52925419807  6.724883E-18
+3537.22499275207  -3.080723E-17
+3539.92073130608  -1.096721E-17
+3542.61646986008  8.091430E-17
+3545.31220841408  5.862165E-17
+3548.00794696808  4.505246E-17
+3550.70368552208  -7.968632E-18
+3553.39942407608  7.038390E-17
+3556.09516263008  3.306461E-17
+3558.79090118408  -4.462506E-17
+3561.48663973808  -2.935532E-18
+3564.18237829208  4.216919E-17
+3566.87811684609  -2.409529E-17
+3569.57385540009  -1.646729E-17
+3572.26959395409  1.318813E-17
+3574.96533250809  5.011580E-17
+3577.66107106209  -2.180017E-17
+3580.35680961609  -3.558605E-17
+3583.05254817009  2.545729E-17
+3585.74828672409  -3.508557E-17
+3588.44402527809  -4.382987E-17
+3591.13976383209  -2.008436E-18
+3593.83550238609  -1.466288E-17
+3596.53124094009  2.232356E-17
+3599.2269794941  1.712459E-17
+3601.9227180481  3.485893E-17
+3604.6184566021  -2.118359E-17
+3607.3141951561  -3.141649E-17
+3610.0099337101  -4.533899E-17
+3612.7056722641  -5.557025E-17
+3615.4014108181  2.470718E-17
+3618.0971493721  -8.581700E-19
+3620.7928879261  -1.928935E-17
+3623.4886264801  -5.914629E-18
+3626.1843650341  4.427470E-17
+3628.8801035881  1.994582E-17
+3631.57584214211  -1.481376E-17
+3634.27158069611  -9.195782E-18
+3636.96731925011  8.293272E-18
+3639.66305780411  1.078392E-17
+3642.35879635811  6.034593E-18
+3645.05453491211  7.558599E-17
+3647.75027346611  1.220762E-17
+3650.44601202011  -4.224344E-18
+3653.14175057411  3.422298E-17
+3655.83748912811  1.530540E-18
+3658.53322768211  -2.639723E-18
+3661.22896623611  2.827540E-17
+3663.92470479011  5.039929E-17
+3666.62044334412  3.194362E-17
+3669.31618189812  4.053336E-17
+3672.01192045212  -6.117450E-18
+3674.70765900612  2.158596E-17
+3677.40339756012  -4.822101E-18
+3680.09913611412  2.423584E-17
+3682.79487466812  1.055893E-17
+3685.49061322212  2.974513E-17
+3688.18635177612  1.513713E-17
+3690.88209033012  -1.125164E-17
+3693.57782888412  -3.489526E-17
+3696.27356743813  -2.415687E-17
+3698.96930599213  2.930865E-17
+3701.66504454613  5.373266E-17
+3704.36078310013  2.171685E-17
+3707.05652165413  -1.226419E-17
+3709.75226020813  1.149578E-17
+3712.44799876213  -1.979282E-17
+3715.14373731613  3.216444E-17
+3717.83947587013  2.367062E-17
+3720.53521442413  -4.090046E-17
+3723.23095297813  -5.534139E-17
+3725.92669153213  -2.363520E-18
+3728.62243008614  2.410131E-17
+3731.31816864014  1.144925E-17
+3734.01390719414  2.592931E-18
+3736.70964574814  -1.595797E-17
+3739.40538430214  1.295720E-17
+3742.10112285614  5.838121E-18
+3744.79686141014  -1.301363E-17
+3747.49259996414  3.714451E-17
+3750.18833851814  2.338282E-17
+3752.88407707214  3.957994E-17
+3755.57981562614  2.430337E-17
+3758.27555418015  5.367917E-17
+3760.97129273415  4.884049E-17
+3763.66703128815  2.652799E-17
+3766.36276984215  3.558777E-17
+3769.05850839615  -5.987150E-18
+3771.75424695015  1.007922E-17
+3774.44998550415  2.070807E-17
+3777.14572405815  4.923090E-17
+3779.84146261215  2.898887E-17
+3782.53720116615  6.172103E-18
+3785.23293972015  2.541737E-17
+3787.92867827415  8.300530E-18
+3790.62441682816  2.407592E-17
+3793.32015538216  2.238731E-17
+3796.01589393616  4.348038E-17
+3798.71163249016  3.843021E-17
+3801.40737104416  1.636275E-17
+3804.10310959816  2.801039E-17
+3806.79884815216  2.139832E-17
+3809.49458670616  1.784353E-17
+3812.19032526016  3.759142E-17
+3814.88606381416  3.374971E-17
+3817.58180236816  1.469742E-17
+3820.27754092216  1.560147E-17
+3822.97327947617  2.290364E-17
+3825.66901803017  3.906032E-17
+3828.36475658417  3.939726E-17
+3831.06049513817  3.049608E-17
+3833.75623369217  1.869284E-17
+3836.45197224617  1.144860E-17
+3839.14771080017  1.751486E-17
+3841.84344935417  4.958309E-18
+3844.53918790817  -1.757981E-17
+3847.23492646217  -7.701576E-18
+3849.93066501617  2.488708E-17
+3852.62640357018  2.139474E-17
+3855.32214212418  4.951646E-18
+3858.01788067818  -1.041855E-17
+3860.71361923218  -3.008389E-18
+3863.40935778618  2.144049E-17
+3866.10509634018  1.150961E-17
+3868.80083489418  3.517078E-18
+3871.49657344818  1.016292E-17
+3874.19231200218  1.968678E-17
+3876.88805055618  5.048119E-18
+3879.58378911018  1.150638E-17
+3882.27952766418  7.623445E-18
+3884.97526621819  1.485671E-17
+3887.67100477219  1.464734E-17
+3890.36674332619  -2.015045E-17
+3893.06248188019  7.565597E-19
+3895.75822043419  2.613512E-18
+3898.45395898819  2.443589E-17
+3901.14969754219  2.906334E-17
+3903.84543609619  1.049982E-17
+3906.54117465019  -8.254401E-18
+3909.23691320419  -2.483539E-18
+3911.93265175819  -2.184523E-18
+3914.62839031219  9.257706E-18
+3917.3241288662  -2.751406E-19
+3920.0198674202  -5.975186E-18
+3922.7156059742  5.288447E-18
+3925.4113445282  2.537634E-17
+3928.1070830822  1.650870E-17
+3930.8028216362  2.268944E-17
+3933.4985601902  8.570932E-18
+3936.1942987442  1.908258E-18
+3938.8900372982  3.961729E-17
+3941.5857758522  1.309678E-17
+3944.2815144062  2.003961E-17
+3946.97725296021  1.539494E-17
+3949.67299151421  1.684808E-17
+3952.36873006821  2.976583E-18
+3955.06446862221  3.232381E-17
+3957.76020717621  3.671470E-17
+3960.45594573021  2.522884E-17
+3963.15168428421  2.993028E-17
+3965.84742283821  2.820019E-17
+3968.54316139221  2.847422E-17
+3971.23889994621  2.992553E-17
+3973.93463850021  4.526517E-17
+3976.63037705421  2.480528E-17
+3979.32611560822  7.593136E-17
+3982.02185416222  3.538094E-17
+3984.71759271622  3.743646E-17
+3987.41333127022  3.345489E-17
+3990.10906982422  3.083575E-17
+3992.80480837822  2.401168E-17
+3995.50054693222  4.572829E-17
+3998.19628548622  6.324104E-17
+4000.89202404022  5.797416E-17
+4003.58776259422  3.210964E-17
+4006.28350114822  2.929594E-17
+4008.97923970222  2.580592E-17
+4011.67497825623  4.392606E-17
+4014.37071681023  4.297801E-17
+4017.06645536423  3.353037E-17
+4019.76219391823  5.232463E-17
+4022.45793247223  4.873174E-17
+4025.15367102623  3.209085E-17
+4027.84940958023  3.722996E-17
+4030.54514813423  2.714456E-17
+4033.24088668823  3.931464E-17
+4035.93662524223  3.403965E-17
+4038.63236379623  5.664564E-17
+4041.32810235024  6.824615E-17
+4044.02384090424  6.195633E-17
+4046.71957945824  4.044168E-17
+4049.41531801224  5.955808E-17
+4052.11105656624  7.180413E-17
+4054.80679512024  5.002858E-17
+4057.50253367424  2.732934E-17
+4060.19827222824  5.187790E-17
+4062.89401078224  7.343845E-17
+4065.58974933624  3.540156E-17
+4068.28548789024  2.554984E-17
+4070.98122644424  2.792121E-17
+4073.67696499825  4.874215E-17
+4076.37270355225  4.236286E-17
+4079.06844210625  4.678159E-17
+4081.76418066025  4.389027E-17
+4084.45991921425  2.674334E-17
+4087.15565776825  3.966826E-17
+4089.85139632225  3.212195E-17
+4092.54713487625  3.543414E-17
+4095.24287343025  3.871506E-17
+4097.93861198425  5.495437E-17
+4100.63435053825  4.002169E-17
+4103.33008909226  3.728768E-17
+4106.02582764625  4.477382E-17
+4108.72156620026  2.308011E-17
+4111.41730475426  2.095685E-17
+4114.11304330826  3.807487E-17
+4116.80878186226  2.934859E-17
+4119.50452041626  3.106193E-17
+4122.20025897026  6.448165E-17
+4124.89599752426  3.917526E-17
+4127.59173607826  3.940939E-18
+4130.28747463226  3.417513E-17
+4132.98321318626  3.556158E-17
+4135.67895174027  3.850142E-17
+4138.37469029427  1.466570E-17
+4141.07042884827  1.958697E-17
+4143.76616740227  2.938974E-17
+4146.46190595627  2.574664E-17
+4149.15764451027  3.407074E-17
+4151.85338306427  3.443897E-17
+4154.54912161827  1.971519E-17
+4157.24486017227  2.481922E-17
+4159.94059872627  3.725036E-17
+4162.63633728027  1.417519E-17
+4165.33207583427  1.649356E-17
+4168.02781438828  4.089255E-17
+4170.72355294228  4.386767E-17
+4173.41929149628  3.248406E-17
+4176.11503005028  2.122091E-17
+4178.81076860428  1.584011E-17
+4181.50650715828  2.935105E-17
+4184.20224571228  2.780765E-17
+4186.89798426628  9.160311E-18
+4189.59372282028  4.336673E-18
+4192.28946137428  4.485263E-17
+4194.98519992828  2.854814E-17
+4197.68093848228  9.055772E-18
+4200.37667703628  3.882583E-17
+4203.07241559029  4.946534E-17
+4205.76815414429  4.471821E-17
+4208.46389269829  6.073631E-17
+4211.15963125229  4.071436E-17
+4213.85536980629  2.673080E-17
+4216.55110836029  4.088129E-17
+4219.24684691429  1.985505E-17
+4221.94258546829  3.109932E-17
+4224.63832402229  2.987199E-17
+4227.33406257629  1.842624E-17
+4230.02980113029  2.098752E-17
+4232.7255396843  3.017176E-17
+4235.4212782383  3.058245E-17
+4238.1170167923  3.292052E-17
+4240.8127553463  4.982845E-17
+4243.5084939003  5.751685E-17
+4246.2042324543  2.669196E-17
+4248.8999710083  5.010333E-17
+4251.5957095623  3.664327E-17
+4254.2914481163  4.558563E-17
+4256.9871866703  3.312913E-17
+4259.6829252243  1.957757E-17
+4262.37866377831  9.076353E-18
+4265.07440233231  1.953501E-17
+4267.77014088631  2.551923E-17
+4270.46587944031  2.691542E-17
+4273.16161799431  4.792497E-17
+4275.85735654831  4.738480E-17
+4278.55309510231  2.931903E-17
+4281.24883365631  2.690694E-17
+4283.94457221031  5.219909E-17
+4286.64031076431  4.079031E-17
+4289.33604931831  3.782409E-17
+4292.03178787231  2.842027E-17
+4294.72752642632  2.460439E-17
+4297.42326498032  5.958219E-17
+4300.11900353432  3.002375E-17
+4302.81474208832  2.915794E-17
+4305.51048064232  2.746175E-17
+4308.20621919632  4.158729E-17
+4310.90195775032  4.753324E-17
+4313.59769630432  3.150629E-17
+4316.29343485832  3.603954E-17
+4318.98917341232  6.477166E-17
+4321.68491196632  2.321532E-17
+4324.38065052032  2.240333E-17
+4327.07638907433  3.229074E-17
+4329.77212762833  3.325847E-17
+4332.46786618233  3.233365E-17
+4335.16360473633  3.977844E-17
+4337.85934329033  3.940439E-17
+4340.55508184433  2.960544E-17
+4343.25082039833  2.581627E-17
+4345.94655895233  4.235874E-17
+4348.64229750633  3.912062E-17
+4351.33803606033  5.054767E-17
+4354.03377461434  4.341384E-17
+4356.72951316833  3.446380E-17
+4359.42525172234  3.719290E-17
+4362.12099027634  2.987241E-17
+4364.81672883034  2.711096E-17
+4367.51246738434  2.701253E-17
+4370.20820593834  4.068274E-17
+4372.90394449234  4.913253E-17
+4375.59968304634  5.082191E-17
+4378.29542160034  3.035511E-17
+4380.99116015434  -7.717995E-18
+4383.68689870834  1.512623E-17
+4386.38263726234  3.631544E-17
+4389.07837581635  3.986023E-17
+4391.77411437035  5.392843E-17
+4394.46985292435  3.983555E-17
+4397.16559147835  4.399425E-17
+4399.86133003235  5.637240E-17
+4402.55706858635  5.662680E-17
+4405.25280714035  4.130420E-17
+4407.94854569435  3.317840E-17
+4410.64428424835  2.891235E-17
+4413.34002280235  3.614211E-17
+4416.03576135635  3.983896E-17
+4418.73149991035  2.841308E-17
+4421.42723846436  4.932042E-17
+4424.12297701836  5.571836E-17
+4426.81871557236  3.752374E-17
+4429.51445412636  4.446679E-17
+4432.21019268036  3.225401E-17
+4434.90593123436  1.971693E-17
+4437.60166978836  3.767557E-17
+4440.29740834236  2.571349E-17
+4442.99314689636  1.547565E-17
+4445.68888545036  4.824763E-17
+4448.38462400436  5.108723E-17
+4451.08036255837  4.564603E-17
+4453.77610111237  6.042449E-17
+4456.47183966637  6.080440E-17
+4459.16757822037  2.469065E-17
+4461.86331677437  4.971569E-17
+4464.55905532837  4.017277E-17
+4467.25479388237  5.020122E-17
+4469.95053243637  3.002676E-17
+4472.64627099037  2.320026E-17
+4475.34200954437  3.865270E-17
+4478.03774809837  2.825767E-17
+4480.73348665237  7.578193E-18
+4483.42922520637  1.040424E-17
+4486.12496376038  1.242091E-17
+4488.82070231438  1.904117E-17
+4491.51644086838  3.710126E-17
+4494.21217942238  4.624405E-17
+4496.90791797638  2.993450E-17
+4499.60365653038  3.592075E-17
+4502.29939508438  1.711564E-17
+4504.99513363838  2.649116E-17
+4507.69087219238  3.413410E-17
+4510.38661074638  2.199767E-17
+4513.08234930038  1.506866E-17
+4515.77808785439  1.474032E-17
+4518.47382640839  1.900021E-17
+4521.16956496239  6.363292E-18
+4523.86530351639  4.840848E-18
+4526.56104207039  2.429167E-17
+4529.25678062439  3.451556E-17
+4531.95251917839  1.271116E-17
+4534.64825773239  -1.444854E-18
+4537.34399628639  3.364101E-17
+4540.03973484039  3.201656E-17
+4542.73547339439  2.767994E-17
+4545.43121194839  3.513311E-17
+4548.12695050239  2.874189E-17
+4550.8226890564  1.327838E-17
+4553.5184276104  2.313771E-17
+4556.2141661644  2.180565E-17
+4558.9099047184  4.530207E-17
+4561.6056432724  3.616787E-17
+4564.3013818264  2.646450E-17
+4566.9971203804  2.722579E-17
+4569.6928589344  1.568819E-17
+4572.3885974884  2.372904E-17
+4575.0843360424  3.644835E-17
+4577.78007459641  3.735001E-17
+4580.4758131504  2.284203E-17
+4583.17155170441  1.849743E-17
+4585.86729025841  1.538079E-17
+4588.56302881241  1.994723E-17
+4591.25876736641  2.334991E-17
+4593.95450592041  2.586513E-17
+4596.65024447441  2.262711E-17
+4599.34598302841  2.908574E-17
+4602.04172158241  2.461995E-17
+4604.73746013641  2.851105E-17
+4607.43319869041  2.144572E-17
+4610.12893724442  1.923500E-17
+4612.82467579842  2.759432E-17
+4615.52041435242  1.544721E-17
+4618.21615290642  2.424701E-17
+4620.91189146042  3.770571E-17
+4623.60763001442  3.316731E-17
+4626.30336856842  2.401644E-17
+4628.99910712242  2.306413E-17
+4631.69484567642  4.251408E-17
+4634.39058423042  2.116128E-17
+4637.08632278442  2.912379E-17
+4639.78206133842  4.640473E-17
+4642.47779989243  3.262845E-17
+4645.17353844643  4.514025E-17
+4647.86927700043  4.317493E-17
+4650.56501555443  4.873975E-17
+4653.26075410843  7.571557E-17
+4655.95649266243  6.543562E-17
+4658.65223121643  5.746362E-17
+4661.34796977043  5.959970E-17
+4664.04370832443  5.709765E-17
+4666.73944687843  6.885148E-17
+4669.43518543243  5.704487E-17
+4672.13092398644  5.242300E-17
+4674.82666254044  6.256869E-17
+4677.52240109444  9.310179E-17
+4680.21813964844  6.742640E-17
+4682.91387820244  5.388152E-17
+4685.60961675644  5.471295E-17
+4688.30535531044  9.384028E-17
+4691.00109386444  8.660897E-17
+4693.69683241844  7.225691E-17
+4696.39257097244  8.434955E-17
+4699.08830952644  8.758352E-17
+4701.78404808044  8.154505E-17
+4704.47978663445  9.274674E-17
+4707.17552518845  7.902731E-17
+4709.87126374245  9.762782E-17
+4712.56700229645  8.750917E-17
+4715.26274085045  1.008254E-16
+4717.95847940445  8.741637E-17
+4720.65421795845  9.514689E-17
+4723.34995651245  1.035282E-16
+4726.04569506645  8.570907E-17
+4728.74143362045  1.309151E-16
+4731.43717217445  9.852212E-17
+4734.13291072846  6.921418E-17
+4736.82864928245  1.069805E-16
+4739.52438783646  9.237894E-17
+4742.22012639046  7.718970E-17
+4744.91586494446  1.037236E-16
+4747.61160349846  1.188669E-16
+4750.30734205246  9.673999E-17
+4753.00308060646  9.830040E-17
+4755.69881916046  8.681891E-17
+4758.39455771446  9.655148E-17
+4761.09029626846  8.182404E-17
+4763.78603482246  1.011211E-16
+4766.48177337646  1.188949E-16
+4769.17751193047  7.245094E-17
+4771.87325048447  7.725210E-17
+4774.56898903847  8.620878E-17
+4777.26472759247  8.255939E-17
+4779.96046614647  7.890074E-17
+4782.65620470047  5.785559E-17
+4785.35194325447  4.662497E-17
+4788.04768180847  5.241256E-17
+4790.74342036247  8.140344E-17
+4793.43915891647  6.099297E-17
+4796.13489747047  6.373914E-17
+4798.83063602447  6.212080E-17
+4801.52637457848  5.477547E-17
+4804.22211313248  6.658185E-17
+4806.91785168648  9.041078E-17
+4809.61359024048  6.978033E-17
+4812.30932879448  4.201887E-17
+4815.00506734848  5.387253E-17
+4817.70080590248  6.060577E-17
+4820.39654445648  3.870852E-17
+4823.09228301048  5.400400E-17
+4825.78802156448  4.307237E-17
+4828.48376011849  3.106480E-17
+4831.17949867249  5.401646E-17
+4833.87523722649  4.138255E-17
+4836.57097578049  2.563368E-17
+4839.26671433449  3.699179E-17
+4841.96245288849  4.882571E-17
+4844.65819144249  4.514702E-17
+4847.35392999649  4.752224E-17
+4850.04966855049  5.643749E-17
+4852.74540710449  3.942458E-17
+4855.44114565849  3.146901E-17
+4858.13688421249  4.198542E-17
+4860.83262276649  2.819748E-17
+4863.5283613205  2.805405E-17
+4866.2240998745  3.346885E-17
+4868.9198384285  3.129564E-17
+4871.6155769825  5.024602E-17
+4874.3113155365  5.661619E-17
+4877.0070540905  2.329579E-17
+4879.7027926445  3.431626E-17
+4882.3985311985  3.370029E-17
+4885.0942697525  2.791894E-17
+4887.7900083065  4.262629E-17
+4890.4857468605  4.294290E-17
+4893.1814854145  2.658803E-17
+4895.87722396851  3.110966E-17
+4898.57296252251  4.385558E-17
+4901.26870107651  6.397670E-17
+4903.96443963051  4.411727E-17
+4906.66017818451  3.202257E-17
+4909.35591673851  4.015353E-17
+4912.05165529251  4.076268E-17
+4914.74739384651  4.716212E-17
+4917.44313240051  3.191040E-17
+4920.13887095451  7.809486E-17
+4922.83460950852  5.840786E-17
+4925.53034806252  4.338675E-17
+4928.22608661652  4.521831E-17
+4930.92182517052  4.997505E-17
+4933.61756372452  4.669515E-17
+4936.31330227852  4.029779E-17
+4939.00904083252  4.674275E-17
+4941.70477938652  3.078956E-17
+4944.40051794052  3.662460E-17
+4947.09625649452  6.419892E-17
+4949.79199504852  5.637483E-17
+4952.48773360252  4.777926E-17
+4955.18347215652  2.968833E-17
+4957.87921071053  3.873665E-17
+4960.57494926453  4.759017E-17
+4963.27068781853  4.636560E-17
+4965.96642637253  3.233661E-17
+4968.66216492653  4.570451E-17
+4971.35790348053  6.159746E-17
+4974.05364203453  4.995574E-17
+4976.74938058853  5.271988E-17
+4979.44511914253  2.827035E-17
+4982.14085769653  3.361694E-17
+4984.83659625053  4.186230E-17
+4987.53233480454  5.803667E-17
+4990.22807335854  7.009043E-17
+4992.92381191254  5.044637E-17
+4995.61955046654  4.097247E-17
+4998.31528902054  4.728146E-17
+5001.01102757454  3.812158E-17
+5003.70676612854  2.441944E-17
+5006.40250468254  5.000756E-17
+5009.09824323654  5.449375E-17
+5011.79398179054  4.504637E-17
+5014.48972034454  6.877552E-17
+5017.18545889854  4.318455E-17
+5019.88119745255  4.573487E-17
+5022.57693600655  7.345859E-17
+5025.27267456055  5.069009E-17
+5027.96841311455  4.923476E-17
+5030.66415166855  5.492992E-17
+5033.35989022255  5.956927E-17
+5036.05562877655  5.776489E-17
+5038.75136733055  7.163765E-17
+5041.44710588455  6.097156E-17
+5044.14284443855  5.284751E-17
+5046.83858299255  5.081170E-17
+5049.53432154655  5.537561E-17
+5052.23006010055  6.268516E-17
+5054.92579865456  9.241705E-17
+5057.62153720856  6.802998E-17
+5060.31727576256  9.226304E-17
+5063.01301431656  9.233183E-17
+5065.70875287056  6.456294E-17
+5068.40449142456  6.117299E-17
+5071.10022997856  8.346622E-17
+5073.79596853256  8.527106E-17
+5076.49170708656  6.262426E-17
+5079.18744564056  6.003243E-17
+5081.88318419457  6.630517E-17
+5084.57892274856  6.229560E-17
+5087.27466130257  4.922088E-17
+5089.97039985657  6.811957E-17
+5092.66613841057  7.323823E-17
+5095.36187696457  4.826342E-17
+5098.05761551857  6.444007E-17
+5100.75335407257  6.510149E-17
+5103.44909262657  5.648515E-17
+5106.14483118057  6.675578E-17
+5108.84056973457  7.130582E-17
+5111.53630828857  5.968915E-17
+5114.23204684258  5.953745E-17
+5116.92778539658  4.411243E-17
+5119.62352395058  4.962914E-17
+5122.31926250458  5.345428E-17
+5125.01500105858  5.214782E-17
+5127.71073961258  4.335422E-17
+5130.40647816658  4.248229E-17
+5133.10221672058  5.093971E-17
+5135.79795527458  6.427916E-17
+5138.49369382858  5.121102E-17
+5141.18943238258  2.624249E-17
+5143.88517093658  4.565569E-17
+5146.58090949058  5.869274E-17
+5149.27664804459  4.256700E-17
+5151.97238659859  4.393553E-17
+5154.66812515259  6.805535E-17
+5157.36386370659  5.803755E-17
+5160.05960226059  4.337650E-17
+5162.75534081459  3.780247E-17
+5165.45107936859  3.776764E-17
+5168.14681792259  6.664860E-17
+5170.84255647659  7.277248E-17
+5173.53829503059  5.391960E-17
+5176.23403358459  7.100986E-17
+5178.9297721386  7.504362E-17
+5181.6255106926  6.026886E-17
+5184.3212492466  5.974436E-17
+5187.0169878006  5.193589E-17
+5189.7127263546  4.479107E-17
+5192.4084649086  5.324640E-17
+5195.1042034626  4.754384E-17
+5197.7999420166  3.381582E-17
+5200.4956805706  3.284356E-17
+5203.1914191246  4.473005E-17
+5205.8871576786  4.208612E-17
+5208.5828962326  3.932654E-17
+5211.27863478661  3.502982E-17
+5213.97437334061  2.390084E-17
+5216.67011189461  4.799466E-17
+5219.36585044861  5.660519E-17
+5222.06158900261  5.473021E-17
+5224.75732755661  5.817576E-17
+5227.45306611061  4.239981E-17
+5230.14880466461  4.805856E-17
+5232.84454321861  4.634036E-17
+5235.54028177261  4.197329E-17
+5238.23602032662  5.008212E-17
+5240.93175888061  5.112734E-17
+5243.62749743462  6.416770E-17
+5246.32323598862  5.473781E-17
+5249.01897454262  4.177022E-17
+5251.71471309662  6.829836E-17
+5254.41045165062  5.929307E-17
+5257.10619020462  5.042190E-17
+5259.80192875862  3.310981E-17
+5262.49766731262  3.092369E-17
+5265.19340586662  2.901101E-17
+5267.88914442062  3.646421E-17
+5270.58488297463  5.250531E-17
+5273.28062152863  5.012960E-17
+5275.97636008263  4.119543E-17
+5278.67209863663  1.789768E-17
+5281.36783719063  6.724312E-17
+5284.06357574463  6.893206E-17
+5286.75931429863  6.354349E-17
+5289.45505285263  5.196703E-17
+5292.15079140663  5.736134E-17
+5294.84652996063  6.323062E-17
+5297.54226851463  6.090702E-17
+5300.23800706863  6.710941E-17
+5302.93374562263  7.662743E-17
+5305.62948417664  6.266022E-17
+5308.32522273064  4.326370E-17
+5311.02096128464  6.780182E-17
+5313.71669983864  6.293684E-17
+5316.41243839264  6.471843E-17
+5319.10817694664  6.499226E-17
+5321.80391550064  5.724517E-17
+5324.49965405464  8.533723E-17
+5327.19539260864  9.326162E-17
+5329.89113116264  8.023322E-17
+5332.58686971664  8.907102E-17
+5335.28260827064  8.893268E-17
+5337.97834682465  7.458286E-17
+5340.67408537865  8.324286E-17
+5343.36982393265  8.408216E-17
+5346.06556248665  6.870479E-17
+5348.76130104065  8.915346E-17
+5351.45703959465  9.271749E-17
+5354.15277814865  9.954384E-17
+5356.84851670265  1.033525E-16
+5359.54425525665  8.827990E-17
+5362.23999381065  1.083158E-16
+5364.93573236465  9.890429E-17
+5367.63147091865  1.142795E-16
+5370.32720947266  1.219252E-16
+5373.02294802666  1.042806E-16
+5375.71868658066  6.303480E-17
+5378.41442513466  1.082227E-16
+5381.11016368866  1.187520E-16
+5383.80590224266  9.713123E-17
+5386.50164079666  9.268936E-17
+5389.19737935066  9.879863E-17
+5391.89311790466  9.861442E-17
+5394.58885645866  9.144288E-17
+5397.28459501266  1.184879E-16
+5399.98033356667  1.243908E-16
+5402.67607212067  1.170660E-16
+5405.37181067467  1.206493E-16
+5408.06754922867  1.145709E-16
+5410.76328778267  1.141275E-16
+5413.45902633667  1.194165E-16
+5416.15476489067  1.271104E-16
+5418.85050344467  1.393889E-16
+5421.54624199867  1.151107E-16
+5424.24198055267  1.003974E-16
+5426.93771910667  1.127152E-16
+5429.63345766067  1.344539E-16
+5432.32919621468  1.168406E-16
+5435.02493476868  1.030116E-16
+5437.72067332268  1.298890E-16
+5440.41641187668  1.252850E-16
+5443.11215043068  1.316869E-16
+5445.80788898468  1.138301E-16
+5448.50362753868  1.237816E-16
+5451.19936609268  1.446375E-16
+5453.89510464668  1.234849E-16
+5456.59084320068  1.155274E-16
+5459.28658175468  1.194112E-16
+5461.98232030869  1.124017E-16
+5464.67805886268  1.072515E-16
+5467.37379741669  1.250347E-16
+5470.06953597069  1.121818E-16
+5472.76527452469  1.159396E-16
+5475.46101307869  1.081963E-16
+5478.15675163269  1.230050E-16
+5480.85249018669  1.123477E-16
+5483.54822874069  1.057829E-16
+5486.24396729469  1.191570E-16
+5488.93970584869  1.008031E-16
+5491.63544440269  9.545504E-17
+5494.3311829567  1.015412E-16
+5497.0269215107  1.018635E-16
+5499.7226600647  1.089298E-16
+5502.4183986187  9.283118E-17
+5505.1141371727  1.170888E-16
+5507.8098757267  1.302768E-16
+5510.5056142807  1.304157E-16
+5513.2013528347  1.182776E-16
+5515.8970913887  1.119887E-16
+5518.5928299427  1.222957E-16
+5521.2885684967  1.219360E-16
+5523.9843070507  1.214981E-16
+5526.68004560471  1.167860E-16
+5529.37578415871  1.074948E-16
+5532.07152271271  1.009523E-16
+5534.76726126671  1.096354E-16
+5537.46299982071  1.212566E-16
+5540.15873837471  1.236076E-16
+5542.85447692871  9.380723E-17
+5545.55021548271  1.170580E-16
+5548.24595403671  1.022674E-16
+5550.94169259071  1.258126E-16
+5553.63743114471  8.307466E-17
+5556.33316969871  9.560164E-17
+5559.02890825272  9.530031E-17
+5561.72464680672  1.145406E-16
+5564.42038536072  1.245944E-16
+5567.11612391472  1.230260E-16
+5569.81186246872  1.029524E-16
+5572.50760102272  1.175688E-16
+5575.20333957672  9.674094E-17
+5577.89907813072  8.403707E-17
+5580.59481668472  1.135408E-16
+5583.29055523872  1.202482E-16
+5585.98629379272  1.005568E-16
+5588.68203234673  1.111795E-16
+5591.37777090073  1.348604E-16
+5594.07350945473  1.128996E-16
+5596.76924800873  9.408062E-17
+5599.46498656273  9.865610E-17
+5602.16072511673  1.006167E-16
+5604.85646367073  1.117262E-16
+5607.55220222473  1.048571E-16
+5610.24794077873  8.206926E-17
+5612.94367933273  9.483546E-17
+5615.63941788673  9.364536E-17
+5618.33515644074  1.012030E-16
+5621.03089499474  9.813126E-17
+5623.72663354874  1.038985E-16
+5626.42237210274  9.009078E-17
+5629.11811065674  7.917957E-17
+5631.81384921074  8.535480E-17
+5634.50958776474  9.835273E-17
+5637.20532631874  8.565030E-17
+5639.90106487274  7.711036E-17
+5642.59680342674  9.422354E-17
+5645.29254198074  1.141864E-16
+5647.98828053474  9.036703E-17
+5650.68401908875  8.391444E-17
+5653.37975764275  8.703870E-17
+5656.07549619675  9.740698E-17
+5658.77123475075  9.125216E-17
+5661.46697330475  8.744389E-17
+5664.16271185875  1.114416E-16
+5666.85845041275  9.552401E-17
+5669.55418896675  9.524734E-17
+5672.24992752075  9.998546E-17
+5674.94566607475  8.910094E-17
+5677.64140462875  5.804134E-17
+5680.33714318275  5.563051E-17
+5683.03288173676  6.063761E-17
+5685.72862029076  6.118372E-17
+5688.42435884476  6.229023E-17
+5691.12009739876  8.341682E-17
+5693.81583595276  7.949698E-17
+5696.51157450676  9.001708E-17
+5699.20731306076  7.689847E-17
+5701.90305161476  6.135696E-17
+5704.59879016876  6.289422E-17
+5707.29452872276  7.642215E-17
+5709.99026727676  7.550210E-17
+5712.68600583076  6.633642E-17
+5715.38174438477  6.225888E-17
+5718.07748293877  6.062360E-17
+5720.77322149277  5.550726E-17
+5723.46896004677  5.109091E-17
+5726.16469860077  6.197050E-17
+5728.86043715477  5.237545E-17
+5731.55617570877  6.185579E-17
+5734.25191426277  8.279617E-17
+5736.94765281677  7.330797E-17
+5739.64339137077  6.561145E-17
+5742.33912992477  6.825928E-17
+5745.03486847877  4.491221E-17
+5747.73060703277  6.809087E-17
+5750.42634558678  5.234361E-17
+5753.12208414078  4.460925E-17
+5755.81782269478  5.121181E-17
+5758.51356124878  5.443559E-17
+5761.20929980278  5.238981E-17
+5763.90503835678  6.230906E-17
+5766.60077691078  5.211582E-17
+5769.29651546478  6.169499E-17
+5771.99225401878  5.519722E-17
+5774.68799257278  6.052689E-17
+5777.38373112678  5.941924E-17
+5780.07946968079  3.227858E-17
+5782.77520823479  4.908950E-17
+5785.47094678879  6.674865E-17
+5788.16668534279  4.972330E-17
+5790.86242389679  6.066019E-17
+5793.55816245079  4.919966E-17
+5796.25390100479  5.514585E-17
+5798.94963955879  3.342099E-17
+5801.64537811279  3.657567E-17
+5804.34111666679  6.297238E-17
+5807.03685522079  6.122291E-17
+5809.7325937748  5.038085E-17
+5812.4283323288  5.038582E-17
+5815.1240708828  6.594590E-17
+5817.8198094368  5.519539E-17
+5820.5155479908  4.817480E-17
+5823.2112865448  4.177442E-17
+5825.9070250988  5.011841E-17
+5828.6027636528  5.648435E-17
+5831.2985022068  3.942633E-17
+5833.9942407608  5.484053E-17
+5836.6899793148  5.500044E-17
+5839.3857178688  4.150758E-17
+5842.08145642281  5.528709E-17
+5844.77719497681  5.555315E-17
+5847.47293353081  4.979159E-17
+5850.16867208481  6.647249E-17
+5852.86441063881  4.919060E-17
+5855.56014919281  3.465032E-17
+5858.25588774681  5.179264E-17
+5860.95162630081  6.529320E-17
+5863.64736485481  5.313209E-17
+5866.34310340881  4.556066E-17
+5869.03884196281  5.462039E-17
+5871.73458051681  6.044420E-17
+5874.43031907082  6.102502E-17
+5877.12605762482  5.647339E-17
+5879.82179617882  6.142358E-17
+5882.51753473282  3.894433E-17
+5885.21327328682  3.359508E-17
+5887.90901184082  7.086892E-17
+5890.60475039482  8.420219E-17
+5893.30048894882  6.836160E-17
+5895.99622750282  5.961690E-17
+5898.69196605682  5.349239E-17
+5901.38770461082  5.661454E-17
+5904.08344316483  7.365458E-17
+5906.77918171883  8.608751E-17
+5909.47492027283  9.252452E-17
+5912.17065882683  6.050082E-17
+5914.86639738083  8.034571E-17
+5917.56213593483  7.682125E-17
+5920.25787448883  6.949254E-17
+5922.95361304283  7.591763E-17
+5925.64935159683  9.008501E-17
+5928.34509015083  7.711628E-17
+5931.04082870483  7.084486E-17
+5933.73656725883  7.313421E-17
+5936.43230581283  7.443342E-17
+5939.12804436684  7.418469E-17
+5941.82378292084  9.017280E-17
+5944.51952147484  8.610797E-17
+5947.21526002884  1.107663E-16
+5949.91099858284  1.089430E-16
+5952.60673713684  9.826361E-17
+5955.30247569084  1.030213E-16
+5957.99821424484  1.201551E-16
+5960.69395279884  1.154397E-16
+5963.38969135284  9.223211E-17
+5966.08542990685  1.080662E-16
+5968.78116846085  1.067461E-16
+5971.47690701485  1.177443E-16
+5974.17264556885  1.253585E-16
+5976.86838412285  1.137605E-16
+5979.56412267685  1.161263E-16
+5982.25986123085  1.287734E-16
+5984.95559978485  1.197628E-16
+5987.65133833885  1.297470E-16
+5990.34707689285  1.198595E-16
+5993.04281544685  1.048339E-16
+5995.73855400085  1.236551E-16
+5998.43429255486  1.184263E-16
+6001.13003110886  1.141193E-16
+6003.82576966286  1.260583E-16

@@ -1,0 +1,2009 @@
+BITPIX  =                    8  /  8-bit ASCII characters                       
+NAXIS   =                    1  /  Number of Image Dimensions                   
+NAXIS1  =                 1651  /  Length of axis                               
+ORIGIN  = 'NOAO-IRAF: WTEXTIMAGE'  /
+IRAF-MAX=                   0.  /  Max image pixel (out of date)                
+IRAF-MIN=                   0.  /  Min image pixel (out of date)                
+IRAF-B/P=                   64  /  Image bits per pixel                         
+IRAFTYPE= 'DOUBLE FLOATING   '  /  Image datatype                              
+OBJECT  = 'SN2025GKG         '  /                                              
+FILENAME= 'SN2025GKG_20250403_SOAR_GOODMAN.FITS'  /
+FORMAT  = '3G22.15           '  /  Text line format                            
+EXTEND  =                    T / File may contain extensions                    
+ORIGIN  = 'NOAO-IRAF FITS Image Kernel July 2003' / FITS file originator        
+IRAF-TLM= '2025-04-03T07:58:48' / Time of last modification                     
+OBJECT  = 'sn2025gkg'          / Name of the object observed                    
+DATE-OBS= '2025-04-03T05:32:16.722' / DATE-OBS Format: YYYY-MM-DDThh:mm:ss.sss  
+DATE    = '2025-04-03T07:58:48' / Date Format is YYYY-MM-DD                     
+TIME    = '05:32:16.722 to 05:37:16.729' / ~ Start & Stop of Exposure           
+N_PRM0  =                   59 / Status                                         
+PG0_0   =                24624 / Camera Flags,                                  
+PG0_1   =          1405080.715 / Camera Up Time, HH:MM:SS.sss                   
+PG0_2   =                    0 / Continuous Clear Mode,                         
+PG0_3   =                2.238 / Frame Clear Time, HH:MM:SS.sss                 
+PG0_4   =                2.238 / CCD Read Time, HH:MM:SS.sss                    
+PG0_5   =                7.547 / Cryo Current, Amps                             
+PG0_6   =                0.000 / Cryo Delay, HH:MM:SS.sss                       
+PG0_7   =                19071 / PS Flags,                                      
+PG0_8   =                   38 / PS Pressure 1, PSI                             
+PG0_9   =                  257 / PS Pressure 2, PSI                             
+PG0_10  =                 29.2 / PS CPU Temp, C                                 
+PG0_11  =                   39 / PS Fan 0 Speed, Hz                             
+PG0_12  =                   40 / PS Fan 1 Speed, Hz                             
+PG0_13  =                   39 / PS Fan 2 Speed, Hz                             
+PG0_14  =                   40 / PS Fan 3 Speed, Hz                             
+PG0_15  =                 35.7 / PS Case Temp, C                                
+PG0_16  =                3.291 / PS 3.3V Supply, Volts                          
+PG0_17  =               11.980 / PS 12V Supply, Volts                           
+PG0_18  =               11.765 / PS Sensor Supply, Volts                        
+PG0_19  =               24.129 / PS 24V Supply, Volts                           
+PG0_20  =               49.357 / PS 48V Supply, Volts                           
+PG0_21  =              -13.168 / Camera Switched -13V, Volts                    
+PG0_22  =               -6.624 / Camera Switched -6V, Volts                     
+PG0_23  =                6.615 / Camera Switched 5V, Volts                      
+PG0_24  =                5.722 / Camera Switched 6V, Volts                      
+PG0_25  =               13.469 / Camera Switched 13V, Volts                     
+PG0_26  =               24.580 / Camera Switched 24V, Volts                     
+PG0_27  =               31.494 / Camera Switched 28V, Volts                     
+PG0_28  =           2147483647 / PS Software Rel.,                              
+PG0_29  =               10.174 / SW+, Volts                                     
+PG0_30  =                0.000 / SW-, Volts                                     
+PG0_31  =               12.041 / R+, Volts                                      
+PG0_32  =                0.009 / R-, Volts                                      
+PG0_33  =               29.534 / VDD, Volts                                     
+PG0_34  =               17.019 / VRD, Volts                                     
+PG0_35  =                2.271 / VLG1, Volts                                    
+PG0_36  =                0.996 / VLG2, Volts                                    
+PG0_37  =              -13.081 / -13V, Volts                                    
+PG0_38  =               -6.291 / -6V, Volts                                     
+PG0_39  =               -4.876 / -5V Pre., Volts                                
+PG0_40  =                1.212 / 1.2V, Volts                                    
+PG0_41  =                3.275 / 3.3V, Volts                                    
+PG0_42  =                3.288 / VREF_P, Volts                                  
+PG0_43  =                5.142 / +5V, Volts                                     
+PG0_44  =                5.023 / +5V Pre., Volts                                
+PG0_45  =                6.157 / +6V, Volts                                     
+PG0_46  =               13.391 / +13V, Volts                                    
+PG0_47  =               23.741 / +24V, Volts                                    
+PG0_48  =               31.487 / +28V, Volts                                    
+PG0_49  =                0.002 / Chamber Pressure, Torr                         
+PG0_50  =                 45.0 / CPU Temperature, C                             
+PG0_51  =               -125.0 / Cold End Temperature, C                        
+PG0_52  =               -100.0 / CCD 0 CCD Temp., C                             
+PG0_53  =               23.578 / CCD Heater+, Volts                             
+PG0_54  =                0.292 / CCD Heater Current, Amps                       
+PG0_55  =               23.453 / Cold End Heater+, Volts                        
+PG0_56  =                0.260 / Cold End Heater Current, Amps                  
+PG0_57  =               23.808 / Window Heater+, Volts                          
+PG0_58  =                    0 / HKS Flags,                                     
+N_PRM1  =                   10 / Miscellaneous                                  
+PG1_0   =                  750 / Tested Speeds, (Not Defined)                   
+PG1_1   = 'e2V CCD231-84-1-F21' / CCD Model                                     
+PG1_2   = '10282-14-01'        / CCD 0 SN                                       
+PG1_3   =                 8811 / Hardware Part Number,                          
+PG1_4   =                    0 / Hardware Revision,                             
+PG1_5   =                -69.8 / Operational Temp, C                            
+PG1_6   =                0.150 / Operational Pressure, Torr                     
+PG1_7   =            41.120000 / Image Area Size X, mm                          
+PG1_8   =            40.960000 / Image Area Size Y, mm                          
+PG1_9   =                2.000 / Frame Clear Time, Sec.                         
+N_PRM2  =                   25 / Setup                                          
+PG2_0   =              300.000 / Exposure Time, Sec.                            
+PG2_1   =                 1000 / TDI Delay, us                                  
+PG2_2   =                    0 / Acquisition mode, (Video)                      
+PG2_3   =                    2 / Trigger Mode, (Timed Exposure After Trig.)     
+PG2_4   =                    0 / Initial Clear Mode, (Enable)                   
+PG2_5   =                    0 / Initial Cooler State, (Off)                    
+PG2_6   =                    0 / Initial Window Heat,                           
+PG2_7   =               -100.0 / CCD Temperature Setpoint, C                    
+PG2_8   =               -125.0 / Cold End Temperature Setpoint, C               
+PG2_9   =               -125.0 / Low Flow Begins, C                             
+PG2_10  =               -124.0 / Low Flow Ends, C                               
+PG2_11  =                    3 / Trigger 1 In Setup, (CMOS (Pull-Down Inverted))
+PG2_12  =                    1 / Trigger 1 Out Setup, (CMOS)                    
+PG2_13  =                    0 / Trigger 1 Out Selector, (Shutter)              
+PG2_14  =                    3 / Trigger 2 In Setup, (CMOS (Pull-Down Inverted))
+PG2_15  =                    0 / Trigger 2 Out Setup, (Opto)                    
+PG2_16  =                    2 / Trigger 2 Out Selector, (Frame)                
+PG2_17  =                    0 / Trigger Input Select, (1)                      
+PG2_18  =                0.000 / Shutter Open Delay, Sec.                       
+PG2_19  =                0.500 / Shutter Close Delay, Sec.                      
+PG2_20  =                   10 / Parallel Shift Delay, us                       
+PG2_21  =                    1 / Parallel Clear Count,                          
+PG2_22  =                 2048 / Serial Clear Count,                            
+PG2_23  =                    0 / Pre-exposure pulse select, (Short)             
+PG2_24  =                    1 / LED Operation, (Enable)                        
+N_PRM3  =                    1 / Mode Mask                                      
+PG3_0   =                  127 / Mode Mask,                                     
+N_PRM4  =                   59 / Factory                                        
+PG4_0   =                 1110 / Instrument Model,                              
+PG4_1   =                  111 / Instrument SN,                                 
+PG4_2   =                   50 / Line Strobe Fall Delay, 10 ns                  
+PG4_3   =                    0 / Pixel Pipeline,                                
+PG4_4   =                    0 / VDD off, (Disable)                             
+PG4_5   =                    0 / Clear During Exposure, (Disable)               
+PG4_6   =                0.100 / Long Pre-exposure pulse duration, Sec.         
+PG4_7   =                0.001 / Pre-exposure pulse duration, Sec.              
+PG4_8   =                    0 / Pre-exposure pulse enable, (Disable)           
+PG4_9   =                    0 / Camera De-interlace, (Software)                
+PG4_10  =                    0 / SREG 0 De-interlace Position,                  
+PG4_11  =                    1 / SREG 1 De-interlace Position,                  
+PG4_12  =                    0 / CCD Type, (Full-Frame)                         
+PG4_13  =                    4 / Parallel Clock Regions,                        
+PG4_14  =                    1 / ADC Clock Divisor, (1)                         
+PG4_15  =                    0 / Analog Chain Delay, ADC Clocks                 
+PG4_16  =                    0 / Parallel Pre-Masked,                           
+PG4_17  =                 4112 / Parallel Active Pix.,                          
+PG4_18  =                    0 / Parallel Post-Masked,                          
+PG4_19  =                    0 / Parallel Region 0 Masked, (False)              
+PG4_20  =                    2 / Parallel Region 0 Shift Cap., (Both)           
+PG4_21  =                    0 / Parallel Region 1 Masked, (False)              
+PG4_22  =                    2 / Parallel Region 1 Shift Cap., (Both)           
+PG4_23  =                    0 / Parallel Region 2 Masked, (False)              
+PG4_24  =                    2 / Parallel Region 2 Shift Cap., (Both)           
+PG4_25  =                    0 / Parallel Region 3 Masked, (False)              
+PG4_26  =                    2 / Parallel Region 3 Shift Cap., (Both)           
+PG4_27  =                    1 / Two Serial Registers, (True)                   
+PG4_28  =                   50 / Serial Pre-Masked,                             
+PG4_29  =                 4096 / Serial Active Pix.,                            
+PG4_30  =                    0 / Serial Post-Masked,                            
+PG4_31  =                    4 / Installed Ports, (4)                           
+PG4_32  =                5.100 / PS +5V Setting, Volts                          
+PG4_33  =                6.000 / PS +6V Setting, Volts                          
+PG4_34  =               -6.300 / PS -6V Setting, Volts                          
+PG4_35  =               13.200 / PS +13V Setting, Volts                         
+PG4_36  =               24.500 / PS +24V Setting, Volts                         
+PG4_37  =               31.500 / PS +28V Setting, Volts                         
+PG4_38  =              -13.000 / PS -13V Setting, Volts                         
+PG4_39  =                    0 / Port 0 Connect, (SR0)                          
+PG4_40  =                    0 / Port 0 Map, (ADC0)                             
+PG4_41  =                    0 / Port 0 Shift Direction, (Same)                 
+PG4_42  =                 1018 / CCD 0 Port 0 Gain Correction,                  
+PG4_43  =                 1024 / CCD 0 Port 0 HG Correction,                    
+PG4_44  =                    0 / Port 1 Connect, (SR0)                          
+PG4_45  =                    1 / Port 1 Map, (ADC1)                             
+PG4_46  =                    1 / Port 1 Shift Direction, (Reverse)              
+PG4_47  =                 1024 / CCD 0 Port 1 Gain Correction,                  
+PG4_48  =                 1024 / CCD 0 Port 1 HG Correction,                    
+PG4_49  =                    1 / Port 2 Connect, (SR1)                          
+PG4_50  =                    2 / Port 2 Map, (ADC2)                             
+PG4_51  =                    0 / Port 2 Shift Direction, (Same)                 
+PG4_52  =                 1055 / CCD 0 Port 2 Gain Correction,                  
+PG4_53  =                 1055 / CCD 0 Port 2 HG Correction,                    
+PG4_54  =                    1 / Port 3 Connect, (SR1)                          
+PG4_55  =                    3 / Port 3 Map, (ADC3)                             
+PG4_56  =                    1 / Port 3 Shift Direction, (Reverse)              
+PG4_57  =                 1038 / CCD 0 Port 3 Gain Correction,                  
+PG4_58  =                 1024 / CCD 0 Port 3 HG Correction,                    
+N_PRM5  =                   22 / Control                                        
+PG5_0   =                   16 / Bits Per Pixel, (16)                           
+PG5_1   =                  113 / DSI Sample Time,                               
+PG5_2   =                    1 / Gain, (High)                                   
+PG5_3   =                    1 / Port Select, (Port 0)                          
+PG5_4   =                    2 / Parallel Binning,                              
+PG5_5   =                  948 / Parallel Length,                               
+PG5_6   =                  980 / Parallel Origin,                               
+PG5_7   =                    0 / Parallel Phasing, (SR0)                        
+PG5_8   =                    0 / Parallel Post Scan,                            
+PG5_9   =                    2 / Serial Binning,                                
+PG5_10  =                 2071 / Serial Length,                                 
+PG5_11  =                    0 / Serial Origin,                                 
+PG5_12  =                    0 / Serial Phasing, (Normal)                       
+PG5_13  =                    0 / Serial Post Scan,                              
+PG5_14  =               -1.691 / CCD 0 Port 0 ADC Offset, Volts                 
+PG5_15  =                 1993 / CCD 0 Port 0 Correlation Bias,                 
+PG5_16  =               -1.709 / CCD 0 Port 1 ADC Offset, Volts                 
+PG5_17  =                 2015 / CCD 0 Port 1 Correlation Bias,                 
+PG5_18  =               -1.709 / CCD 0 Port 2 ADC Offset, Volts                 
+PG5_19  =                 2017 / CCD 0 Port 2 Correlation Bias,                 
+PG5_20  =               -1.702 / CCD 0 Port 3 ADC Offset, Volts                 
+PG5_21  =                 1984 / CCD 0 Port 3 Correlation Bias,                 
+N_PRM6  =                    1 / Operational                                    
+PG6_0   =                   10 / Mode,                                          
+TELESCOP= 'SOAR 4.1m'                                                           
+INSTRUME= 'GHTS_RED'                                                            
+NOTES   = ''                                                                    
+INSTCONF= 'Red'                                                                 
+CAMSWV  = 'Beta 29'                                                             
+CONSWV  = '8359,10'                                                             
+INSTSWV = 'GSCS 2.0.17.6.6-Alpha'                                               
+CAMERA  = 'Si 1110-111'                                                         
+RA      = '12:49:07.699'       / right ascension [hh:mm:ss.sss]                 
+DEC     = '-41:49:56.687'      / declination [dd:mm:ss.sss]                     
+AIRMASS =                 1.04 / airmass at approx. start of exposure           
+UT      = '05:32:13.729'       / time at approx. start of exposure [UTC]        
+FOCUS   =         -1044.790000 / SOAR telescope focus                           
+MOUNT_AZ=           215.258431 / SOAR mount azimuth                             
+MOUNT_EL=            74.685168 / SOAR mount elevation                           
+ROTATOR =            33.300000 / Nasymth cage rotator angle [deg]               
+POSANGLE=             0.000000 / position angle [deg. E of N]                   
+SEEING  =             0.345000 / DIMM seeing [arcsec]                           
+LST     = '13:36:31.848'       / Local Sidereal Time  [hh:mm:ss.sss]            
+OBSRA   = '12:49:07.540'       / target right ascension [hh:mm:ss.sss]          
+OBSDEC  = '-41:49:56.669'      / target declination  [hh:mm:ss.sss]             
+DOME_AZ =           213.852922 / SOAR Dome Shutter azimuth                      
+HA      = '00:47:24.149'       / Hour Angle  [hh:mm:ss.sss]                     
+ADCSTAT = 'IN'                 / ADC Status                                     
+ADCPOS  = 'DONE_80.386'        / ADC Position                                   
+LAMP_HGA= 'FALSE'              / Hg(Ar)                                         
+LAMP_NE = 'FALSE'              / Neon                                           
+LAMP_AR = 'FALSE'              / Argon                                          
+LAMP_FE = 'FALSE'              / Iron                                           
+LAMP_CU = 'FALSE'              / Copper                                         
+LAMP_QUA= 'FALSE'              / Quartz                                         
+LAMP_QPE=             0.000000 / Quartz Percent                                 
+LAMP_BUL= 'FALSE'              / Bulb                                           
+LAMP_DOM= 'FALSE'              / Dome                                           
+LAMP_DPE=             0.000000 / Dome Percent                                   
+CAM_ANG =            11.581960 / camera angle [deg]                             
+GRT_ANG =             5.801000 / grating angle [deg]                            
+CAM_TARG=            11.600000 / camera target [deg]                            
+GRT_TARG=             5.800000 / grating target [deg]                           
+CAM_FOC =                 -387 / camera focus                                   
+COLL_FOC=                 1001 / collimator focus                               
+FILTER  = 'NO_FILTER'          / primary filter wheel                           
+FILTER2 = 'NO_FILTER'          / secondary filter wheel                         
+GRATING = '400_SYZY'           / VPH grating [1/mm]                             
+SLIT    = '1.0_LONG_SLIT'      / slit [arcsec]                                  
+COL_TEMP=            14.906250 / coll ext temp (deg C)                          
+CAM_TEMP=            16.718750 / cam ext temp (deg C)                           
+WAVMODE = '400_M1'             / Wavelength                                     
+EXPTIME =           300.000000 / integration time                               
+RDNOISE =             3.890000 / CCD readnoise [e-]                             
+GAIN    =             1.480000 / CCD gain [e-/ADU]                              
+OBSTYPE = 'SPECTRUM'           / observation type                               
+OBSERVER= 'apazravi'                                                            
+PROPOSAL= ''                                                                    
+EQUINOX =          2000.000000 / equinox of coordinates                         
+ROI     = 'Spectroscopic 2x2'                                                   
+ENVWIN  =            22.518000 / Wind Speed [km/hr] at start of exposure        
+ENVPRE  =           738.350000 / Atmospheric Pressure [hPS] at start of exposur 
+ENVDIR  =             1.500000 / Wind Direction at start of exposure            
+ENVTEM  =            14.250000 / Outside Temperature [C] at start of exposure   
+ENVHUM  =            10.950000 / Relative Humidity at start of exposure         
+DETSIZE = '[1:4096,1:4096]'                                                     
+TRIMSEC = '[26:2055,2:948]'                                                     
+CCDSIZE = '[1:4096,1:4096]'                                                     
+CCDSUM  = '2 2'                                                                 
+BUNIT   = 'erg/cm2/s/A'                                                         
+OBSID   =             12729713                                                  
+CONFID  =            887974491                                                  
+REQNUM  =              3821510                                                  
+PROPID  = 'KEY2023B-002'                                                        
+SITEID  = 'sor'                                                                 
+TELID   = '4m0a'                                                                
+RLEVEL  =                    0                                                  
+BLKUID  =            690791745                                                  
+L1PUBDAT= '2026-10-02T05:32:47.897770Z'                                         
+IMAGEID = '121230'                                                              
+HEADERVE= '1.0.1'                                                               
+BLOCK_ID=     1743657443620353                                                  
+NIGHTTYP= 'AEON'                                                                
+OPENTIME= '05:32:15.3478569'   / GPS-Synched Time for Shutter Open (UT)         
+OPENDATE= '2025-04-03'         / GPS-Synched Time for Shutter Open (UT)         
+CLOSETIM= '05:37:15.2521963'   / This is the GPS-Synched Time for Shutter Closi 
+COMMENT  Light, Exp Time= 05:00, Saved as: 0326_SN-2025gkg_03-04-2025.fits      
+CHECKSUM= '07mY14jY04jY04jY'   / HDU checksum updated 2025-04-03T05:43:21       
+DATASUM = '3344130937'         / data unit checksum updated 2025-04-03T05:43:21 
+        -- Goodman Spectroscopic Pipeline --                                    
+GSP_VERS= '1.3.7   '           / Goodman Spectroscopic Pipeline Version         
+GSP_ONAM= '0326_SN-2025gkg_03-04-2025.fits' / Original file name                
+GSP_PNAM= 'ecfsto_0326_SN-2025gkg_03-04-2025.fits' / Parent file name           
+GSP_FNAM= 'wecfsto_0326_SN-2025gkg_03-04-2025_ws_1.fits' / Current file name    
+GSP_PATH= '/Users/apazravi/Research/SOAR_2024B/Goodman_Reductions/SN2025gkg/Ap&'
+CONTINUE  'r2/RED&'                                                             
+CONTINUE  '' / Location at moment of reduce                                     
+GSP_TECH= 'Spectroscopy'       / Observing technique                            
+GSP_DATE= '2025-04-02'         / Processing date                                
+GSP_OVER= '[3:24,1:948]'       / Overscan region                                
+GSP_TRIM= '[26:2055,2:948]'    / Trim section from TRIMSEC                      
+GSP_SLIT= '[1:2030,82:901]'    / Slit trim section, slit illuminated area only. 
+GSP_BIAS= 'none    '           / Master bias image                              
+GSP_FLAT= 'norm_master_flat_400Custom_5053nm_NO_FILTER_1.0_dome.fits' / Master f
+GSP_LAMP= '/Users/apazravi/Research/SOAR_2024B/Goodman_Reductions/SN2025gkg/Ap&'
+CONTINUE  'r2/RED/wecfsto_0327_SN-2025gkg_03-04-2025_comp_407.12-417.84.fits&'  
+CONTINUE  '' / Reference lamp used to obtain wavelength solution                
+GSP_NORM= 'simple  '           / Flat normalization method                      
+GSP_COSM= 'LACosmic'           / Cosmic ray rejection method                    
+GSP_TMOD= 'Polynomial1D'       / Model name used to fit trace                   
+GSP_TORD=                    2 / Degree of the model used to fit target trace   
+GSP_TC00=    412.4797970686048 / Parameter c0                                   
+GSP_TC01= 0.001132913992267539 / Parameter c1                                   
+GSP_TC02= 4.93739734782270E-07 / Parameter c2                                   
+GSP_TERR=    0.679114615338809 / RMS error of target trace                      
+GSP_EXTR= '407.12:417.84'      / Extraction window at first column              
+GSP_BKG1= '380.31:391.04 column 1' / First background extraction zone           
+GSP_BKG2= '433.92:444.65 column 1' / Second background extraction zone          
+GSP_WRMS=   0.4540774270682913 / Wavelength solution RMS Error                  
+GSP_WPOI=                   25 / Number of points used to calculate wavelength s
+GSP_WREJ=                    7 / Number of points rejected                      
+GSP_FUNC= 'Chebyshev1D'        / Mathematical model of non-linearized data      
+GSP_ORDR=                    3 / Mathematical model order                       
+GSP_NPIX=                 2030 / Number of Pixels                               
+GSP_C000=    2981.993709828499 / Value of parameter c0                          
+GSP_C001=   2.0682349744812116 / Value of parameter c1                          
+GSP_C002= -2.9686748204213E-05 / Value of parameter c2                          
+GSP_C003= 3.17650218918714E-09 / Value of parameter c3                          
+APNUM1  = '1 1 407.12 417.84'  / Aperture in first column                       
+WCSDIM  =                    1                                                  
+CTYPE1  = 'LINEAR  '                                                            
+CRVAL1  =     2981.99359000098                                                  
+CRPIX1  =    -358.003204999512                                                  
+CDELT1  =                   2.                                                  
+CD1_1   =                   2.                                                  
+LTM1_1  =    0.999962622129659                                                  
+WAT0_001= 'system=equispec'                                                     
+WAT1_001= 'wtype=linear label=Wavelength units=angstroms'                       
+DC-FLAG =                    0                                                  
+DCLOG1  = 'REFSPEC1 = ecfsto_0325_SN-2025gkg_03-04-2025_comp_407.12-417.84.fits'
+        -- GSP END --                                                           
+EX-FLAG =                   -1                                                  
+CA-FLAG =                   -1                                                  
+BANDID1 = 'spectrum - background none, weights none, clean no'                  
+LTV1    =    -359.003167621642                                                  
+END                                                                             
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+3700.00000000001  5.869405223111122E-16
+3702.00000000001  7.300546796836069E-16
+3704.00000000001  7.291795358304155E-16
+3706.00000000001  6.384185791035780E-16
+3708.00000000001  6.353333674723226E-16
+3710.00000000001  7.448881853537202E-16
+3712.00000000001  7.514390852282257E-16
+3714.00000000001  7.353653115650953E-16
+3716.00000000001  7.215720682333287E-16
+3718.00000000001  7.022874044253940E-16
+3720.00000000001  7.905874128031026E-16
+3722.00000000001  7.890691591847085E-16
+3724.00000000001  7.885255757908080E-16
+3726.00000000001  7.543603430446282E-16
+3728.00000000001  5.709302231794667E-16
+3730.00000000001  5.608992884411668E-16
+3732.00000000001  7.170711469098561E-16
+3734.00000000001  7.322512478740741E-16
+3736.00000000001  7.448547804918628E-16
+3738.00000000001  7.749820483598037E-16
+3740.00000000001  7.709678533436472E-16
+3742.00000000001  7.636280481578927E-16
+3744.00000000001  7.764177692053997E-16
+3746.00000000001  7.998784642619758E-16
+3748.00000000001  7.899310152085398E-16
+3750.00000000001  8.050404418612211E-16
+3752.00000000001  9.967198685392514E-16
+3754.00000000001  1.010267419376755E-15
+3756.00000000001  9.567224433743113E-16
+3758.00000000001  9.460237819757790E-16
+3760.00000000001  9.833624765984063E-16
+3762.00000000001  1.025579551601626E-15
+3764.00000000001  9.792274735081476E-16
+3766.00000000001  1.027990101490394E-15
+3768.00000000001  9.518636506306238E-16
+3770.00000000001  9.624605621963672E-16
+3772.00000000001  9.642228142431298E-16
+3774.00000000001  9.977259319223528E-16
+3776.00000000001  1.034373871176494E-15
+3778.00000000001  9.958315427358186E-16
+3780.00000000001  1.043626647334063E-15
+3782.00000000001  1.043775619253662E-15
+3784.00000000001  1.035121271873328E-15
+3786.00000000001  1.088275765687087E-15
+3788.00000000001  1.197594155497082E-15
+3790.00000000001  1.198541244211231E-15
+3792.00000000001  1.163255439815393E-15
+3794.00000000001  1.150955568509195E-15
+3796.00000000001  1.141056823850226E-15
+3798.00000000001  1.120746350203607E-15
+3800.00000000001  1.117841027194525E-15
+3802.00000000001  1.191832955027214E-15
+3804.00000000001  1.242582087029008E-15
+3806.00000000001  1.236015675863656E-15
+3808.00000000001  1.227756681111453E-15
+3810.00000000001  1.245060505432674E-15
+3812.00000000001  1.238350839820118E-15
+3814.00000000001  1.222443666949800E-15
+3816.00000000001  1.217478571571232E-15
+3818.00000000001  1.254261612580461E-15
+3820.00000000001  1.248441755078995E-15
+3822.00000000001  1.214689186196806E-15
+3824.00000000001  1.209898897242727E-15
+3826.00000000001  1.285037707685998E-15
+3828.00000000001  1.348123451048078E-15
+3830.00000000001  1.357874176699514E-15
+3832.00000000001  1.350221022262835E-15
+3834.00000000001  1.343732432249512E-15
+3836.00000000001  1.316435313216584E-15
+3838.00000000001  1.167241576865172E-15
+3840.00000000001  1.132443134051360E-15
+3842.00000000001  1.128140312558427E-15
+3844.00000000001  1.130279070750244E-15
+3846.00000000001  1.133113137112639E-15
+3848.00000000001  1.124992526368193E-15
+3850.00000000001  1.119270607051253E-15
+3852.00000000001  1.140585450015079E-15
+3854.00000000001  1.126353284797957E-15
+3856.00000000001  1.032979972582669E-15
+3858.00000000001  1.018382312648807E-15
+3860.00000000001  1.048050700417573E-15
+3862.00000000001  1.051068361171284E-15
+3864.00000000001  1.092043050599119E-15
+3866.00000000001  1.088708070127542E-15
+3868.00000000001  1.056297519071159E-15
+3870.00000000001  1.047397638015239E-15
+3872.00000000001  1.057825778266242E-15
+3874.00000000001  1.043321503714815E-15
+3876.00000000001  9.513714186091506E-16
+3878.00000000001  9.217388179824062E-16
+3880.00000000001  9.263997226537914E-16
+3882.00000000001  9.358937973222097E-16
+3884.00000000001  1.048892862925380E-15
+3886.00000000001  1.052807319811998E-15
+3888.00000000001  9.853315105634172E-16
+3890.00000000001  9.522799673241993E-16
+3892.00000000001  9.449472030998189E-16
+3894.00000000001  9.441919673482233E-16
+3896.00000000001  9.574357509950177E-16
+3898.00000000001  9.546516595765114E-16
+3900.00000000001  9.595624389673367E-16
+3902.00000000001  9.718403932960244E-16
+3904.00000000001  9.717146089033570E-16
+3906.00000000001  9.996402263831474E-16
+3908.00000000001  9.921236560092128E-16
+3910.00000000001  9.281674804147111E-16
+3912.00000000001  9.231732682785813E-16
+3914.00000000001  9.892776253064383E-16
+3916.00000000001  9.937505945426514E-16
+3918.00000000001  9.689216236389046E-16
+3920.00000000001  9.126578836340113E-16
+3922.00000000001  9.544959113933351E-16
+3924.00000000001  9.602430299404554E-16
+3926.00000000001  9.714252412727514E-16
+3928.00000000001  9.898513842490846E-16
+3930.00000000001  1.023280704182778E-15
+3932.00000000001  1.027173032333649E-15
+3934.00000000001  1.021341316370921E-15
+3936.00000000001  9.217807461132953E-16
+3938.00000000001  9.554533762610875E-16
+3940.00000000001  9.715572725334048E-16
+3942.00000000001  1.046873536379126E-15
+3944.00000000001  1.064989771175882E-15
+3946.00000000001  1.102027451464879E-15
+3948.00000000001  9.718627337900083E-16
+3950.00000000001  1.004598863135493E-15
+3952.00000000001  9.848394903001810E-16
+3954.00000000001  9.736758078136062E-16
+3956.00000000001  9.663627371052494E-16
+3958.00000000001  9.531654343914353E-16
+3960.00000000001  9.885250365328029E-16
+3962.00000000001  9.474670202387819E-16
+3964.00000000001  9.820772099800662E-16
+3966.00000000001  9.803749913934403E-16
+3968.00000000001  9.830269456721753E-16
+3970.00000000001  9.927966236858064E-16
+3972.00000000001  1.025127765403385E-15
+3974.00000000001  1.022351932556114E-15
+3976.00000000001  9.914908165184954E-16
+3978.00000000001  9.883104195597923E-16
+3980.00000000001  1.053829794458452E-15
+3982.00000000001  1.136782589719262E-15
+3984.00000000001  1.137146390370108E-15
+3986.00000000001  1.098867595055147E-15
+3988.00000000001  1.083949544908986E-15
+3990.00000000001  1.081659591336084E-15
+3992.00000000001  1.103197521602393E-15
+3994.00000000001  1.111904596783693E-15
+3996.00000000001  1.124811896592191E-15
+3998.00000000001  1.180354388042497E-15
+4000.00000000001  1.182219342834114E-15
+4002.00000000001  1.178058187601609E-15
+4004.00000000001  1.202104182424738E-15
+4006.00000000001  1.205898995907556E-15
+4008.00000000001  1.200374435267326E-15
+4010.00000000001  1.193548514382759E-15
+4012.00000000001  1.198488622289383E-15
+4014.00000000001  1.255629359032040E-15
+4016.00000000001  1.256693761809383E-15
+4018.00000000001  1.257330307069245E-15
+4020.00000000001  1.330808297661187E-15
+4022.00000000001  1.360945306408021E-15
+4024.00000000001  1.348874981030529E-15
+4026.00000000001  1.275162044674842E-15
+4028.00000000001  1.272664250392508E-15
+4030.00000000001  1.378048066283388E-15
+4032.00000000001  1.398640178384969E-15
+4034.00000000001  1.394170914917900E-15
+4036.00000000001  1.394088011568188E-15
+4038.00000000001  1.423374387477742E-15
+4040.00000000001  1.422691043647545E-15
+4042.00000000001  1.421228747143228E-15
+4044.00000000001  1.425534850888832E-15
+4046.00000000001  1.417026828450137E-15
+4048.00000000001  1.379599724763640E-15
+4050.00000000001  1.367858577565274E-15
+4052.00000000001  1.350774770052102E-15
+4054.00000000001  1.349322426184916E-15
+4056.00000000001  1.418387692759019E-15
+4058.00000000001  1.493833764403907E-15
+4060.00000000001  1.490683013598358E-15
+4062.00000000001  1.439079225352784E-15
+4064.00000000001  1.424812331784825E-15
+4066.00000000001  1.398393268280845E-15
+4068.00000000001  1.388781773670113E-15
+4070.00000000001  1.387496507051773E-15
+4072.00000000001  1.409511422746504E-15
+4074.00000000001  1.412136801366519E-15
+4076.00000000001  1.440287200214687E-15
+4078.00000000001  1.440548827516270E-15
+4080.00000000001  1.431298910094898E-15
+4082.00000000001  1.402785981145305E-15
+4084.00000000001  1.391074056583620E-15
+4086.00000000001  1.393415890924541E-15
+4088.00000000001  1.468854339272904E-15
+4090.00000000001  1.424516082011522E-15
+4092.00000000001  1.409110246766861E-15
+4094.00000000001  1.406203759087477E-15
+4096.00000000001  1.406008094476661E-15
+4098.00000000001  1.410696739477068E-15
+4100.00000000001  1.412576834982618E-15
+4102.00000000001  1.457191013226568E-15
+4104.00000000001  1.474860014627174E-15
+4106.00000000001  1.468980441302926E-15
+4108.00000000001  1.470467513520950E-15
+4110.00000000001  1.508251641594715E-15
+4112.00000000001  1.465144864359522E-15
+4114.00000000001  1.462524991453665E-15
+4116.00000000001  1.449912564989930E-15
+4118.00000000001  1.451765449562048E-15
+4120.00000000001  1.449142082645283E-15
+4122.00000000001  1.441962631384356E-15
+4124.00000000001  1.421639664001765E-15
+4126.00000000001  1.409449589341355E-15
+4128.00000000001  1.375016747123402E-15
+4130.00000000001  1.402843897023074E-15
+4132.00000000001  1.389059918114168E-15
+4134.00000000001  1.378628707368731E-15
+4136.00000000001  1.350787899062785E-15
+4138.00000000001  1.351997779748819E-15
+4140.00000000001  1.426427729494357E-15
+4142.00000000001  1.431263652348469E-15
+4144.00000000001  1.396842456833540E-15
+4146.00000000001  1.346567133886617E-15
+4148.00000000001  1.302506279915461E-15
+4150.00000000001  1.299100678071907E-15
+4152.00000000001  1.333882815501483E-15
+4154.00000000001  1.336394691706566E-15
+4156.00000000001  1.326484088586336E-15
+4158.00000000001  1.276170437398548E-15
+4160.00000000001  1.248643137162205E-15
+4162.00000000001  1.255766472490377E-15
+4164.00000000001  1.356867901558176E-15
+4166.00000000001  1.361055632449401E-15
+4168.00000000001  1.287112832527653E-15
+4170.00000000001  1.234427065571080E-15
+4172.00000000001  1.163434057888145E-15
+4174.00000000001  1.148649203672940E-15
+4176.00000000001  1.120792831136588E-15
+4178.00000000001  1.117146248419540E-15
+4180.00000000001  1.146875728439626E-15
+4182.00000000001  1.155831937186538E-15
+4184.00000000001  1.166991066871022E-15
+4186.00000000001  1.165248825977638E-15
+4188.00000000001  1.136732826533611E-15
+4190.00000000001  1.074702274465574E-15
+4192.00000000001  1.064832752443285E-15
+4194.00000000001  1.061415080380233E-15
+4196.00000000001  1.038279751854521E-15
+4198.00000000001  1.031706246788235E-15
+4200.00000000001  1.021338245876487E-15
+4202.00000000001  1.018096544908227E-15
+4204.00000000001  1.012970089753207E-15
+4206.00000000001  9.856457597868486E-16
+4208.00000000001  9.787386296184634E-16
+4210.00000000001  9.805321160051561E-16
+4212.00000000001  1.009891866143766E-15
+4214.00000000001  1.015620879361639E-15
+4216.00000000001  1.014117184122026E-15
+4218.00000000001  1.005570727563349E-15
+4220.00000000001  9.519079081021177E-16
+4222.00000000001  9.506987685699124E-16
+4224.00000000001  9.509332908171835E-16
+4226.00000000001  9.499638616090509E-16
+4228.00000000001  9.636250207406049E-16
+4230.00000000001  9.641098412237897E-16
+4232.00000000001  9.596102963288566E-16
+4234.00000000001  9.421382300884867E-16
+4236.00000000001  9.356369345809547E-16
+4238.00000000001  9.229022177354599E-16
+4240.00000000001  9.199996475834565E-16
+4242.00000000001  9.123088001806239E-16
+4244.00000000001  8.720501182910151E-16
+4246.00000000001  8.664340780924824E-16
+4248.00000000001  8.811241704967137E-16
+4250.00000000001  8.810246970649706E-16
+4252.00000000001  8.731822307645797E-16
+4254.00000000001  8.602650312585111E-16
+4256.00000000001  8.791314725487388E-16
+4258.00000000001  9.978759626331351E-16
+4260.00000000001  1.016062289406277E-15
+4262.00000000001  1.014569393836741E-15
+4264.00000000001  9.625051373052164E-16
+4266.00000000001  9.792577549360120E-16
+4268.00000000001  9.644220787439712E-16
+4270.00000000001  9.823970707967732E-16
+4272.00000000001  1.011887793404853E-15
+4274.00000000001  1.012590195476363E-15
+4276.00000000001  1.001415395682356E-15
+4278.00000000001  9.936562562481510E-16
+4280.00000000001  9.916272947021218E-16
+4282.00000000001  9.888421444924312E-16
+4284.00000000001  9.816762457586598E-16
+4286.00000000001  9.943847045827897E-16
+4288.00000000001  9.974504344562582E-16
+4290.00000000001  1.023546249011742E-15
+4292.00000000001  1.048045406461652E-15
+4294.00000000001  1.034700296498542E-15
+4296.00000000001  1.048508415846445E-15
+4298.00000000001  1.086538606991387E-15
+4300.00000000001  1.119539857649362E-15
+4302.00000000001  1.118889442224989E-15
+4304.00000000001  1.095613823867388E-15
+4306.00000000001  1.090633693654006E-15
+4308.00000000001  1.093816737590670E-15
+4310.00000000001  1.114255642607916E-15
+4312.00000000001  1.118023351036421E-15
+4314.00000000001  1.128244815248294E-15
+4316.00000000001  1.113187534061428E-15
+4318.00000000001  1.127585717736212E-15
+4320.00000000001  1.152841063849783E-15
+4322.00000000001  1.173153443320533E-15
+4324.00000000001  1.174394875983853E-15
+4326.00000000001  1.174215304999035E-15
+4328.00000000001  1.193191066479018E-15
+4330.00000000001  1.207863582949594E-15
+4332.00000000001  1.216780934060050E-15
+4334.00000000001  1.235036823413985E-15
+4336.00000000001  1.235446363843983E-15
+4338.00000000001  1.223643277361349E-15
+4340.00000000001  1.229022995367598E-15
+4342.00000000001  1.303951106365240E-15
+4344.00000000001  1.324591499344814E-15
+4346.00000000001  1.318993564475529E-15
+4348.00000000001  1.290766720903872E-15
+4350.00000000001  1.282695555707722E-15
+4352.00000000001  1.266909190911507E-15
+4354.00000000001  1.263155035010157E-15
+4356.00000000001  1.272203782106557E-15
+4358.00000000001  1.305129223315752E-15
+4360.00000000001  1.335664866943388E-15
+4362.00000000001  1.336209826765828E-15
+4364.00000000001  1.337750050301291E-15
+4366.00000000001  1.378847665385596E-15
+4368.00000000001  1.401585735459046E-15
+4370.00000000001  1.380372007053299E-15
+4372.00000000001  1.368074041571232E-15
+4374.00000000001  1.368505393099621E-15
+4376.00000000001  1.389816318536066E-15
+4378.00000000001  1.403511570743747E-15
+4380.00000000001  1.424803332059760E-15
+4382.00000000001  1.425383655507748E-15
+4384.00000000001  1.413445255511790E-15
+4386.00000000001  1.414974467618940E-15
+4388.00000000001  1.455018585475097E-15
+4390.00000000001  1.464596304647056E-15
+4392.00000000001  1.462285810525184E-15
+4394.00000000001  1.459997868655532E-15
+4396.00000000001  1.458274791882580E-15
+4398.00000000001  1.456766014445283E-15
+4400.00000000001  1.452345984768273E-15
+4402.00000000001  1.457462804923518E-15
+4404.00000000001  1.524203177815644E-15
+4406.00000000001  1.552326048093026E-15
+4408.00000000001  1.568123741954911E-15
+4410.00000000001  1.568836308421789E-15
+4412.00000000001  1.565694769099541E-15
+4414.00000000001  1.555830435154054E-15
+4416.00000000001  1.552133136339289E-15
+4418.00000000001  1.553700464929065E-15
+4420.00000000001  1.580119846070400E-15
+4422.00000000001  1.581572931091415E-15
+4424.00000000001  1.569668941808940E-15
+4426.00000000001  1.565585713607582E-15
+4428.00000000001  1.564197003090559E-15
+4430.00000000001  1.580071459313288E-15
+4432.00000000001  1.664161502184906E-15
+4434.00000000001  1.659787953440877E-15
+4436.00000000001  1.518115234386372E-15
+4438.00000000001  1.507403338098039E-15
+4440.00000000001  1.610477506899994E-15
+4442.00000000001  1.617937855462055E-15
+4444.00000000001  1.562808927848245E-15
+4446.00000000001  1.563008298228205E-15
+4448.00000000001  1.641813173146312E-15
+4450.00000000001  1.651160816993973E-15
+4452.00000000001  1.648499333594582E-15
+4454.00000000001  1.666619485918720E-15
+4456.00000000001  1.680544919329817E-15
+4458.00000000001  1.677359863689904E-15
+4460.00000000001  1.641142534810323E-15
+4462.00000000001  1.605052684389304E-15
+4464.00000000001  1.594655884357349E-15
+4466.00000000001  1.600441966420044E-15
+4468.00000000001  1.664926478815395E-15
+4470.00000000001  1.675685597190538E-15
+4472.00000000001  1.684456305722001E-15
+4474.00000000001  1.695153590691994E-15
+4476.00000000001  1.681419692606094E-15
+4478.00000000001  1.660345830515762E-15
+4480.00000000001  1.657207467567066E-15
+4482.00000000001  1.652646936299931E-15
+4484.00000000001  1.619843785472495E-15
+4486.00000000001  1.614966252124850E-15
+4488.00000000001  1.627635959191643E-15
+4490.00000000001  1.627746179353904E-15
+4492.00000000001  1.625560516712633E-15
+4494.00000000001  1.624155183174020E-15
+4496.00000000001  1.621271141867737E-15
+4498.00000000001  1.603771970573056E-15
+4500.00000000001  1.582383647501056E-15
+4502.00000000001  1.572840550800815E-15
+4504.00000000001  1.570661664423122E-15
+4506.00000000001  1.569417690660960E-15
+4508.00000000001  1.569477300604624E-15
+4510.00000000001  1.571006830349128E-15
+4512.00000000001  1.596973154742800E-15
+4514.00000000001  1.597590747640467E-15
+4516.00000000001  1.577722848708789E-15
+4518.00000000001  1.565769837394491E-15
+4520.00000000001  1.575289323051327E-15
+4522.00000000001  1.684783683956115E-15
+4524.00000000001  1.691441786438007E-15
+4526.00000000001  1.594581027820636E-15
+4528.00000000001  1.537677566182329E-15
+4530.00000000001  1.561895508693750E-15
+4532.00000000001  1.523932974305470E-15
+4534.00000000001  1.514575377820678E-15
+4536.00000000001  1.513636124161291E-15
+4538.00000000001  1.499503908831946E-15
+4540.00000000001  1.482191296543897E-15
+4542.00000000001  1.473530067020866E-15
+4544.00000000001  1.430957873454510E-15
+4546.00000000001  1.436800918482907E-15
+4548.00000000001  1.438374705698905E-15
+4550.00000000001  1.437117073530470E-15
+4552.00000000001  1.439820061544276E-15
+4554.00000000001  1.421669310154919E-15
+4556.00000000001  1.416963830374685E-15
+4558.00000000001  1.412036957357862E-15
+4560.00000000001  1.392072708428433E-15
+4562.00000000001  1.349778235789658E-15
+4564.00000000001  1.344835904421547E-15
+4566.00000000001  1.366761140502988E-15
+4568.00000000001  1.379728897288096E-15
+4570.00000000001  1.374515303618628E-15
+4572.00000000001  1.323894179470987E-15
+4574.00000000001  1.294827502732127E-15
+4576.00000000001  1.278431062455652E-15
+4578.00000000001  1.216917412243676E-15
+4580.00000000001  1.203862199306764E-15
+4582.00000000001  1.193695686357345E-15
+4584.00000000001  1.201013945142503E-15
+4586.00000000001  1.190033857047246E-15
+4588.00000000001  1.185966193076294E-15
+4590.00000000001  1.186408767791234E-15
+4592.00000000001  1.200951582341762E-15
+4594.00000000001  1.197566521047178E-15
+4596.00000000001  1.150777691590272E-15
+4598.00000000001  1.122158142368443E-15
+4600.00000000001  1.093977038575937E-15
+4602.00000000001  1.044921866589534E-15
+4604.00000000001  1.039016776397750E-15
+4606.00000000001  1.060632316057851E-15
+4608.00000000001  1.087031156650216E-15
+4610.00000000001  1.112703031215599E-15
+4612.00000000001  1.105536391327999E-15
+4614.00000000001  1.021732116196961E-15
+4616.00000000001  1.012988089203336E-15
+4618.00000000001  1.057818366727954E-15
+4620.00000000001  1.064576524976741E-15
+4622.00000000001  1.072832660992747E-15
+4624.00000000001  1.055795334412555E-15
+4626.00000000001  1.046870571763810E-15
+4628.00000000001  1.020179293046407E-15
+4630.00000000001  1.007821505862440E-15
+4632.00000000001  1.013328172931659E-15
+4634.00000000001  1.013084756838441E-15
+4636.00000000001  1.011129804796179E-15
+4638.00000000001  1.006626342373864E-15
+4640.00000000001  1.002748413783097E-15
+4642.00000000001  1.000864506629285E-15
+4644.00000000001  9.973454023707986E-16
+4646.00000000001  9.955875972470094E-16
+4648.00000000001  9.834505680249208E-16
+4650.00000000001  9.496411420561470E-16
+4652.00000000001  9.431567872075601E-16
+4654.00000000001  9.417262544387658E-16
+4656.00000000001  9.258513746995628E-16
+4658.00000000001  9.060297449426280E-16
+4660.00000000001  9.040296883959240E-16
+4662.00000000001  9.180084848826983E-16
+4664.00000000001  9.152909914296697E-16
+4666.00000000001  8.808862071780945E-16
+4668.00000000001  8.752758315123965E-16
+4670.00000000001  8.728682462389446E-16
+4672.00000000001  8.428356872424185E-16
+4674.00000000001  8.140658955515710E-16
+4676.00000000001  8.125810997345933E-16
+4678.00000000001  8.349997854473689E-16
+4680.00000000001  8.395286059185416E-16
+4682.00000000001  8.365024218957981E-16
+4684.00000000001  8.222616275305260E-16
+4686.00000000001  8.180650557329137E-16
+4688.00000000001  8.185938689897963E-16
+4690.00000000001  8.141016826935922E-16
+4692.00000000001  7.906102826926786E-16
+4694.00000000001  7.853539138593734E-16
+4696.00000000001  7.875658345220095E-16
+4698.00000000001  8.184394442956001E-16
+4700.00000000001  8.414168011766489E-16
+4702.00000000001  8.419938423719661E-16
+4704.00000000001  8.299863033116892E-16
+4706.00000000001  8.032197445410980E-16
+4708.00000000001  8.040916590811780E-16
+4710.00000000001  7.960792038561850E-16
+4712.00000000001  7.631238517960396E-16
+4714.00000000001  7.634520241235414E-16
+4716.00000000001  8.202079432103486E-16
+4718.00000000001  8.246639188480575E-16
+4720.00000000001  7.820882312707937E-16
+4722.00000000001  7.373043288000380E-16
+4724.00000000001  7.322708355109792E-16
+4726.00000000001  7.411447761828890E-16
+4728.00000000001  7.393472663896970E-16
+4730.00000000001  7.197564531108890E-16
+4732.00000000001  7.183226910289836E-16
+4734.00000000001  7.440007595227936E-16
+4736.00000000001  7.576530248084016E-16
+4738.00000000001  7.555894937302126E-16
+4740.00000000001  7.375117459929969E-16
+4742.00000000001  7.311660398499636E-16
+4744.00000000001  7.345074260082042E-16
+4746.00000000001  7.540132183549317E-16
+4748.00000000001  7.523564748496613E-16
+4750.00000000001  7.164774297533900E-16
+4752.00000000001  7.041980460566035E-16
+4754.00000000001  7.031341726748521E-16
+4756.00000000001  7.023929659064455E-16
+4758.00000000001  7.046802195618282E-16
+4760.00000000001  7.040217573244564E-16
+4762.00000000001  7.029017680099494E-16
+4764.00000000001  7.030796978684319E-16
+4766.00000000001  7.029412079815557E-16
+4768.00000000001  6.984973025633454E-16
+4770.00000000001  6.656299889901552E-16
+4772.00000000001  6.598674120917474E-16
+4774.00000000001  6.805819204542065E-16
+4776.00000000001  7.355161363692658E-16
+4778.00000000001  7.433562203894923E-16
+4780.00000000001  7.329789550548838E-16
+4782.00000000001  6.708218774403504E-16
+4784.00000000001  6.394521181179058E-16
+4786.00000000001  6.360792858614984E-16
+4788.00000000001  6.395763143237970E-16
+4790.00000000001  6.707069456573199E-16
+4792.00000000001  6.570585449595336E-16
+4794.00000000001  6.603047457903266E-16
+4796.00000000001  6.525141602579552E-16
+4798.00000000001  6.604901930662161E-16
+4800.00000000001  6.751587390698516E-16
+4802.00000000001  6.744577663664396E-16
+4804.00000000001  6.549531386900148E-16
+4806.00000000001  6.383875565218848E-16
+4808.00000000001  6.526378800078135E-16
+4810.00000000001  6.857642797837451E-16
+4812.00000000001  6.892591906636756E-16
+4814.00000000001  6.864792285307870E-16
+4816.00000000001  6.789169713172599E-16
+4818.00000000001  6.844564609131844E-16
+4820.00000000001  6.921121564487056E-16
+4822.00000000001  6.897995447444646E-16
+4824.00000000001  6.697350282899048E-16
+4826.00000000001  6.656676290167489E-16
+4828.00000000001  6.608278415748153E-16
+4830.00000000001  6.460715747215797E-16
+4832.00000000001  6.491013586343492E-16
+4834.00000000001  7.109579513108442E-16
+4836.00000000001  7.395322372095536E-16
+4838.00000000001  7.349019845429471E-16
+4840.00000000001  6.888815198483186E-16
+4842.00000000001  6.849436107369741E-16
+4844.00000000001  7.239402664747331E-16
+4846.00000000001  7.269152050041680E-16
+4848.00000000001  7.076002068288098E-16
+4850.00000000001  7.063792088353426E-16
+4852.00000000001  7.378713644186656E-16
+4854.00000000001  7.616270386991228E-16
+4856.00000000001  7.424363426087742E-16
+4858.00000000001  7.594402643271082E-16
+4860.00000000001  7.447196787367758E-16
+4862.00000000001  7.426762117515248E-16
+4864.00000000001  7.442057414960291E-16
+4866.00000000001  7.676474841904104E-16
+4868.00000000001  8.070806265938014E-16
+4870.00000000001  8.343351822211295E-16
+4872.00000000001  8.294254086819291E-16
+4874.00000000001  8.313329268791458E-16
+4876.00000000001  8.255116929491407E-16
+4878.00000000001  8.308912521367118E-16
+4880.00000000001  8.545847753746643E-16
+4882.00000000001  8.645333361588437E-16
+4884.00000000001  8.637610009296254E-16
+4886.00000000001  8.611626214848046E-16
+4888.00000000001  8.602727604341546E-16
+4890.00000000001  8.890796627560038E-16
+4892.00000000001  8.972227198735513E-16
+4894.00000000001  9.015212003226302E-16
+4896.00000000001  9.141456970058635E-16
+4898.00000000001  9.150796567093298E-16
+4900.00000000001  9.246713519249190E-16
+4902.00000000001  9.693551986287802E-16
+4904.00000000001  9.755603502421286E-16
+4906.00000000001  9.685218240878006E-16
+4908.00000000001  9.308987381531326E-16
+4910.00000000001  9.284983526597324E-16
+4912.00000000001  9.324197975681646E-16
+4914.00000000001  9.628939254280061E-16
+4916.00000000001  9.662090006253226E-16
+4918.00000000001  9.643613041300058E-16
+4920.00000000001  9.711162860052404E-16
+4922.00000000001  9.703067342659021E-16
+4924.00000000001  9.704561297019742E-16
+4926.00000000001  9.885859170258868E-16
+4928.00000000001  9.901155526495095E-16
+4930.00000000001  9.874305640858318E-16
+4932.00000000001  9.879919351716247E-16
+4934.00000000001  9.995901455601410E-16
+4936.00000000001  9.862934223541430E-16
+4938.00000000001  9.867662784969477E-16
+4940.00000000001  9.916877516787320E-16
+4942.00000000001  1.040536353505124E-15
+4944.00000000001  1.043787371835805E-15
+4946.00000000001  1.009014234131292E-15
+4948.00000000001  1.006593308088921E-15
+4950.00000000001  1.043507850963211E-15
+4952.00000000001  1.046545734628538E-15
+4954.00000000001  1.033609318062479E-15
+4956.00000000001  1.030484613520058E-15
+4958.00000000001  1.030761063898218E-15
+4960.00000000001  1.049581183074143E-15
+4962.00000000001  1.090576518930067E-15
+4964.00000000001  1.061476172631553E-15
+4966.00000000001  1.052651571628821E-15
+4968.00000000001  1.053558426277975E-15
+4970.00000000001  1.080963012616086E-15
+4972.00000000001  1.135692034799672E-15
+4974.00000000001  1.134681842130954E-15
+4976.00000000001  1.066731800311029E-15
+4978.00000000001  1.052542198499507E-15
+4980.00000000001  1.052813566679983E-15
+4982.00000000001  1.067801602923411E-15
+4984.00000000001  1.113713541521673E-15
+4986.00000000001  1.118745764261311E-15
+4988.00000000001  1.115936155975268E-15
+4990.00000000001  1.116451152007199E-15
+4992.00000000001  1.118477360696150E-15
+4994.00000000001  1.139936728656601E-15
+4996.00000000001  1.119453777926097E-15
+4998.00000000001  1.125251930208290E-15
+5000.00000000001  1.126798188853502E-15
+5002.00000000001  1.123667978596924E-15
+5004.00000000001  1.107698548804983E-15
+5006.00000000001  1.111541007891084E-15
+5008.00000000001  1.189358136513574E-15
+5010.00000000001  1.219162790707729E-15
+5012.00000000001  1.230353154732142E-15
+5014.00000000001  1.240172701810543E-15
+5016.00000000001  1.239622448032183E-15
+5018.00000000001  1.233864000419393E-15
+5020.00000000001  1.222628426011420E-15
+5022.00000000001  1.222819008424552E-15
+5024.00000000001  1.252048421368404E-15
+5026.00000000001  1.256756654005717E-15
+5028.00000000001  1.260799012867369E-15
+5030.00000000001  1.269908428698616E-15
+5032.00000000001  1.267695555123914E-15
+5034.00000000001  1.228825001416177E-15
+5036.00000000001  1.163574877115626E-15
+5038.00000000001  1.163847198208169E-15
+5040.00000000001  1.267311637440571E-15
+5042.00000000001  1.296861334717603E-15
+5044.00000000001  1.278321159930746E-15
+5046.00000000001  1.293033592828961E-15
+5048.00000000001  1.319732494842890E-15
+5050.00000000001  1.343125744901041E-15
+5052.00000000001  1.340055779862836E-15
+5054.00000000001  1.294846243336085E-15
+5056.00000000001  1.291141638862150E-15
+5058.00000000001  1.338990318294308E-15
+5060.00000000001  1.339428869602749E-15
+5062.00000000001  1.277148231057035E-15
+5064.00000000001  1.242765469662089E-15
+5066.00000000001  1.242296531046665E-15
+5068.00000000001  1.272679602864677E-15
+5070.00000000001  1.282642722027637E-15
+5072.00000000001  1.273458449659677E-15
+5074.00000000001  1.267410952053636E-15
+5076.00000000001  1.265565161382451E-15
+5078.00000000001  1.264152310426431E-15
+5080.00000000001  1.272576053086875E-15
+5082.00000000001  1.299923358821927E-15
+5084.00000000001  1.301619542298804E-15
+5086.00000000001  1.287413211586573E-15
+5088.00000000001  1.275720027628846E-15
+5090.00000000001  1.273926647121272E-15
+5092.00000000001  1.269601908650828E-15
+5094.00000000001  1.244079641279754E-15
+5096.00000000001  1.257321730860654E-15
+5098.00000000001  1.260081046565453E-15
+5100.00000000001  1.261901320369102E-15
+5102.00000000001  1.264609496459712E-15
+5104.00000000001  1.260203336947213E-15
+5106.00000000001  1.224590260196379E-15
+5108.00000000001  1.220662462540843E-15
+5110.00000000001  1.249273859070554E-15
+5112.00000000001  1.261110615112840E-15
+5114.00000000001  1.285884105358542E-15
+5116.00000000001  1.288080250032536E-15
+5118.00000000001  1.287773835863867E-15
+5120.00000000001  1.298809828133643E-15
+5122.00000000001  1.276461710853286E-15
+5124.00000000001  1.270021507597074E-15
+5126.00000000001  1.272487326385650E-15
+5128.00000000001  1.301452994445550E-15
+5130.00000000001  1.304999203758349E-15
+5132.00000000001  1.301968625752191E-15
+5134.00000000001  1.296334480224411E-15
+5136.00000000001  1.292749836791630E-15
+5138.00000000001  1.275694404882191E-15
+5140.00000000001  1.274831595946295E-15
+5142.00000000001  1.303206458525485E-15
+5144.00000000001  1.308322219889546E-15
+5146.00000000001  1.317439576654672E-15
+5148.00000000001  1.288106402174782E-15
+5150.00000000001  1.247954605255205E-15
+5152.00000000001  1.242849537682104E-15
+5154.00000000001  1.239583166879254E-15
+5156.00000000001  1.208561220460776E-15
+5158.00000000001  1.201336029420697E-15
+5160.00000000001  1.206349829193732E-15
+5162.00000000001  1.251871073845072E-15
+5164.00000000001  1.252196758013291E-15
+5166.00000000001  1.248237620138707E-15
+5168.00000000001  1.244786278516001E-15
+5170.00000000001  1.237649496539791E-15
+5172.00000000001  1.231618516076222E-15
+5174.00000000001  1.192476488308890E-15
+5176.00000000001  1.185450985286126E-15
+5178.00000000001  1.188659334332089E-15
+5180.00000000001  1.189614787496592E-15
+5182.00000000001  1.198338168062127E-15
+5184.00000000001  1.175216286184453E-15
+5186.00000000001  1.168491162220609E-15
+5188.00000000001  1.150845030709578E-15
+5190.00000000001  1.133373176227445E-15
+5192.00000000001  1.140632672101889E-15
+5194.00000000001  1.141877069380523E-15
+5196.00000000001  1.138806469067608E-15
+5198.00000000001  1.123820973923022E-15
+5200.00000000001  1.118937617223864E-15
+5202.00000000001  1.104030684385136E-15
+5204.00000000001  1.100360914141156E-15
+5206.00000000001  1.101433575489735E-15
+5208.00000000001  1.119064248649479E-15
+5210.00000000001  1.118227803614065E-15
+5212.00000000001  1.085487121466489E-15
+5214.00000000001  1.067809861494647E-15
+5216.00000000001  1.084001425677005E-15
+5218.00000000001  1.158177053780130E-15
+5220.00000000001  1.164199246276871E-15
+5222.00000000001  1.116751531066119E-15
+5224.00000000001  1.103643166811767E-15
+5226.00000000001  1.109024049488318E-15
+5228.00000000001  1.100462452215709E-15
+5230.00000000001  1.073188520709712E-15
+5232.00000000001  1.067823202263566E-15
+5234.00000000001  1.074628053203571E-15
+5236.00000000001  1.107903001382627E-15
+5238.00000000001  1.112611975173769E-15
+5240.00000000001  1.118699706844804E-15
+5242.00000000001  1.128308236840220E-15
+5244.00000000001  1.116711932275835E-15
+5246.00000000001  1.090329185309469E-15
+5248.00000000001  1.073249930598388E-15
+5250.00000000001  1.061228415494481E-15
+5252.00000000001  1.069175384484740E-15
+5254.00000000001  1.065326255014179E-15
+5256.00000000001  1.063998636748477E-15
+5258.00000000001  1.061502960048510E-15
+5260.00000000001  1.049169842699132E-15
+5262.00000000001  1.046648543252511E-15
+5264.00000000001  1.066686272290114E-15
+5266.00000000001  1.120950908660369E-15
+5268.00000000001  1.130699199092082E-15
+5270.00000000001  1.123480784315581E-15
+5272.00000000001  1.092239985759356E-15
+5274.00000000001  1.067237478980540E-15
+5276.00000000001  1.058390113967350E-15
+5278.00000000001  1.054013706487124E-15
+5280.00000000001  1.052253466143611E-15
+5282.00000000001  1.051359422867784E-15
+5284.00000000001  1.049617287853519E-15
+5286.00000000001  1.049150890336938E-15
+5288.00000000001  1.065542036657492E-15
+5290.00000000001  1.048932779353019E-15
+5292.00000000001  1.044228781880443E-15
+5294.00000000001  1.043588636730555E-15
+5296.00000000001  1.041067866679526E-15
+5298.00000000001  1.042264618354878E-15
+5300.00000000001  1.029640968704592E-15
+5302.00000000001  1.046790103633821E-15
+5304.00000000001  1.065531766383007E-15
+5306.00000000001  1.067023603161358E-15
+5308.00000000001  1.064881986233344E-15
+5310.00000000001  1.055931812596182E-15
+5312.00000000001  1.054494397684691E-15
+5314.00000000001  1.063343668522012E-15
+5316.00000000001  1.062475353871958E-15
+5318.00000000001  1.047227172634604E-15
+5320.00000000001  1.045161259276251E-15
+5322.00000000001  1.040067732527056E-15
+5324.00000000001  9.913103985007303E-16
+5326.00000000001  9.816983744944068E-16
+5328.00000000001  9.812734815922403E-16
+5330.00000000001  9.842458260832742E-16
+5332.00000000001  1.019519136743140E-15
+5334.00000000001  1.006988448958815E-15
+5336.00000000001  1.000856142178931E-15
+5338.00000000001  9.834234629706086E-16
+5340.00000000001  9.568826384804607E-16
+5342.00000000001  9.522727675441476E-16
+5344.00000000001  9.537341111363981E-16
+5346.00000000001  9.719687187875334E-16
+5348.00000000001  9.704964696460871E-16
+5350.00000000001  9.316232689603902E-16
+5352.00000000001  9.229752743271607E-16
+5354.00000000001  9.195174740782318E-16
+5356.00000000001  9.226220615881558E-16
+5358.00000000001  9.341244513745139E-16
+5360.00000000001  9.430218972107098E-16
+5362.00000000001  9.524446093533217E-16
+5364.00000000001  9.530358383505053E-16
+5366.00000000001  9.491390632766618E-16
+5368.00000000001  9.354150119487741E-16
+5370.00000000001  9.241785905078538E-16
+5372.00000000001  9.050655038112974E-16
+5374.00000000001  9.036869576896410E-16
+5376.00000000001  9.253161557560163E-16
+5378.00000000001  9.277958447091033E-16
+5380.00000000001  9.239389860628992E-16
+5382.00000000001  9.217070542468841E-16
+5384.00000000001  9.206066525692824E-16
+5386.00000000001  9.247024803857306E-16
+5388.00000000001  9.382178439712385E-16
+5390.00000000001  9.251011152665321E-16
+5392.00000000001  9.271606758777808E-16
+5394.00000000001  9.315637648958458E-16
+5396.00000000001  9.692080266541949E-16
+5398.00000000001  9.716257763230139E-16
+5400.00000000001  9.320043279075362E-16
+5402.00000000001  9.119492346945146E-16
+5404.00000000001  9.250402347734483E-16
+5406.00000000001  9.320388445001369E-16
+5408.00000000001  9.291815906108114E-16
+5410.00000000001  9.010849783547942E-16
+5412.00000000001  8.823801085992550E-16
+5414.00000000001  8.783894716869440E-16
+5416.00000000001  8.803829107887478E-16
+5418.00000000001  8.940435934642693E-16
+5420.00000000001  9.123985856730330E-16
+5422.00000000001  9.351818661300426E-16
+5424.00000000001  9.312509979800720E-16
+5426.00000000001  8.648659554093187E-16
+5428.00000000001  8.571815666327093E-16
+5430.00000000001  9.072676835950400E-16
+5432.00000000001  9.440161021325497E-16
+5434.00000000001  9.506536640654711E-16
+5436.00000000001  9.917001395355856E-16
+5438.00000000001  1.002112609677064E-15
+5440.00000000001  9.957921557037713E-16
+5442.00000000001  9.918491114551840E-16
+5444.00000000001  9.916487881631583E-16
+5446.00000000001  9.998104800055457E-16
+5448.00000000001  1.000605949822136E-15
+5450.00000000001  9.986520565710568E-16
+5452.00000000001  9.880186167094631E-16
+5454.00000000001  9.795053003148470E-16
+5456.00000000001  9.793516697140389E-16
+5458.00000000001  9.970907630910303E-16
+5460.00000000001  1.012375366745116E-15
+5462.00000000001  1.016116923031375E-15
+5464.00000000001  1.015124835691904E-15
+5466.00000000001  1.011001479304670E-15
+5468.00000000001  1.010577539314569E-15
+5470.00000000001  1.025392569078520E-15
+5472.00000000001  1.043616377059578E-15
+5474.00000000001  1.044437363743704E-15
+5476.00000000001  1.036367469096976E-15
+5478.00000000001  1.030989551035740E-15
+5480.00000000001  1.024731142225833E-15
+5482.00000000001  1.016836054003594E-15
+5484.00000000001  1.014839173830442E-15
+5486.00000000001  1.014925147674588E-15
+5488.00000000001  1.022775766667096E-15
+5490.00000000001  1.022269452722875E-15
+5492.00000000001  1.009225992368106E-15
+5494.00000000001  1.007551937626976E-15
+5496.00000000001  1.019974628710526E-15
+5498.00000000001  1.018869674230833E-15
+5500.00000000001  9.936450330615999E-16
+5502.00000000001  9.890104922906981E-16
+5504.00000000001  9.921333968881063E-16
+5506.00000000001  9.968637582611662E-16
+5508.00000000001  9.967814901861643E-16
+5510.00000000001  9.959211164699904E-16
+5512.00000000001  9.967367033190781E-16
+5514.00000000001  9.958836352620747E-16
+5516.00000000001  9.917586906880646E-16
+5518.00000000001  9.903405457761240E-16
+5520.00000000001  9.939936929985133E-16
+5522.00000000001  1.005575174486321E-15
+5524.00000000001  9.930298753836565E-16
+5526.00000000001  9.790552081824999E-16
+5528.00000000001  9.749461454762508E-16
+5530.00000000001  9.744009738955741E-16
+5532.00000000001  9.726501567935995E-16
+5534.00000000001  9.610100182741942E-16
+5536.00000000001  9.583207945457803E-16
+5538.00000000001  9.585868687703363E-16
+5540.00000000001  9.639243410083410E-16
+5542.00000000001  9.679121721240142E-16
+5544.00000000001  9.841072303172797E-16
+5546.00000000001  9.845225940987895E-16
+5548.00000000001  9.663294910620695E-16
+5550.00000000001  9.629372299874344E-16
+5552.00000000001  9.628140925727274E-16
+5554.00000000001  9.611503081060832E-16
+5556.00000000001  9.607905308617369E-16
+5558.00000000001  9.586616194279318E-16
+5560.00000000001  9.412960675806791E-16
+5562.00000000001  9.374377266268174E-16
+5564.00000000001  9.394510180633225E-16
+5566.00000000001  9.560663104775446E-16
+5568.00000000001  9.484620721935690E-16
+5570.00000000001  9.425875810670052E-16
+5572.00000000001  9.064354737243627E-16
+5574.00000000001  9.078466306144883E-16
+5576.00000000001  9.990164924966129E-16
+5578.00000000001  1.033489145263087E-15
+5580.00000000001  1.004901571535018E-15
+5582.00000000001  9.071416874441362E-16
+5584.00000000001  8.743154020293285E-16
+5586.00000000001  8.647416533243091E-16
+5588.00000000001  8.657518989325875E-16
+5590.00000000001  8.616859819670892E-16
+5592.00000000001  8.413270686237994E-16
+5594.00000000001  8.282083282158431E-16
+5596.00000000001  8.184363738011662E-16
+5598.00000000001  8.250468306797758E-16
+5600.00000000001  8.213297324698686E-16
+5602.00000000001  8.261685669997365E-16
+5604.00000000001  8.429829650961222E-16
+5606.00000000001  8.399281937114089E-16
+5608.00000000001  7.847955603284552E-16
+5610.00000000001  7.763337541249439E-16
+5612.00000000001  7.881271526682431E-16
+5614.00000000001  7.886932353748050E-16
+5616.00000000001  7.822599672008495E-16
+5618.00000000001  7.809545306104530E-16
+5620.00000000001  7.800887570592407E-16
+5622.00000000001  7.801473082117196E-16
+5624.00000000001  7.777023476094702E-16
+5626.00000000001  7.594758397108929E-16
+5628.00000000001  7.718463323890684E-16
+5630.00000000001  7.756513632068123E-16
+5632.00000000001  7.719403530462134E-16
+5634.00000000001  7.415780864749688E-16
+5636.00000000001  7.352844728581917E-16
+5638.00000000001  7.366405726067459E-16
+5640.00000000001  7.335908834197159E-16
+5642.00000000001  7.019147628681612E-16
+5644.00000000001  6.912292304803114E-16
+5646.00000000001  6.962312247316442E-16
+5648.00000000001  6.900070678165419E-16
+5650.00000000001  6.923561548770741E-16
+5652.00000000001  6.893441586561971E-16
+5654.00000000001  6.912220836398190E-16
+5656.00000000001  6.745412520513033E-16
+5658.00000000001  6.708252655721393E-16
+5660.00000000001  6.726028171515118E-16
+5662.00000000001  6.869939598649216E-16
+5664.00000000001  6.891844400060803E-16
+5666.00000000001  6.886345038650755E-16
+5668.00000000001  6.949315056136415E-16
+5670.00000000001  7.050111976859676E-16
+5672.00000000001  6.970205006198075E-16
+5674.00000000001  7.039590768863596E-16
+5676.00000000001  6.971335265787068E-16
+5678.00000000001  7.079822186880214E-16
+5680.00000000001  6.960345013296442E-16
+5682.00000000001  6.925008386923769E-16
+5684.00000000001  6.907912615070217E-16
+5686.00000000001  6.775556305523444E-16
+5688.00000000001  6.544306781802364E-16
+5690.00000000001  6.549347686629711E-16
+5692.00000000001  7.014422243627117E-16
+5694.00000000001  7.243445658883695E-16
+5696.00000000001  7.243702415745832E-16
+5698.00000000001  7.151152948950867E-16
+5700.00000000001  7.135162555093482E-16
+5702.00000000001  7.136486573469159E-16
+5704.00000000001  7.117130811833214E-16
+5706.00000000001  7.055971856667901E-16
+5708.00000000001  7.137170552574066E-16
+5710.00000000001  7.589817018652884E-16
+5712.00000000001  7.652990853441479E-16
+5714.00000000001  7.548319815775711E-16
+5716.00000000001  7.533785259796420E-16
+5718.00000000001  7.533921843859164E-16
+5720.00000000001  7.537996072335459E-16
+5722.00000000001  7.561348770691258E-16
+5724.00000000001  7.432806226989498E-16
+5726.00000000001  7.402880552963004E-16
+5728.00000000001  7.418815360283226E-16
+5730.00000000001  7.633776440428606E-16
+5732.00000000001  7.890366542953575E-16
+5734.00000000001  7.967792236475315E-16
+5736.00000000001  8.080678964333856E-16
+5738.00000000001  8.211117803046283E-16
+5740.00000000001  8.235400649457286E-16
+5742.00000000001  8.354936056556182E-16
+5744.00000000001  8.349995207495729E-16
+5746.00000000001  8.076176984219198E-16
+5748.00000000001  8.035740160712872E-16
+5750.00000000001  8.176041109909297E-16
+5752.00000000001  8.368066655425400E-16
+5754.00000000001  8.395467641873486E-16
+5756.00000000001  8.428941854553382E-16
+5758.00000000001  8.433108197862690E-16
+5760.00000000001  8.433185489619126E-16
+5762.00000000001  8.526505227000500E-16
+5764.00000000001  8.646424445903619E-16
+5766.00000000001  8.559382810848176E-16
+5768.00000000001  8.769508921051510E-16
+5770.00000000001  8.824876817835564E-16
+5772.00000000001  8.945982941656023E-16
+5774.00000000001  8.958184451261221E-16
+5776.00000000001  8.850842083438053E-16
+5778.00000000001  8.823066284910807E-16
+5780.00000000001  8.820775590184077E-16
+5782.00000000001  8.877299686941132E-16
+5784.00000000001  9.113736758068552E-16
+5786.00000000001  9.138761287703998E-16
+5788.00000000001  9.013554995023236E-16
+5790.00000000001  8.990728515885917E-16
+5792.00000000001  9.027220812835998E-16
+5794.00000000001  9.179184876320525E-16
+5796.00000000001  9.203182378507424E-16
+5798.00000000001  9.189445621685327E-16
+5800.00000000001  9.133603915846402E-16
+5802.00000000001  9.270567025835056E-16
+5804.00000000001  9.768024181801586E-16
+5806.00000000001  9.817746074596598E-16
+5808.00000000001  9.530638963168831E-16
+5810.00000000001  9.476374856194169E-16
+5812.00000000001  9.403958833159847E-16
+5814.00000000001  9.381090002375164E-16
+5816.00000000001  9.398437237134932E-16
+5818.00000000001  9.602276774682865E-16
+5820.00000000001  9.619376252305561E-16
+5822.00000000001  9.440686181752794E-16
+5824.00000000001  9.415850116948114E-16
+5826.00000000001  9.498955695776785E-16
+5828.00000000001  9.587701455242986E-16
+5830.00000000001  9.758550118286546E-16
+5832.00000000001  9.789098361529273E-16
+5834.00000000001  9.750309546500947E-16
+5836.00000000001  9.461092264243332E-16
+5838.00000000001  9.532432555434643E-16
+5840.00000000001  9.555714314781110E-16
+5842.00000000001  9.570554332017006E-16
+5844.00000000001  9.734640495767926E-16
+5846.00000000001  9.475262066659715E-16
+5848.00000000001  9.458549047819203E-16
+5850.00000000001  9.337120522083193E-16
+5852.00000000001  9.475746993022017E-16
+5854.00000000001  9.804084491948570E-16
+5856.00000000001  9.814861927411198E-16
+5858.00000000001  9.447761024444735E-16
+5860.00000000001  9.244460411609494E-16
+5862.00000000001  8.886449230958255E-16
+5864.00000000001  8.834520817335644E-16
+5866.00000000001  8.807036715779613E-16
+5868.00000000001  8.382500626242205E-16
+5870.00000000001  8.328999378315662E-16
+5872.00000000001  8.605020416650646E-16
+5874.00000000001  8.709679278217795E-16
+5876.00000000001  8.609615040993909E-16
+5878.00000000001  8.127144015446674E-16
+5880.00000000001  7.885885738662600E-16
+5882.00000000001  7.848833870571737E-16
+5884.00000000001  7.795529028409841E-16
+5886.00000000001  7.724642958636496E-16
+5888.00000000001  7.374574829448133E-16
+5890.00000000001  6.953872622788236E-16
+5892.00000000001  6.877700008632842E-16
+5894.00000000001  6.786010280279339E-16
+5896.00000000001  6.705570208256559E-16
+5898.00000000001  6.618493103696448E-16
+5900.00000000001  6.573184252556631E-16
+5902.00000000001  6.537213410264702E-16
+5904.00000000001  6.220576612713282E-16
+5906.00000000001  6.144684048826074E-16
+5908.00000000001  5.955153544735227E-16
+5910.00000000001  5.912437673205194E-16
+5912.00000000001  5.931517090342097E-16
+5914.00000000001  6.117843162914361E-16
+5916.00000000001  6.107366424148009E-16
+5918.00000000001  5.651399059520363E-16
+5920.00000000001  5.575719842056743E-16
+5922.00000000001  5.642931906421372E-16
+5924.00000000001  5.625285033756513E-16
+5926.00000000001  5.362791640984774E-16
+5928.00000000001  5.224048173620111E-16
+5930.00000000001  5.083231063721451E-16
+5932.00000000001  5.191854039481752E-16
+5934.00000000001  5.034783426116465E-16
+5936.00000000001  4.987713805237545E-16
+5938.00000000001  4.913058968244511E-16
+5940.00000000001  4.814399217526291E-16
+5942.00000000001  4.880618665155856E-16
+5944.00000000001  4.744440648830190E-16
+5946.00000000001  4.691852608299907E-16
+5948.00000000001  4.635081813196963E-16
+5950.00000000001  4.476570714425754E-16
+5952.00000000001  4.274761144275476E-16
+5954.00000000001  4.422929441365119E-16
+5956.00000000001  4.176223419241220E-16
+5958.00000000001  4.025570668638162E-16
+5960.00000000001  4.051359380810707E-16
+5962.00000000001  4.412593521826248E-16
+5964.00000000001  4.458427268695567E-16
+5966.00000000001  4.247019491763918E-16
+5968.00000000001  4.121356330687230E-16
+5970.00000000001  4.107956798857260E-16
+5972.00000000001  4.119918492259266E-16
+5974.00000000001  4.160857712182434E-16
+5976.00000000001  3.896239325504270E-16
+5978.00000000001  3.732524003365572E-16
+5980.00000000001  3.728109902919192E-16
+5982.00000000001  3.829455012778005E-16
+5984.00000000001  3.935318778712624E-16
+5986.00000000001  4.023173300699636E-16
+5988.00000000001  4.037875410383807E-16
+5990.00000000001  4.034965852209988E-16
+5992.00000000001  3.997529113523717E-16
+5994.00000000001  3.653265542304210E-16
+5996.00000000001  3.638995684120935E-16
+5998.00000000001  4.177328003143999E-16
+6000.00000000001  4.247007580363096E-16
+6002.00000000001  3.960622829220661E-16
+6004.00000000001  3.768152856105048E-16
+6006.00000000001  3.753753825397316E-16
+6008.00000000001  3.791743782477264E-16
+6010.00000000001  3.807635179358938E-16
+6012.00000000001  3.941460561673605E-16
+6014.00000000001  3.982440280359564E-16
+6016.00000000001  3.980094263793466E-16
+6018.00000000001  3.986404923948306E-16
+6020.00000000001  3.984511011217805E-16
+6022.00000000001  4.017788553435263E-16
+6024.00000000001  4.191394573419932E-16
+6026.00000000001  4.245390276829433E-16
+6028.00000000001  4.266360695021082E-16
+6030.00000000001  4.305985955084822E-16
+6032.00000000001  4.297640298274202E-16
+6034.00000000001  4.154461819337276E-16
+6036.00000000001  4.127631256639608E-16
+6038.00000000001  4.135544661949332E-16
+6040.00000000001  4.148517236234328E-16
+6042.00000000001  4.068821494413946E-16
+6044.00000000001  4.155850159277386E-16
+6046.00000000001  4.443100736910592E-16
+6048.00000000001  4.607612534717506E-16
+6050.00000000001  4.610162633284334E-16
+6052.00000000001  4.504771088217809E-16
+6054.00000000001  4.493457375020452E-16
+6056.00000000001  4.601676421944029E-16
+6058.00000000001  4.691437032760160E-16
+6060.00000000001  4.695323325801282E-16
+6062.00000000001  4.706545453561216E-16
+6064.00000000001  4.876422146297802E-16
+6066.00000000001  4.909634308159643E-16
+6068.00000000001  4.952311533811460E-16
+6070.00000000001  4.957230148257047E-16
+6072.00000000001  4.946204955657347E-16
+6074.00000000001  4.868705146752723E-16
+6076.00000000001  4.844241776444835E-16
+6078.00000000001  4.866176224009578E-16
+6080.00000000001  5.130632615636578E-16
+6082.00000000001  5.374587633566473E-16
+6084.00000000001  5.389892460132175E-16
+6086.00000000001  5.272861623579192E-16
+6088.00000000001  5.259835845037197E-16
+6090.00000000001  5.344657724375243E-16
+6092.00000000001  5.352871826381242E-16
+6094.00000000001  5.290042628123061E-16
+6096.00000000001  5.292707605533361E-16
+6098.00000000001  5.562902115982417E-16
+6100.00000000001  5.888353350141201E-16
+6102.00000000001  5.825970961762698E-16
+6104.00000000001  5.934644759499834E-16
+6106.00000000001  5.824885171403436E-16
+6108.00000000001  5.972930648715728E-16
+6110.00000000001  5.948179287205772E-16
+6112.00000000001  5.994900565785137E-16
+6114.00000000001  6.034571883265383E-16
+6116.00000000001  6.120822071910736E-16
+6118.00000000001  6.131973790056931E-16
+6120.00000000001  6.133173929864073E-16
+6122.00000000001  6.256991617906930E-16
+6124.00000000001  6.419853289653474E-16
+6126.00000000001  6.467080670418822E-16
+6128.00000000001  6.623040082436427E-16
+6130.00000000001  6.666424051203609E-16
+6132.00000000001  6.890670730033264E-16
+6134.00000000001  7.030296170454255E-16
+6136.00000000001  6.933484010352233E-16
+6138.00000000001  6.926099471238953E-16
+6140.00000000001  6.798930709098518E-16
+6142.00000000001  6.940892901662748E-16
+6144.00000000001  7.359762340783024E-16
+6146.00000000001  7.399346307990586E-16
+6148.00000000001  7.127485789613398E-16
+6150.00000000001  7.096038103259805E-16
+6152.00000000001  7.279497498701206E-16
+6154.00000000001  7.384431645976213E-16
+6156.00000000001  7.525551570153515E-16
+6158.00000000001  7.598158175600971E-16
+6160.00000000001  7.616194154025976E-16
+6162.00000000001  7.712581738863187E-16
+6164.00000000001  7.798315237410714E-16
+6166.00000000001  7.930610137068812E-16
+6168.00000000001  8.138409024249565E-16
+6170.00000000001  8.163718368713523E-16
+6172.00000000001  8.115520605827977E-16
+6174.00000000001  8.088578605358186E-16
+6176.00000000001  8.082131096442803E-16
+6178.00000000001  8.089027003424640E-16
+6180.00000000001  8.179910991687066E-16
+6182.00000000001  8.207021339955122E-16
+6184.00000000001  8.342342794212878E-16
+6186.00000000001  8.368963451558304E-16
+6188.00000000001  8.410444772567715E-16
+6190.00000000001  8.479894062704280E-16
+6192.00000000001  8.559812150673316E-16
+6194.00000000001  8.493743580787480E-16
+6196.00000000001  8.526115062449171E-16
+6198.00000000001  8.559039233108945E-16
+6200.00000000001  8.809617519290777E-16
+6202.00000000001  8.850555151027170E-16
+6204.00000000001  8.802995839225615E-16
+6206.00000000001  8.779924249929185E-16
+6208.00000000001  8.803197009550589E-16
+6210.00000000001  8.954675617277221E-16
+6212.00000000001  8.985369973703348E-16
+6214.00000000001  9.022887180519609E-16
+6216.00000000001  9.069596812395948E-16
+6218.00000000001  9.536341612486221E-16
+6220.00000000001  9.595468747369307E-16
+6222.00000000001  9.308609393078614E-16
+6224.00000000001  9.263576886437838E-16
+6226.00000000001  9.352778984904374E-16
+6228.00000000001  9.503883309947436E-16
+6230.00000000001  9.536023975131001E-16
+6232.00000000001  9.657738374486707E-16
+6234.00000000001  9.701664444340132E-16
+6236.00000000001  9.794877243811915E-16
+6238.00000000001  9.806149134757502E-16
+6240.00000000001  9.814932866420529E-16
+6242.00000000001  1.001137251238301E-15
+6244.00000000001  1.010091448281963E-15
+6246.00000000001  1.003461403766448E-15
+6248.00000000001  9.915632378354856E-16
+6250.00000000001  9.917349737655414E-16
+6252.00000000001  1.016814348784320E-15
+6254.00000000001  1.028960801247947E-15
+6256.00000000001  1.039754224457453E-15
+6258.00000000001  1.038260164217615E-15
+6260.00000000001  1.003727901507478E-15
+6262.00000000001  9.965531089277607E-16
+6264.00000000001  9.871879950255622E-16
+6266.00000000001  9.845250293185128E-16
+6268.00000000001  9.972306294064456E-16
+6270.00000000001  1.044719319836021E-15
+6272.00000000001  1.038386160368519E-15
+6274.00000000001  1.032118222437956E-15
+6276.00000000001  1.008370171454024E-15
+6278.00000000001  9.927354255553672E-16
+6280.00000000001  9.922142885345691E-16
+6282.00000000001  9.651802791108823E-16
+6284.00000000001  9.917213153592672E-16
+6286.00000000001  1.031429584651838E-15
+6288.00000000001  1.033994612174361E-15
+6290.00000000001  1.009545217910102E-15
+6292.00000000001  1.005752098493179E-15
+6294.00000000001  1.009623356699487E-15
+6296.00000000001  1.013414570292279E-15
+6298.00000000001  1.044919431369810E-15
+6300.00000000001  1.050628009917830E-15
+6302.00000000001  1.050509742942570E-15
+6304.00000000001  1.047674194272518E-15
+6306.00000000001  1.046423761884134E-15
+6308.00000000001  1.047784626193016E-15
+6310.00000000001  1.067723146496672E-15
+6312.00000000001  1.067668724629811E-15
+6314.00000000001  1.021770550316942E-15
+6316.00000000001  9.988035695894970E-16
+6318.00000000001  9.904593421469765E-16
+6320.00000000001  9.737021717140893E-16
+6322.00000000001  9.882600210994307E-16
+6324.00000000001  9.984228282797060E-16
+6326.00000000001  9.986016581106953E-16
+6328.00000000001  9.944621022183450E-16
+6330.00000000001  9.972988155586997E-16
+6332.00000000001  1.041590697766219E-15
+6334.00000000001  1.046845054896274E-15
+6336.00000000001  1.014998521903644E-15
+6338.00000000001  1.009237003796420E-15
+6340.00000000001  1.008708137599979E-15
+6342.00000000001  9.922452052371438E-16
+6344.00000000001  9.893511054146125E-16
+6346.00000000001  9.925023856157538E-16
+6348.00000000001  9.920678577138124E-16
+6350.00000000001  9.941501823355187E-16
+6352.00000000001  1.023833075543506E-15
+6354.00000000001  1.027592313642539E-15
+6356.00000000001  1.009341612365406E-15
+6358.00000000001  1.006258941832993E-15
+6360.00000000001  1.006609507594038E-15
+6362.00000000001  1.003250069046108E-15
+6364.00000000001  9.968073246910555E-16
+6366.00000000001  9.956174551583998E-16
+6368.00000000001  9.960008434461509E-16
+6370.00000000001  9.920342940332775E-16
+6372.00000000001  9.662627872174733E-16
+6374.00000000001  9.571463833644121E-16
+6376.00000000001  9.567295372752446E-16
+6378.00000000001  9.522991314446310E-16
+6380.00000000001  9.514310285528138E-16
+6382.00000000001  9.596378248996423E-16
+6384.00000000001  9.830415569905153E-16
+6386.00000000001  9.952017737395348E-16
+6388.00000000001  9.957703446053791E-16
+6390.00000000001  9.893453879422187E-16
+6392.00000000001  9.720381754892082E-16
+6394.00000000001  9.683190655760516E-16
+6396.00000000001  9.629346888885926E-16
+6398.00000000001  9.680053457482122E-16
+6400.00000000001  9.637216883757104E-16
+6402.00000000001  9.626231925222400E-16
+6404.00000000001  9.628164219133323E-16
+6406.00000000001  9.623672826930508E-16
+6408.00000000001  9.595431689677864E-16
+6410.00000000001  9.577776346683533E-16
+6412.00000000001  9.608413528385721E-16
+6414.00000000001  9.958072964177033E-16
+6416.00000000001  1.001780466882622E-15
+6418.00000000001  1.000905375968990E-15
+6420.00000000001  1.012190078287904E-15
+6422.00000000001  1.009379728848033E-15
+6424.00000000001  9.547070343554381E-16
+6426.00000000001  9.436635246682549E-16
+6428.00000000001  9.365821174709721E-16
+6430.00000000001  9.533194885087171E-16
+6432.00000000001  9.949684161625664E-16
+6434.00000000001  1.000932375144184E-15
+6436.00000000001  9.962430948690657E-16
+6438.00000000001  9.966675642547585E-16
+6440.00000000001  9.929119260457514E-16
+6442.00000000001  9.465418485021436E-16
+6444.00000000001  9.335622332557738E-16
+6446.00000000001  9.378075623874124E-16
+6448.00000000001  9.795235115232130E-16
+6450.00000000001  9.859627618673587E-16
+6452.00000000001  9.712638814962994E-16
+6454.00000000001  9.645034997860262E-16
+6456.00000000001  9.552060426404893E-16
+6458.00000000001  9.422676143711798E-16
+6460.00000000001  9.004445155675515E-16
+6462.00000000001  8.949287428941500E-16
+6464.00000000001  9.174603486867063E-16
+6466.00000000001  9.266109514950129E-16
+6468.00000000001  9.544080317250571E-16
+6470.00000000001  9.593419986428136E-16
+6472.00000000001  9.579090306542963E-16
+6474.00000000001  9.574522681374891E-16
+6476.00000000001  9.587876155788356E-16
+6478.00000000001  9.684178507935250E-16
+6480.00000000001  9.434269907177341E-16
+6482.00000000001  9.381747511700471E-16
+6484.00000000001  9.376977657416243E-16
+6486.00000000001  9.184812351463845E-16
+6488.00000000001  9.072114617831661E-16
+6490.00000000001  9.092992921190296E-16
+6492.00000000001  9.449976015601804E-16
+6494.00000000001  9.513921709163584E-16
+6496.00000000001  9.479618992382154E-16
+6498.00000000001  9.318664732953707E-16
+6500.00000000001  8.992563401007904E-16
+6502.00000000001  8.921871090021245E-16
+6504.00000000001  8.947019498225226E-16
+6506.00000000001  8.922179198255809E-16
+6508.00000000001  8.826985400478635E-16
+6510.00000000001  8.841450076239778E-16
+6512.00000000001  9.225627692818481E-16
+6514.00000000001  9.292421534665401E-16
+6516.00000000001  9.217912281460176E-16
+6518.00000000001  9.103526834680587E-16
+6520.00000000001  9.171037478159123E-16
+6522.00000000001  9.189008340926306E-16
+6524.00000000001  9.181857265269113E-16
+6526.00000000001  9.206227461952803E-16
+6528.00000000001  9.325449466861214E-16
+6530.00000000001  9.307504015082446E-16
+6532.00000000001  8.870797120884179E-16
+6534.00000000001  8.765949794486266E-16
+6536.00000000001  8.647236009346208E-16
+6538.00000000001  8.702583789097764E-16
+6540.00000000001  8.728415117615468E-16
+6542.00000000001  8.820991054190034E-16
+6544.00000000001  8.884879043632283E-16
+6546.00000000001  8.950372689905170E-16
+6548.00000000001  9.002015229908080E-16
+6550.00000000001  8.992540107601856E-16
+6552.00000000001  8.830974925660204E-16
+6554.00000000001  8.795615005881480E-16
+6556.00000000001  8.788188115120834E-16
+6558.00000000001  8.657013945931074E-16
+6560.00000000001  8.640017171053233E-16
+6562.00000000001  8.768733885904773E-16
+6564.00000000001  8.835497022807358E-16
+6566.00000000001  8.827665673814398E-16
+6568.00000000001  8.705678635728795E-16
+6570.00000000001  8.691716885780083E-16
+6572.00000000001  8.818008968820107E-16
+6574.00000000001  8.839834890288483E-16
+6576.00000000001  8.821807911588542E-16
+6578.00000000001  8.715765209943817E-16
+6580.00000000001  8.694947257682674E-16
+6582.00000000001  8.691360073151053E-16
+6584.00000000001  8.647566881591228E-16
+6586.00000000001  8.606924652595191E-16
+6588.00000000001  8.337670878113179E-16
+6590.00000000001  8.565572504110235E-16
+6592.00000000001  8.632658572323961E-16
+6594.00000000001  8.597257359689060E-16
+6596.00000000001  8.308305834018647E-16
+6598.00000000001  8.179459417247059E-16
+6600.00000000001  8.258698290671516E-16
+6602.00000000001  8.372513049002894E-16
+6604.00000000001  8.380182402944689E-16
+6606.00000000001  8.294701426094561E-16
+6608.00000000001  8.231761584157646E-16
+6610.00000000001  8.267027800916579E-16
+6612.00000000001  8.276079406749174E-16
+6614.00000000001  8.265417379525610E-16
+6616.00000000001  8.167698364774433E-16
+6618.00000000001  8.171442250401297E-16
+6620.00000000001  8.467269036625455E-16
+6622.00000000001  8.518161423074454E-16
+6624.00000000001  8.413943018639875E-16
+6626.00000000001  8.131847695281896E-16
+6628.00000000001  7.978137155739251E-16
+6630.00000000001  8.072334101616625E-16
+6632.00000000001  7.995322395447855E-16
+6634.00000000001  7.960732746255543E-16
+6636.00000000001  7.841505447391211E-16
+6638.00000000001  7.840954346579903E-16
+6640.00000000001  8.152487241228523E-16
+6642.00000000001  8.199763326388338E-16
+6644.00000000001  8.086941714187617E-16
+6646.00000000001  8.044436012707621E-16
+6648.00000000001  8.044002967113337E-16
+6650.00000000001  7.919442537054856E-16
+6652.00000000001  7.545969828742673E-16
+6654.00000000001  7.858105704970620E-16
+6656.00000000001  7.923980516069770E-16
+6658.00000000001  7.882139206057776E-16
+6660.00000000001  7.638060838954936E-16
+6662.00000000001  7.570697896846578E-16
+6664.00000000001  7.594642459474274E-16
+6666.00000000001  7.572173851757169E-16
+6668.00000000001  7.522271435065274E-16
+6670.00000000001  7.530135077189347E-16
+6672.00000000001  7.747937423477173E-16
+6674.00000000001  7.772172094889302E-16
+6676.00000000001  7.570946712774835E-16
+6678.00000000001  7.554024053279878E-16
+6680.00000000001  7.801547726895674E-16
+6682.00000000001  7.842797702031365E-16
+6684.00000000001  7.783595922369802E-16
+6686.00000000001  7.642222417703915E-16
+6688.00000000001  7.472964059018826E-16
+6690.00000000001  7.465228001232433E-16
+6692.00000000001  7.667903927269072E-16
+6694.00000000001  7.714949725346353E-16
+6696.00000000001  7.808384341571200E-16
+6698.00000000001  7.697064095269489E-16
+6700.00000000001  7.668440734399397E-16
+6702.00000000001  7.664126160324319E-16
+6704.00000000001  7.584396537186050E-16
+6706.00000000001  7.649030445017472E-16
+6708.00000000001  7.645554962955769E-16
+6710.00000000001  7.637187865623673E-16
+6712.00000000001  7.603509835640842E-16
+6714.00000000001  7.501505363572151E-16
+6716.00000000001  7.584129192412072E-16
+6718.00000000001  7.612189805767831E-16
+6720.00000000001  7.584408183889074E-16
+6722.00000000001  7.295692239257117E-16
+6724.00000000001  7.243005201751123E-16
+6726.00000000001  7.319793502980054E-16
+6728.00000000001  7.433177862695107E-16
+6730.00000000001  7.442723924010663E-16
+6732.00000000001  7.352696497816147E-16
+6734.00000000001  7.335611843270029E-16
+6736.00000000001  7.343729595278276E-16
+6738.00000000001  7.326046723713159E-16
+6740.00000000001  7.098649611715310E-16
+6742.00000000001  7.067992312980624E-16
+6744.00000000001  7.255508996239373E-16
+6746.00000000001  7.338916330555502E-16
+6748.00000000001  7.284686104898732E-16
+6750.00000000001  7.271589387347404E-16
+6752.00000000001  7.250904313379863E-16
+6754.00000000001  7.075466849344552E-16
+6756.00000000001  7.315778037414477E-16
+6758.00000000001  7.265231875682669E-16
+6760.00000000001  7.228177360613845E-16
+6762.00000000001  7.245614063228666E-16
+6764.00000000001  7.423748268409799E-16
+6766.00000000001  7.424801765637946E-16
+6768.00000000001  6.995628170714320E-16
+6770.00000000001  6.937307305317902E-16
+6772.00000000001  7.239327490573265E-16
+6774.00000000001  7.370290430921802E-16
+6776.00000000001  7.326948813801985E-16
+6778.00000000001  7.310242147708577E-16
+6780.00000000001  7.236104000813369E-16
+6782.00000000001  7.226220714505687E-16
+6784.00000000001  7.214228845554935E-16
+6786.00000000001  7.017325449053832E-16
+6788.00000000001  6.966790934025048E-16
+6790.00000000001  6.866229594340242E-16
+6792.00000000001  6.999499111283273E-16
+6794.00000000001  6.908761236204248E-16
+6796.00000000001  7.003183704603830E-16
+6798.00000000001  6.940197275854815E-16
+6800.00000000001  7.183085561666762E-16
+6802.00000000001  6.969374913909766E-16
+6804.00000000001  7.191941820525898E-16
+6806.00000000001  7.269503039319198E-16
+6808.00000000001  7.233484551423985E-16
+6810.00000000001  6.901307875664003E-16
+6812.00000000001  6.841165360035394E-16
+6814.00000000001  6.852866061410529E-16
+6816.00000000001  6.792167151014694E-16
+6818.00000000001  6.760297536374250E-16
+6820.00000000001  6.782831789144767E-16
+6822.00000000001  6.772339168510654E-16
+6824.00000000001  6.858324659359991E-16
+6826.00000000001  6.910390186440937E-16
+6828.00000000001  7.090733030032034E-16
+6830.00000000001  7.121571382059195E-16
+6832.00000000001  6.967862430703325E-16
+6834.00000000001  6.724104877329259E-16
+6836.00000000001  6.700886116058242E-16
+6838.00000000001  6.896248441990935E-16
+6840.00000000001  7.075295325172732E-16
+6842.00000000001  7.060415603267434E-16
+6844.00000000001  7.040938080645321E-16
+6846.00000000001  6.900581544911732E-16
+6848.00000000001  6.886534562272703E-16
+6850.00000000001  7.041402360579535E-16
+6852.00000000001  7.109739919972829E-16
+6854.00000000001  7.089864291865506E-16
+6856.00000000001  7.173888901441949E-16
+6858.00000000001  6.780172635085981E-16
+6860.00000000001  6.693460284088781E-16
+6862.00000000001  6.733728230401250E-16
+6864.00000000001  7.008023439106203E-16
+6866.00000000001  7.034797621173318E-16
+6868.00000000001  6.630231392158616E-16
+6870.00000000001  6.495281573606470E-16
+6872.00000000001  6.338890174785762E-16
+6874.00000000001  5.545504588641406E-16
+6876.00000000001  5.413020694756954E-16
+6878.00000000001  5.578229177162984E-16
+6880.00000000001  5.672931695830751E-16
+6882.00000000001  5.737715952010313E-16
+6884.00000000001  6.181014880120587E-16
+6886.00000000001  6.402313884293797E-16
+6888.00000000001  6.419850642675515E-16
+6890.00000000001  6.375408941515449E-16
+6892.00000000001  6.135538210578096E-16
+6894.00000000001  6.099498017463609E-16
+6896.00000000001  6.100907797925194E-16
+6898.00000000001  5.983476738304636E-16
+6900.00000000001  6.147315144918483E-16
+6902.00000000001  6.280892770096079E-16
+6904.00000000001  6.308461574946838E-16
+6906.00000000001  6.384758067670769E-16
+6908.00000000001  6.220989011879478E-16
+6910.00000000001  6.370616852616359E-16
+6912.00000000001  6.410592043166432E-16
+6914.00000000001  6.407989005040402E-16
+6916.00000000001  6.376138978036864E-16
+6918.00000000001  6.236913760683450E-16
+6920.00000000001  6.285734092785227E-16
+6922.00000000001  6.321431766951669E-16
+6924.00000000001  6.456195238255419E-16
+6926.00000000001  6.493718797818786E-16
+6928.00000000001  6.501386034178213E-16
+6930.00000000001  6.622448218164533E-16
+6932.00000000001  6.554864518094296E-16
+6934.00000000001  6.637662518083997E-16
+6936.00000000001  6.593185876814857E-16
+6938.00000000001  6.681998869521248E-16
+6940.00000000001  6.602040018091626E-16
+6942.00000000001  6.526833550891691E-16
+6944.00000000001  6.544212019991391E-16
+6946.00000000001  6.749701154204099E-16
+6948.00000000001  6.794959183367081E-16
+6950.00000000001  6.798243024224468E-16
+6952.00000000001  6.851574336165966E-16
+6954.00000000001  6.849161351057475E-16
+6956.00000000001  6.599464508536380E-16
+6958.00000000001  6.553965604379025E-16
+6960.00000000001  6.554869812050218E-16
+6962.00000000001  6.423874578570564E-16
+6964.00000000001  6.412913972233093E-16
+6966.00000000001  6.597835028904099E-16
+6968.00000000001  6.632803725340309E-16
+6970.00000000001  6.622013054987883E-16
+6972.00000000001  6.568051762291862E-16
+6974.00000000001  6.539827036302572E-16
+6976.00000000001  6.542472955471558E-16
+6978.00000000001  6.598705884652997E-16
+6980.00000000001  6.605153922963969E-16
+6982.00000000001  6.541391400277034E-16
+6984.00000000001  6.499299686150007E-16
+6986.00000000001  6.509984477384028E-16
+6988.00000000001  6.729584121706809E-16
+6990.00000000001  6.728841909086779E-16
+6992.00000000001  6.170329559490974E-16
+6994.00000000001  6.065871338853205E-16
+6996.00000000001  6.096243822759377E-16
+6998.00000000001  6.095586313434070E-16
+7000.00000000001  6.109719058159008E-16
