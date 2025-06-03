@@ -22,7 +22,7 @@ import shutil
 #------------------------------------------------------------------------
 WISeREP                = "www.wiserep.org"
 
-url_wis_spectra_search = "https://" + WISeREP + "/search/spectra"
+url_wis_objects_search = "https://" + WISeREP + "/search"
 
 # Example of specific parameter options related to the download itself:
 # &num_page=250
@@ -52,7 +52,7 @@ download_params        = "&num_page=250&format=csv&files_type=ascii"
 parameters             = "?" + query_params+download_params + "&personal_api_key=" + personal_api_key
 
 # url of wiserep spectra search (with parameters)
-URL                    = url_wis_spectra_search + parameters
+URL                    = url_wis_objects_search + parameters
 
 # external http errors
 ext_http_errors       = [403, 500, 503]
@@ -99,7 +99,7 @@ current_date_time = current_datetime.strftime("%Y%m%d_%H%M%S")
 cwd = os.getcwd()
 
 # current download folder
-current_download_folder = os.path.join(cwd, "wiserep_data")
+current_download_folder = os.path.join(cwd, "tmp")
 os.mkdir(current_download_folder)
 
 # marker and headers
@@ -118,7 +118,7 @@ else:
 
 # meta data list and file
 META_DATA_LIST = []
-META_DATA_FILE = os.path.join(cwd, "wiserep_spectra" + extension)
+META_DATA_FILE = os.path.join(cwd, "wiserep_objects" + extension)
 
 # page number
 page_num = 0
@@ -135,26 +135,21 @@ while True:
         # only print if response is something else
         if response.status_code != 404:
             print_response(response, page_num + 1)
-        break 
+        break
+    elif len(response.content.splitlines()) == 1:
+        print('No more data')
+        break
     # print response
     print_response(response, page_num + 1)
     # download data
-    file_name = 'wiserep_spectra.zip'
+    file_name = 'wiserep_objects.csv'
     file_path = os.path.join(current_download_folder, file_name)
     with open(file_path, 'wb') as f:
         for data in response:
             f.write(data)
-    # unzip data
-    zip_ref = zipfile.ZipFile(file_path, 'r')
-    zip_ref.extractall(current_download_folder)
-    zip_ref.close()
-    # remove .zip file
-    os.remove(file_path)            
-    # take meta data file
-    downloaded_files = os.listdir(current_download_folder)
-    meta_data_file = os.path.join(current_download_folder, [e for e in downloaded_files if 'wiserep_spectra' in e][0])          
+         
     # read meta data file
-    with open(meta_data_file,'r', encoding='utf8') as f:
+    with open(file_path,'r', encoding='utf8') as f:
         meta_data_list = f.read().splitlines()
 
     # write this meta data list to the final meta data list
@@ -165,7 +160,7 @@ while True:
     # increase page number 
     page_num = page_num + 1                 
     # remove meta data file
-    os.remove(meta_data_file)
+    os.remove(file_path)
 
 # write meta data list to file         
 if META_DATA_LIST != []:
@@ -178,7 +173,7 @@ if META_DATA_LIST != []:
     f.close()
     print ("Wiserep data was successfully downloaded.")
     print ("Folder /wiserep_data/ containing the data was created.")
-    print ("File spectra_" + current_date_time + extension + " was created.")
+    print ("File wiserep_objects" + extension + " was created.")
 else:
     print ("There is no WISeREP data for the given parameters.")
     shutil.rmtree(current_download_folder)
